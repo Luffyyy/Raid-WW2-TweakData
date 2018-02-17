@@ -12158,19 +12158,6 @@ tweak_data = {
 					value = {
 						[1] = {
 							value = {
-								xp_max = 1500,
-								reward_type = "xp",
-								xp_min = 1000,
-							},
-							chance = 100,
-						},
-					},
-					chance = 35,
-				},
-				[2] = {
-					value = {
-						[1] = {
-							value = {
 								gold_bars_min = 2,
 								reward_type = "gold_bars",
 								gold_bars_max = 3,
@@ -12186,9 +12173,9 @@ tweak_data = {
 							chance = 50,
 						},
 					},
-					chance = 10,
+					chance = 45,
 				},
-				[3] = {
+				[2] = {
 					value = {
 						[1] = {
 							value = {
@@ -12200,7 +12187,7 @@ tweak_data = {
 					},
 					chance = 10,
 				},
-				[4] = {
+				[3] = {
 					value = {
 						[1] = {
 							value = {
@@ -12217,19 +12204,6 @@ tweak_data = {
 			},
 			loot_group_silver = {
 				[1] = {
-					value = {
-						[1] = {
-							value = {
-								xp_max = 1000,
-								reward_type = "xp",
-								xp_min = 700,
-							},
-							chance = 100,
-						},
-					},
-					chance = 60,
-				},
-				[2] = {
 					value = {
 						[1] = {
 							value = {
@@ -12256,6 +12230,27 @@ tweak_data = {
 							chance = 25,
 						},
 					},
+					chance = 60,
+				},
+				[2] = {
+					value = {
+						[1] = {
+							value = {
+								gold_bars_min = 2,
+								reward_type = "gold_bars",
+								gold_bars_max = 3,
+							},
+							chance = 50,
+						},
+						[2] = {
+							value = {
+								gold_bars_min = 3,
+								reward_type = "gold_bars",
+								gold_bars_max = 4,
+							},
+							chance = 50,
+						},
+					},
 					chance = 7,
 				},
 				[3] = {
@@ -12278,11 +12273,19 @@ tweak_data = {
 					value = {
 						[1] = {
 							value = {
-								xp_max = 700,
-								reward_type = "xp",
-								xp_min = 400,
+								gold_bars_min = 1,
+								reward_type = "gold_bars",
+								gold_bars_max = 2,
 							},
-							chance = 100,
+							chance = 75,
+						},
+						[2] = {
+							value = {
+								gold_bars_min = 2,
+								reward_type = "gold_bars",
+								gold_bars_max = 3,
+							},
+							chance = 25,
 						},
 					},
 					chance = 70,
@@ -12295,13 +12298,21 @@ tweak_data = {
 								reward_type = "gold_bars",
 								gold_bars_max = 2,
 							},
-							chance = 75,
+							chance = 25,
 						},
 						[2] = {
 							value = {
 								gold_bars_min = 2,
 								reward_type = "gold_bars",
 								gold_bars_max = 3,
+							},
+							chance = 50,
+						},
+						[3] = {
+							value = {
+								gold_bars_min = 3,
+								reward_type = "gold_bars",
+								gold_bars_max = 4,
 							},
 							chance = 25,
 						},
@@ -12340,11 +12351,19 @@ tweak_data = {
 					value = {
 						[1] = {
 							value = {
-								xp_max = 400,
-								reward_type = "xp",
-								xp_min = 100,
+								gold_bars_min = 1,
+								reward_type = "gold_bars",
+								gold_bars_max = 2,
 							},
-							chance = 100,
+							chance = 75,
+						},
+						[2] = {
+							value = {
+								gold_bars_min = 2,
+								reward_type = "gold_bars",
+								gold_bars_max = 3,
+							},
+							chance = 25,
 						},
 					},
 					chance = 85,
@@ -12582,7 +12601,7 @@ tweak_data = {
 							chance = 100,
 						},
 					},
-					chance = 40,
+					chance = 0,
 				},
 				[2] = {
 					value = {
@@ -12611,7 +12630,7 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 7,
+					chance = 47,
 				},
 				[3] = {
 					value = {
@@ -12693,7 +12712,7 @@ tweak_data = {
 							chance = 100,
 						},
 					},
-					chance = 55,
+					chance = 0,
 				},
 				[2] = {
 					value = {
@@ -12726,6 +12745,27 @@ tweak_data = {
 					},
 					chance = 5,
 				},
+				[4] = {
+					value = {
+						[1] = {
+							value = {
+								gold_bars_min = 1,
+								reward_type = "gold_bars",
+								gold_bars_max = 2,
+							},
+							chance = 75,
+						},
+						[2] = {
+							value = {
+								gold_bars_min = 2,
+								reward_type = "gold_bars",
+								gold_bars_max = 3,
+							},
+							chance = 25,
+						},
+					},
+					chance = 55,
+				},
 				min_loot_value = -1000000,
 				max_loot_value = 0.1,
 			},
@@ -12741,7 +12781,7 @@ tweak_data = {
 							chance = 100,
 						},
 					},
-					chance = 45,
+					chance = 0,
 				},
 				[2] = {
 					value = {
@@ -12762,7 +12802,7 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 5,
+					chance = 50,
 				},
 				[3] = {
 					value = {
@@ -12859,7 +12899,7 @@ tweak_data = {
 							chance = 100,
 						},
 					},
-					chance = 15,
+					chance = 0,
 				},
 				[2] = {
 					value = {
@@ -12880,7 +12920,7 @@ tweak_data = {
 							chance = 50,
 						},
 					},
-					chance = 10,
+					chance = 25,
 				},
 				[3] = {
 					value = {
@@ -28768,6 +28808,12 @@ tweak_data = {
 					},
 				},
 				wpn_fps_ass_mp44_body_standard = {
+					stance_mod = {
+						wpn_fps_ass_mp44 = {
+							translation = Vector3(-0.105, 6, 2.3),
+							rotation = Rotation(0, -0.65, 0),
+						},
+					},
 					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_body_standard",
 					name_id = "bm_wp_ass_mp44_body_standard",
 					a_obj = "a_body",
@@ -29401,7 +29447,7 @@ tweak_data = {
 				},
 				wpn_fps_ass_mp44_m_standard_double = {
 					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_m_standard_double",
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_standard_double",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_short",
 					name_id = "bm_wp_ass_mp44_m_standard_double",
 					a_obj = "a_m",
 					bullet_objects = {
@@ -29805,7 +29851,7 @@ tweak_data = {
 				},
 				wpn_fps_ass_mp44_m_short_double = {
 					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_m_short_double",
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_short_double",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_short",
 					name_id = "bm_wp_ass_mp44_m_short_double",
 					a_obj = "a_m",
 					bullet_objects = {
@@ -29881,19 +29927,18 @@ tweak_data = {
 				wpn_fps_ass_mp44_o_scope = {
 					stance_mod = {
 						wpn_fps_ass_mp44 = {
-							lens_distortion_power = 1.03,
-							translation = Vector3(0, -15, -1.64784),
+							translation = Vector3(0, 0, 0),
+							rotation = Rotation(-0, -0, -0),
 						},
 					},
 					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_o_scope",
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_o_scope",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_b_standard",
 					name_id = "bm_wp_ass_mp44_o_scope",
 					a_obj = "a_o",
-					type = "sight",
+					type = "scope",
 					parent = "body",
 					stats = {
-						zoom = 5,
-						value = 1,
+						zoom = 0,
 					},
 				},
 				wpn_fps_snp_m1903_b_standard = {
@@ -30664,7 +30709,7 @@ tweak_data = {
 					},
 				},
 				wpn_fps_ass_mp44_fg_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_fg_standard",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_b_standard",
 					name_id = "bm_wp_ass_mp44_fg_standard",
 					a_obj = "a_fg",
 					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_fg_standard",
@@ -30745,7 +30790,7 @@ tweak_data = {
 					},
 				},
 				wpn_fps_ass_mp44_s_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_s_standard",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_b_standard",
 					name_id = "bm_wp_ass_mp44_m_standard",
 					a_obj = "a_s",
 					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_s_standard",
@@ -36560,7 +36605,8 @@ tweak_data = {
 				icon = "skills_warcry_demolition_cluster_truck",
 				name_id = "skill_warcry_clustertruck_name",
 				upgrades = {
-					[1] = "player_highlight_enemy",
+					[1] = "player_can_use_scope",
+					[2] = "player_highlight_enemy",
 				},
 				icon_large = "skills_warcry_demolition_cluster_truck_large",
 				icon_xy = {
@@ -37238,7 +37284,8 @@ tweak_data = {
 				icon = "skills_warcry_assault_berserk",
 				name_id = "skill_warcry_berserk_name",
 				upgrades = {
-					[1] = "player_highlight_enemy",
+					[1] = "player_can_use_scope",
+					[2] = "player_highlight_enemy",
 				},
 				icon_large = "skills_warcry_assault_berserk_large",
 				icon_xy = {
@@ -39288,7 +39335,8 @@ tweak_data = {
 				icon = "skills_warcry_infilitrator_invisibility",
 				name_id = "skill_warcry_ghost_name",
 				upgrades = {
-					[1] = "player_highlight_enemy",
+					[1] = "player_can_use_scope",
+					[2] = "player_highlight_enemy",
 				},
 				icon_large = "skills_warcry_infilitrator_invisibility_large",
 				icon_xy = {
@@ -55857,10 +55905,10 @@ tweak_data = {
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 1000,
+									target = 30,
 									reminders = {
-										[1] = 500,
-										[2] = 800,
+										[1] = 10,
+										[2] = 20,
 									},
 									modifiers = {
 										enemy_type = {
@@ -60463,9 +60511,6 @@ tweak_data = {
 							skill_name = "tighter_spread",
 							challenge_briefing_id = "weapon_skill_headshot_kill_briefing",
 							value = 2,
-							weapon_parts = {
-								[1] = "wpn_fps_ass_mp44_o_scope",
-							},
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
@@ -65340,7 +65385,7 @@ tweak_data = {
 				},
 				crouched = {
 					shoulders = {
-						translation = Vector3(-0.75968, 9.32109, -10.1219),
+						translation = Vector3(-2, 2, -6),
 						rotation = Rotation(-7.12861e-005, -0.000249001, -5.99969),
 					},
 					vel_overshot = {
@@ -65363,7 +65408,7 @@ tweak_data = {
 				},
 				standard = {
 					shoulders = {
-						translation = Vector3(-0.134532, 10.3211, -8.4188),
+						translation = Vector3(-1, 2, -6),
 						rotation = Rotation(-7.09199e-005, -0.000254596, -1.49968),
 					},
 					vel_overshot = {
