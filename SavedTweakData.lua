@@ -11950,9 +11950,9 @@ tweak_data = {
 			category_xp_min = {
 				[1] = {
 					value = {
-						xp_max = 400,
+						xp_max = 100,
 						reward_type = "xp",
-						xp_min = 100,
+						xp_min = 50,
 					},
 					chance = 100,
 				},
@@ -12008,9 +12008,9 @@ tweak_data = {
 			category_xp_high = {
 				[1] = {
 					value = {
-						xp_max = 1500,
+						xp_max = 900,
 						reward_type = "xp",
-						xp_min = 1000,
+						xp_min = 700,
 					},
 					chance = 100,
 				},
@@ -12087,9 +12087,9 @@ tweak_data = {
 			category_xp_mid = {
 				[1] = {
 					value = {
-						xp_max = 1000,
+						xp_max = 600,
 						reward_type = "xp",
-						xp_min = 700,
+						xp_min = 350,
 					},
 					chance = 100,
 				},
@@ -12115,9 +12115,9 @@ tweak_data = {
 			category_xp_low = {
 				[1] = {
 					value = {
-						xp_max = 700,
+						xp_max = 300,
 						reward_type = "xp",
-						xp_min = 400,
+						xp_min = 120,
 					},
 					chance = 100,
 				},
@@ -12173,7 +12173,7 @@ tweak_data = {
 							chance = 50,
 						},
 					},
-					chance = 45,
+					chance = 35,
 				},
 				[2] = {
 					value = {
@@ -12198,6 +12198,19 @@ tweak_data = {
 						},
 					},
 					chance = 20,
+				},
+				[4] = {
+					value = {
+						[1] = {
+							value = {
+								xp_max = 900,
+								reward_type = "xp",
+								xp_min = 700,
+							},
+							chance = 100,
+						},
+					},
+					chance = 35,
 				},
 				min_loot_value = 0.8,
 				max_loot_value = 1000000,
@@ -12230,7 +12243,7 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 60,
+					chance = 38,
 				},
 				[2] = {
 					value = {
@@ -12265,6 +12278,19 @@ tweak_data = {
 					},
 					chance = 20,
 				},
+				[4] = {
+					value = {
+						[1] = {
+							value = {
+								xp_max = 600,
+								reward_type = "xp",
+								xp_min = 350,
+							},
+							chance = 100,
+						},
+					},
+					chance = 35,
+				},
 				min_loot_value = 0.4,
 				max_loot_value = 0.8,
 			},
@@ -12288,7 +12314,7 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 70,
+					chance = 40,
 				},
 				[2] = {
 					value = {
@@ -12329,7 +12355,7 @@ tweak_data = {
 							chance = 100,
 						},
 					},
-					chance = 10,
+					chance = 15,
 				},
 				[4] = {
 					value = {
@@ -12342,6 +12368,19 @@ tweak_data = {
 						},
 					},
 					chance = 5,
+				},
+				[5] = {
+					value = {
+						[1] = {
+							value = {
+								xp_max = 300,
+								reward_type = "xp",
+								xp_min = 120,
+							},
+							chance = 100,
+						},
+					},
+					chance = 30,
 				},
 				min_loot_value = 0.1,
 				max_loot_value = 0.4,
@@ -12366,9 +12405,22 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 85,
+					chance = 45,
 				},
 				[2] = {
+					value = {
+						[1] = {
+							value = {
+								xp_max = 100,
+								reward_type = "xp",
+								xp_min = 50,
+							},
+							chance = 100,
+						},
+					},
+					chance = 45,
+				},
+				[3] = {
 					value = {
 						[1] = {
 							value = {
@@ -12436,24 +12488,24 @@ tweak_data = {
 		},
 		xp_packs = {
 			tiny = {
-				xp_max = 400,
+				xp_max = 100,
 				reward_type = "xp",
-				xp_min = 100,
+				xp_min = 50,
 			},
 			large = {
-				xp_max = 1500,
-				reward_type = "xp",
-				xp_min = 1000,
-			},
-			medium = {
-				xp_max = 1000,
+				xp_max = 900,
 				reward_type = "xp",
 				xp_min = 700,
 			},
-			small = {
-				xp_max = 700,
+			medium = {
+				xp_max = 600,
 				reward_type = "xp",
-				xp_min = 400,
+				xp_min = 350,
+			},
+			small = {
+				xp_max = 300,
+				reward_type = "xp",
+				xp_min = 120,
 			},
 		},
 		global_value_list_map = {
@@ -12594,14 +12646,14 @@ tweak_data = {
 					value = {
 						[1] = {
 							value = {
-								xp_max = 1000,
+								xp_max = 600,
 								reward_type = "xp",
-								xp_min = 700,
+								xp_min = 350,
 							},
 							chance = 100,
 						},
 					},
-					chance = 0,
+					chance = 20,
 				},
 				[2] = {
 					value = {
@@ -12630,7 +12682,7 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 47,
+					chance = 27,
 				},
 				[3] = {
 					value = {
@@ -12705,14 +12757,14 @@ tweak_data = {
 					value = {
 						[1] = {
 							value = {
-								xp_max = 400,
+								xp_max = 100,
 								reward_type = "xp",
-								xp_min = 100,
+								xp_min = 50,
 							},
 							chance = 100,
 						},
 					},
-					chance = 0,
+					chance = 20,
 				},
 				[2] = {
 					value = {
@@ -12764,7 +12816,7 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 55,
+					chance = 35,
 				},
 				min_loot_value = -1000000,
 				max_loot_value = 0.1,
@@ -12774,14 +12826,14 @@ tweak_data = {
 					value = {
 						[1] = {
 							value = {
-								xp_max = 700,
+								xp_max = 300,
 								reward_type = "xp",
-								xp_min = 400,
+								xp_min = 120,
 							},
 							chance = 100,
 						},
 					},
-					chance = 0,
+					chance = 20,
 				},
 				[2] = {
 					value = {
@@ -12802,7 +12854,7 @@ tweak_data = {
 							chance = 25,
 						},
 					},
-					chance = 50,
+					chance = 30,
 				},
 				[3] = {
 					value = {
@@ -12892,14 +12944,14 @@ tweak_data = {
 					value = {
 						[1] = {
 							value = {
-								xp_max = 1500,
+								xp_max = 900,
 								reward_type = "xp",
-								xp_min = 1000,
+								xp_min = 700,
 							},
 							chance = 100,
 						},
 					},
-					chance = 0,
+					chance = 10,
 				},
 				[2] = {
 					value = {
@@ -12920,7 +12972,7 @@ tweak_data = {
 							chance = 50,
 						},
 					},
-					chance = 25,
+					chance = 15,
 				},
 				[3] = {
 					value = {
@@ -15440,6 +15492,12 @@ tweak_data = {
 			},
 		},
 		weapon_mods = {
+			wpn_fps_sho_ithaca_body_standard = {
+				value = 1,
+				desc_id = "bm_wp_sho_ithaca_body_standard_desc",
+				name_id = "bm_wp_sho_ithaca_body_standard",
+				max_in_inventory = 2,
+			},
 			wpn_fps_smg_thompson_fg_m1928 = {
 				value = 0,
 				desc_id = "bm_wp_smg_thompson_fg_m1928_desc",
@@ -15464,16 +15522,16 @@ tweak_data = {
 				name_id = "bm_wp_sterling_m_long",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_mosin_body_target = {
+			wpn_fps_snp_m1903_extra_follower = {
 				value = 1,
-				desc_id = "bm_wp_mosin_body_target_desc",
-				name_id = "bm_wp_mosin_body_target",
+				desc_id = "bm_wp_snp_m1903_m_standard_desc",
+				name_id = "bm_wp_snp_m1903_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_sho_geco_trigger_1 = {
+			wpn_fps_snp_m1903_m_extended = {
 				value = 1,
-				desc_id = "bm_wp_sho_geco_trigger_1_desc",
-				name_id = "bm_wp_sho_geco_trigger_1",
+				desc_id = "bm_wp_snp_m1903_m_standard_desc",
+				name_id = "bm_wp_snp_m1903_m_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_thompson_m_drum = {
@@ -15488,10 +15546,10 @@ tweak_data = {
 				name_id = "bm_wp_pis_m1911_s_wooden",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_bren_s_standard = {
+			wpn_fps_smg_sten_m_long = {
 				value = 1,
-				desc_id = "bm_wp_lmg_bren_s_standard_desc",
-				name_id = "bm_wp_lmg_bren_s_standard",
+				desc_id = "bm_wp_smg_sten_m_long_desc",
+				name_id = "bm_wp_smg_sten_m_long",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_sten_s_wooden = {
@@ -15590,16 +15648,16 @@ tweak_data = {
 				name_id = "bm_wp_smg_thompson_g_ns_cutts",
 				max_in_inventory = 2,
 			},
-			wpn_fps_sho_m1912_s_standard = {
+			wpn_fps_sho_m1912_b_standard = {
 				value = 1,
-				desc_id = "bm_wp_sho_m1912_s_standard_desc",
-				name_id = "bm_wp_sho_m1912_s_standard",
+				desc_id = "bm_wp_sho_m1912_b_standard_desc",
+				name_id = "bm_wp_sho_m1912_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_sho_geco_b_short = {
+			wpn_fps_sho_ithaca_sl_standard = {
 				value = 1,
-				desc_id = "bm_wp_sho_geco_b_short_desc",
-				name_id = "bm_wp_sho_geco_b_short",
+				desc_id = "bm_wp_sho_ithaca_sl_standard_desc",
+				name_id = "bm_wp_sho_ithaca_sl_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_sho_m1912_b_heat_shield = {
@@ -15674,6 +15732,12 @@ tweak_data = {
 				name_id = "bm_wp_mg42_n34",
 				max_in_inventory = 2,
 			},
+			wpn_fps_sho_ithaca_b_standard = {
+				value = 1,
+				desc_id = "bm_wp_sho_ithaca_b_standard_desc",
+				name_id = "bm_wp_sho_ithaca_b_standard",
+				max_in_inventory = 2,
+			},
 			wpn_fps_snp_lee_enfield_pad_buffered = {
 				value = 1,
 				desc_id = "bm_wp_snp_lee_enfield_pad_buffered_desc",
@@ -15698,10 +15762,10 @@ tweak_data = {
 				name_id = "bm_wp_smg_sten_dh_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_carbine_g_standard = {
+			wpn_fps_ass_carbine_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_carbine_g_standard_desc",
-				name_id = "bm_wp_ass_carbine_g_standard",
+				desc_id = "bm_wp_ass_carbine_m_standard_desc",
+				name_id = "bm_wp_ass_carbine_m_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_dp28_m_casing = {
@@ -15854,10 +15918,10 @@ tweak_data = {
 				name_id = "bm_wp_mg42_b_mg42",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_mosin_body_standard = {
+			wpn_fps_snp_mosin_clip_standard = {
 				value = 1,
-				desc_id = "bm_wp_mosin_body_standard_desc",
-				name_id = "bm_wp_mosin_body_standard",
+				desc_id = "bm_wp_mosin_clip_standard_desc",
+				name_id = "bm_wp_mosin_clip_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_thompson_m_short_double = {
@@ -15998,10 +16062,10 @@ tweak_data = {
 				name_id = "bm_wp_ass_carbine_dh_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_mg42_receiver = {
+			wpn_fps_sho_ithaca_b_heat_shield = {
 				value = 1,
-				desc_id = "bm_wp_mg42_receiver_desc",
-				name_id = "bm_wp_mg42_receiver",
+				desc_id = "bm_wp_sho_ithaca_b_heat_shield_desc",
+				name_id = "bm_wp_sho_ithaca_b_heat_shield",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_m1903_o_scope = {
@@ -16052,10 +16116,10 @@ tweak_data = {
 				name_id = "bm_wp_mg42_bipod",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_kar_98k_bullet = {
+			wpn_fps_pis_webley_casing_3 = {
 				value = 1,
-				desc_id = "bm_wp_snp_kar_98k_bullet_desc",
-				name_id = "bm_wp_snp_kar_98k_bullet",
+				desc_id = "bm_wp_webley_casing_3_desc",
+				name_id = "bm_wp_webley_casing_3",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_mg42_b_mg34 = {
@@ -16106,10 +16170,16 @@ tweak_data = {
 				name_id = "bm_wp_mosin_b_long",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_webley_lock_standard = {
+			wpn_fps_sho_m1912_fg_long = {
 				value = 1,
-				desc_id = "bm_wp_webley_lock_standard_desc",
-				name_id = "bm_wp_webley_lock_standard",
+				desc_id = "bm_wp_sho_m1912_fg_long_desc",
+				name_id = "bm_wp_sho_m1912_fg_long",
+				max_in_inventory = 2,
+			},
+			wpn_fps_sho_ithaca_lifter = {
+				value = 1,
+				desc_id = "bm_wp_sho_ithaca_lifter_standard_desc",
+				name_id = "bm_wp_sho_ithaca_lifter_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_pis_m1911_sl_standard = {
@@ -16118,10 +16188,34 @@ tweak_data = {
 				name_id = "bm_wp_pis_m1911_sl_standard",
 				max_in_inventory = 2,
 			},
+			wpn_fps_sho_ithaca_s_cheek_rest = {
+				value = 1,
+				desc_id = "bm_wp_sho_ithaca_s_cheek_rest_desc",
+				name_id = "bm_wp_sho_ithaca_s_cheek_rest",
+				max_in_inventory = 2,
+			},
+			wpn_fps_ass_carbine_body_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_carbine_body_standard_desc",
+				name_id = "bm_wp_ass_carbine_body_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_ass_carbine_b_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_carbine_b_standard_desc",
+				name_id = "bm_wp_ass_carbine_b_standard",
+				max_in_inventory = 2,
+			},
 			wpn_fps_ass_mp44_m_short = {
 				value = 1,
 				desc_id = "bm_wp_ass_mp44_m_short_desc",
 				name_id = "bm_wp_ass_mp44_m_short",
+				max_in_inventory = 2,
+			},
+			wpn_fps_pis_tt33_g_standard = {
+				value = 1,
+				desc_id = "bm_wp_pis_tt33_g_standard_desc",
+				name_id = "bm_wp_pis_tt33_g_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_mosin_body_grip = {
@@ -16136,6 +16230,12 @@ tweak_data = {
 				name_id = "bm_wp_snp_kar_98k_m_extended",
 				max_in_inventory = 2,
 			},
+			wpn_fps_pis_tt33_b_standard = {
+				value = 1,
+				desc_id = "bm_wp_pis_tt33_b_standard_desc",
+				name_id = "bm_wp_pis_tt33_b_standard",
+				max_in_inventory = 2,
+			},
 			wpn_fps_ass_garand_golden_b_tanker = {
 				value = 1,
 				desc_id = "bm_wp_ass_garand_golden_b_tanker_desc",
@@ -16148,34 +16248,58 @@ tweak_data = {
 				name_id = "bm_wp_ass_mp44_m_standard_double",
 				max_in_inventory = 2,
 			},
+			wpn_fps_sho_geco_trigger_2 = {
+				value = 1,
+				desc_id = "bm_wp_sho_geco_trigger_2_desc",
+				name_id = "bm_wp_sho_geco_trigger_2",
+				max_in_inventory = 2,
+			},
 			wpn_fps_snp_kar_98k_m_long = {
 				value = 1,
 				desc_id = "bm_wp_snp_kar_98k_m_long_desc",
 				name_id = "bm_wp_snp_kar_98k_m_long",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_c96_body_standard = {
+			wpn_fps_pis_tt33_hammer = {
 				value = 1,
-				desc_id = "bm_wp_c96_body_standard_desc",
-				name_id = "bm_wp_c96_body_standard",
+				desc_id = "bm_wp_pis_tt33_hammer_desc",
+				name_id = "bm_wp_pis_tt33_hammer",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_c96_m_standard = {
+			wpn_fps_smg_mp38_s_standard = {
 				value = 1,
-				desc_id = "bm_wp_c96_m_standard_desc",
-				name_id = "bm_wp_c96_m_standard",
+				desc_id = "bm_wp_smg_mp38_s_standard_desc",
+				name_id = "bm_wp_smg_mp38_s_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_m1911_m_standard = {
+			wpn_fps_pis_c96_bolt_standard = {
 				value = 1,
-				desc_id = "bm_wp_pis_m1911_m_standard_desc",
-				name_id = "bm_wp_pis_m1911_m_standard",
+				desc_id = "bm_wp_c96_bolt_standard_desc",
+				name_id = "bm_wp_c96_bolt_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_m1903_m_extended = {
+			wpn_fps_pis_c96_g_standard = {
 				value = 1,
-				desc_id = "bm_wp_snp_m1903_m_standard_desc",
-				name_id = "bm_wp_snp_m1903_m_standard",
+				desc_id = "bm_wp_c96_g_standard_desc",
+				name_id = "bm_wp_c96_g_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_smg_mp38_m_standard = {
+				value = 1,
+				desc_id = "bm_wp_smg_mp38_m_standard_desc",
+				name_id = "bm_wp_smg_mp38_m_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_pis_m1911_b_standard = {
+				value = 1,
+				desc_id = "bm_wp_pis_m1911_b_standard_desc",
+				name_id = "bm_wp_pis_m1911_b_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_sho_ithaca_s_pistol_grip = {
+				value = 1,
+				desc_id = "bm_wp_sho_ithaca_s_pistol_grip_desc",
+				name_id = "bm_wp_sho_ithaca_s_pistol_grip",
 				max_in_inventory = 2,
 			},
 			wpn_fps_pis_c96_bullets_standard = {
@@ -16190,16 +16314,16 @@ tweak_data = {
 				name_id = "bm_wp_sho_geco_s_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_kar_98k_dh_standard = {
+			wpn_fps_lmg_m1918_b_standard = {
 				value = 1,
-				desc_id = "bm_wp_snp_kar_98k_dh_standard_desc",
-				name_id = "bm_wp_snp_kar_98k_dh_standard",
+				desc_id = "bm_wp_lmg_m1918_b_standard_desc",
+				name_id = "bm_wp_lmg_m1918_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sten_g_wooden = {
+			wpn_fps_lmg_dp28_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_smg_sten_g_wooden_desc",
-				name_id = "bm_wp_smg_sten_g_wooden",
+				desc_id = "bm_wp_lmg_dp28_m_standard_desc",
+				name_id = "bm_wp_lmg_dp28_m_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_pis_webley_bullets = {
@@ -16208,16 +16332,16 @@ tweak_data = {
 				name_id = "bm_wp_webley_bullets",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_mp38_b_standard = {
+			wpn_fps_sho_ithaca_trigger = {
 				value = 1,
-				desc_id = "bm_wp_smg_mp38_b_standard_desc",
-				name_id = "bm_wp_smg_mp38_b_standard",
+				desc_id = "bm_wp_sho_ithaca_trigger_standard_desc",
+				name_id = "bm_wp_sho_ithaca_trigger_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_sho_geco_trigger_2 = {
-				value = 1,
-				desc_id = "bm_wp_sho_geco_trigger_2_desc",
-				name_id = "bm_wp_sho_geco_trigger_2",
+			wpn_fps_smg_thompson_m_standard = {
+				value = 0,
+				desc_id = "bm_wp_smg_thompson_m_standard_desc",
+				name_id = "bm_wp_smg_thompson_m_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_bren_dh_standard = {
@@ -16226,58 +16350,10 @@ tweak_data = {
 				name_id = "bm_wp_lmg_bren_dh_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_tt33_hammer = {
+			wpn_fps_lmg_dp28_body_standard = {
 				value = 1,
-				desc_id = "bm_wp_pis_tt33_hammer_desc",
-				name_id = "bm_wp_pis_tt33_hammer",
-				max_in_inventory = 2,
-			},
-			wpn_fps_pis_webley_casing_3 = {
-				value = 1,
-				desc_id = "bm_wp_webley_casing_3_desc",
-				name_id = "bm_wp_webley_casing_3",
-				max_in_inventory = 2,
-			},
-			wpn_fps_lmg_dp28_o_standard = {
-				value = 1,
-				desc_id = "bm_wp_lmg_dp28_o_standard_desc",
-				name_id = "bm_wp_lmg_dp28_o_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_ass_mp44_b_standard = {
-				value = 1,
-				desc_id = "bm_wp_ass_mp44_b_standard_desc",
-				name_id = "bm_wp_ass_mp44_b_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_sho_m1912_fg_long = {
-				value = 1,
-				desc_id = "bm_wp_sho_m1912_fg_long_desc",
-				name_id = "bm_wp_sho_m1912_fg_long",
-				max_in_inventory = 2,
-			},
-			wpn_fps_lmg_dp28_bipod = {
-				value = 1,
-				desc_id = "bm_wp_lmg_dp28_bipod_desc",
-				name_id = "bm_wp_lmg_dp28_bipod",
-				max_in_inventory = 2,
-			},
-			wpn_fps_lmg_dp28_g_standard = {
-				value = 1,
-				desc_id = "bm_wp_lmg_dp28_g_standard_desc",
-				name_id = "bm_wp_lmg_dp28_g_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_smg_mp38_s_standard = {
-				value = 1,
-				desc_id = "bm_wp_smg_mp38_s_standard_desc",
-				name_id = "bm_wp_smg_mp38_s_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_ass_garand_s_standard = {
-				value = 1,
-				desc_id = "bm_wp_ass_garand_s_standard_desc",
-				name_id = "bm_wp_ass_garand_s_standard",
+				desc_id = "bm_wp_lmg_dp28_body_standard_desc",
+				name_id = "bm_wp_lmg_dp28_body_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_dp28_b_standard = {
@@ -16286,40 +16362,10 @@ tweak_data = {
 				name_id = "bm_wp_lmg_dp28_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sten_o_lee_enfield = {
-				value = 1,
-				desc_id = "bm_wp_smg_sten_o_lee_enfield_desc",
-				name_id = "bm_wp_smg_sten_o_lee_enfield",
-				max_in_inventory = 2,
-			},
 			wpn_fps_lmg_m1918_dh_standard = {
 				value = 1,
 				desc_id = "bm_wp_lmg_m1918_dh_standard_desc",
 				name_id = "bm_wp_lmg_m1918_dh_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_snp_lee_enfield_m_standard = {
-				value = 1,
-				desc_id = "bm_wp_snp_lee_enfield_m_standard_desc",
-				name_id = "bm_wp_snp_lee_enfield_m_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_ass_garand_b_standard = {
-				value = 1,
-				desc_id = "bm_wp_ass_garand_b_standard_desc",
-				name_id = "bm_wp_ass_garand_b_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_lmg_dp28_o_extended = {
-				value = 1,
-				desc_id = "bm_wp_lmg_dp28_o_extended_desc",
-				name_id = "bm_wp_lmg_dp28_o_extended",
-				max_in_inventory = 2,
-			},
-			wpn_fps_lmg_bren_pad_standard = {
-				value = 1,
-				desc_id = "bm_wp_lmg_bren_pad_standard_desc",
-				name_id = "bm_wp_lmg_bren_pad_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_sterling_s_standard = {
@@ -16328,10 +16374,16 @@ tweak_data = {
 				name_id = "bm_wp_sterling_s_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_webley_m_standard = {
+			wpn_fps_smg_sten_b_standard = {
 				value = 1,
-				desc_id = "bm_wp_webley_m_standard_desc",
-				name_id = "bm_wp_webley_m_standard",
+				desc_id = "bm_wp_smg_sten_b_standard_desc",
+				name_id = "bm_wp_smg_sten_b_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_dp28_bipod = {
+				value = 1,
+				desc_id = "bm_wp_lmg_dp28_bipod_desc",
+				name_id = "bm_wp_lmg_dp28_bipod",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_thompson_dh_standard = {
@@ -16346,16 +16398,76 @@ tweak_data = {
 				name_id = "bm_wp_ass_garand_golden_m_bar_extended",
 				max_in_inventory = 2,
 			},
+			wpn_fps_smg_thompson_g_standard = {
+				value = 0,
+				desc_id = "bm_wp_smg_thompson_g_standard_desc",
+				name_id = "bm_wp_smg_thompson_g_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_pis_c96_b_standard = {
+				value = 1,
+				desc_id = "bm_wp_c96_b_standard_desc",
+				name_id = "bm_wp_c96_b_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_smg_sten_o_lee_enfield = {
+				value = 1,
+				desc_id = "bm_wp_smg_sten_o_lee_enfield_desc",
+				name_id = "bm_wp_smg_sten_o_lee_enfield",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_m1918_ns_standard = {
+				value = 1,
+				desc_id = "bm_wp_lmg_m1918_ns_standard_desc",
+				name_id = "bm_wp_lmg_m1918_ns_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_snp_lee_enfield_m_standard = {
+				value = 1,
+				desc_id = "bm_wp_snp_lee_enfield_m_standard_desc",
+				name_id = "bm_wp_snp_lee_enfield_m_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_sho_geco_b_short = {
+				value = 1,
+				desc_id = "bm_wp_sho_geco_b_short_desc",
+				name_id = "bm_wp_sho_geco_b_short",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_dp28_o_extended = {
+				value = 1,
+				desc_id = "bm_wp_lmg_dp28_o_extended_desc",
+				name_id = "bm_wp_lmg_dp28_o_extended",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_bren_pad_standard = {
+				value = 1,
+				desc_id = "bm_wp_lmg_bren_pad_standard_desc",
+				name_id = "bm_wp_lmg_bren_pad_standard",
+				max_in_inventory = 2,
+			},
 			wpn_fps_sho_geco_b_standard = {
 				value = 1,
 				desc_id = "bm_wp_sho_geco_b_standard_desc",
 				name_id = "bm_wp_sho_geco_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_thompson_s_standard = {
-				value = 0,
-				desc_id = "bm_wp_smg_thompson_s_standard_desc",
-				name_id = "bm_wp_smg_thompson_s_standard",
+			wpn_fps_ass_garand_golden_body_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_garand_golden_body_standard_desc",
+				name_id = "bm_wp_ass_garand_golden_body_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_dp28_dh_standard = {
+				value = 1,
+				desc_id = "bm_wp_lmg_dp28_dh_standard_desc",
+				name_id = "bm_wp_lmg_dp28_dh_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_ass_garand_s_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_garand_s_standard_desc",
+				name_id = "bm_wp_ass_garand_s_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_sho_m1912_ns_cutts = {
@@ -16364,28 +16476,40 @@ tweak_data = {
 				name_id = "bm_wp_sho_m1912_ns_cutts",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_c96_b_long_finned = {
+			wpn_fps_pis_c96_hammer_standard = {
 				value = 1,
-				desc_id = "bm_wp_c96_b_long_finned_desc",
-				name_id = "bm_wp_c96_b_long_finned",
+				desc_id = "bm_wp_c96_hammer_standard_desc",
+				name_id = "bm_wp_c96_hammer_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_thompson_b_standard = {
-				value = 0,
-				desc_id = "bm_wp_smg_thompson_b_standard_desc",
-				name_id = "bm_wp_smg_thompson_b_standard",
+			wpn_fps_sho_m1912_body_standard = {
+				value = 1,
+				desc_id = "bm_wp_sho_m1912_body_standard_desc",
+				name_id = "bm_wp_sho_m1912_body_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_m_standard = {
+			wpn_fps_ass_mp44_m_short_double = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_m_standard_desc",
-				name_id = "bm_wp_ass_garand_m_standard",
+				desc_id = "bm_wp_ass_mp44_m_short_double_desc",
+				name_id = "bm_wp_ass_mp44_m_short_double",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_dp28_dh_standard = {
+			wpn_fps_smg_sterling_b_long = {
 				value = 1,
-				desc_id = "bm_wp_lmg_dp28_dh_standard_desc",
-				name_id = "bm_wp_lmg_dp28_dh_standard",
+				desc_id = "bm_wp_sterling_b_long_desc",
+				name_id = "bm_wp_sterling_b_long",
+				max_in_inventory = 2,
+			},
+			wpn_fps_smg_sten_fg_wooden = {
+				value = 1,
+				desc_id = "bm_wp_smg_sten_fg_wooden_desc",
+				name_id = "bm_wp_smg_sten_fg_wooden",
+				max_in_inventory = 2,
+			},
+			wpn_fps_ass_garand_m_bar_extended = {
+				value = 1,
+				desc_id = "bm_wp_ass_garand_m_bar_extended_desc",
+				name_id = "bm_wp_ass_garand_m_bar_extended",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_kar_98k_body_grip = {
@@ -16406,34 +16530,34 @@ tweak_data = {
 				name_id = "bm_wp_smg_thompson_body_m1928",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_webley_trigger_standard = {
+			wpn_fps_pis_webley_ejector_standard = {
 				value = 1,
-				desc_id = "bm_wp_webley_trigger_standard_desc",
-				name_id = "bm_wp_webley_trigger_standard",
+				desc_id = "bm_wp_webley_ejector_standard_desc",
+				name_id = "bm_wp_webley_ejector_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_carbine_bolt_standard = {
+			wpn_fps_snp_mosin_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_carbine_bolt_standard_desc",
-				name_id = "bm_wp_ass_carbine_bolt_standard",
+				desc_id = "bm_wp_mosin_m_standard_desc",
+				name_id = "bm_wp_mosin_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sterling_b_long = {
-				value = 1,
-				desc_id = "bm_wp_sterling_b_long_desc",
-				name_id = "bm_wp_sterling_b_long",
+			wpn_fps_smg_thompson_b_standard = {
+				value = 0,
+				desc_id = "bm_wp_smg_thompson_b_standard_desc",
+				name_id = "bm_wp_smg_thompson_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_m1918_ns_standard = {
+			wpn_fps_snp_mosin_bolt_standard = {
 				value = 1,
-				desc_id = "bm_wp_lmg_m1918_ns_standard_desc",
-				name_id = "bm_wp_lmg_m1918_ns_standard",
+				desc_id = "bm_wp_mosin_bolt_standard_desc",
+				name_id = "bm_wp_mosin_bolt_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_dp28_m_extended = {
+			wpn_fps_snp_mosin_body_target = {
 				value = 1,
-				desc_id = "bm_wp_lmg_dp28_m_extended_desc",
-				name_id = "bm_wp_lmg_dp28_m_extended",
+				desc_id = "bm_wp_mosin_body_target_desc",
+				name_id = "bm_wp_mosin_body_target",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_sterling_m_medium = {
@@ -16448,34 +16572,34 @@ tweak_data = {
 				name_id = "bm_wp_sho_geco_s_cheek_rest",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_mosin_m_standard = {
+			wpn_fps_snp_mosin_body_standard = {
 				value = 1,
-				desc_id = "bm_wp_mosin_m_standard_desc",
-				name_id = "bm_wp_mosin_m_standard",
+				desc_id = "bm_wp_mosin_body_standard_desc",
+				name_id = "bm_wp_mosin_body_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_mosin_dh_standard = {
+			wpn_fps_ass_garand_m_bar_standard = {
 				value = 1,
-				desc_id = "bm_wp_mosin_dh_standard_desc",
-				name_id = "bm_wp_mosin_dh_standard",
+				desc_id = "bm_wp_ass_garand_m_bar_standard_desc",
+				name_id = "bm_wp_ass_garand_m_bar_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_mosin_bolt_standard = {
+			wpn_fps_pis_c96_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_mosin_bolt_standard_desc",
-				name_id = "bm_wp_mosin_bolt_standard",
+				desc_id = "bm_wp_c96_m_standard_desc",
+				name_id = "bm_wp_c96_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_golden_extra1_swiwel = {
+			wpn_fps_snp_mosin_bullet = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_golden_extra1_swiwel_desc",
-				name_id = "bm_wp_ass_garand_golden_extra1_swiwel",
+				desc_id = "bm_wp_mosin_bullet_desc",
+				name_id = "bm_wp_mosin_bullet",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_carbine_body_standard = {
+			wpn_fps_ass_carbine_bolt_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_carbine_body_standard_desc",
-				name_id = "bm_wp_ass_carbine_body_standard",
+				desc_id = "bm_wp_ass_carbine_bolt_standard_desc",
+				name_id = "bm_wp_ass_carbine_bolt_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_sten_body_mk3_vented = {
@@ -16484,16 +16608,64 @@ tweak_data = {
 				name_id = "bm_wp_smg_sten_body_mk3_vented",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sten_m_long = {
+			wpn_fps_sho_ithaca_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_smg_sten_m_long_desc",
-				name_id = "bm_wp_smg_sten_m_long",
+				desc_id = "bm_wp_sho_ithaca_m_standard_desc",
+				name_id = "bm_wp_sho_ithaca_m_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_sten_m_long_double = {
 				value = 1,
 				desc_id = "bm_wp_smg_sten_m_long_double_desc",
 				name_id = "bm_wp_smg_sten_m_long_double",
+				max_in_inventory = 2,
+			},
+			wpn_fps_pis_c96_body_standard = {
+				value = 1,
+				desc_id = "bm_wp_c96_body_standard_desc",
+				name_id = "bm_wp_c96_body_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_pis_c96_b_long_finned = {
+				value = 1,
+				desc_id = "bm_wp_c96_b_long_finned_desc",
+				name_id = "bm_wp_c96_b_long_finned",
+				max_in_inventory = 2,
+			},
+			wpn_fps_smg_mp38_dh_standard = {
+				value = 1,
+				desc_id = "bm_wp_smg_mp38_dh_standard_desc",
+				name_id = "bm_wp_smg_mp38_dh_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_pis_webley_lock_standard = {
+				value = 1,
+				desc_id = "bm_wp_webley_lock_standard_desc",
+				name_id = "bm_wp_webley_lock_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_snp_lee_enfield_body_standard = {
+				value = 1,
+				desc_id = "bm_wp_snp_lee_enfield_body_standard_desc",
+				name_id = "bm_wp_snp_lee_enfield_body_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_dp28_g_standard = {
+				value = 1,
+				desc_id = "bm_wp_lmg_dp28_g_standard_desc",
+				name_id = "bm_wp_lmg_dp28_g_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_pis_shotty_shell_1 = {
+				value = 1,
+				desc_id = "bm_wp_pis_shotty_shell_1_desc",
+				name_id = "bm_wp_pis_shotty_shell_1",
+				max_in_inventory = 2,
+			},
+			wpn_fps_sho_m1912_b_long = {
+				value = 1,
+				desc_id = "bm_wp_sho_m1912_b_long_desc",
+				name_id = "bm_wp_sho_m1912_b_long",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_sterling_bolt_standard = {
@@ -16508,76 +16680,28 @@ tweak_data = {
 				name_id = "bm_wp_smg_sten_m_short",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_mp38_dh_standard = {
+			wpn_fps_snp_kar_98k_bullets = {
 				value = 1,
-				desc_id = "bm_wp_smg_mp38_dh_standard_desc",
-				name_id = "bm_wp_smg_mp38_dh_standard",
+				desc_id = "bm_wp_snp_kar_98k_bullets_desc",
+				name_id = "bm_wp_snp_kar_98k_bullets",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_golden_s_standard = {
+			wpn_fps_pis_webley_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_golden_s_standard_desc",
-				name_id = "bm_wp_ass_garand_golden_s_standard",
+				desc_id = "bm_wp_webley_m_standard_desc",
+				name_id = "bm_wp_webley_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sten_body_mk3 = {
+			wpn_fps_smg_mp38_b_standard = {
 				value = 1,
-				desc_id = "bm_wp_smg_sten_body_mk3_desc",
-				name_id = "bm_wp_smg_sten_body_mk3",
+				desc_id = "bm_wp_smg_mp38_b_standard_desc",
+				name_id = "bm_wp_smg_mp38_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_kar_98k_pad_standard = {
+			wpn_fps_ass_carbine_g_standard = {
 				value = 1,
-				desc_id = "bm_wp_snp_kar_98k_pad_standard_desc",
-				name_id = "bm_wp_snp_kar_98k_pad_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_pis_shotty_shell_1 = {
-				value = 1,
-				desc_id = "bm_wp_pis_shotty_shell_1_desc",
-				name_id = "bm_wp_pis_shotty_shell_1",
-				max_in_inventory = 2,
-			},
-			wpn_fps_pis_webley_body_standard = {
-				value = 1,
-				desc_id = "bm_wp_webley_body_standard_desc",
-				name_id = "bm_wp_webley_body_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_lmg_dp28_body_standard = {
-				value = 1,
-				desc_id = "bm_wp_lmg_dp28_body_standard_desc",
-				name_id = "bm_wp_lmg_dp28_body_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_smg_sten_b_standard = {
-				value = 1,
-				desc_id = "bm_wp_smg_sten_b_standard_desc",
-				name_id = "bm_wp_smg_sten_b_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_snp_lee_enfield_firepin = {
-				value = 1,
-				desc_id = "bm_wp_snp_lee_enfield_firepin_desc",
-				name_id = "bm_wp_snp_lee_enfield_firepin",
-				max_in_inventory = 2,
-			},
-			wpn_fps_snp_lee_enfield_cheek_rest = {
-				value = 1,
-				desc_id = "bm_wp_snp_lee_enfield_cheek_rest_desc",
-				name_id = "bm_wp_snp_lee_enfield_cheek_rest",
-				max_in_inventory = 2,
-			},
-			wpn_fps_snp_lee_enfield_s_standard = {
-				value = 1,
-				desc_id = "bm_wp_snp_lee_enfield_s_standard_desc",
-				name_id = "bm_wp_snp_lee_enfield_s_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_sho_m1912_b_standard = {
-				value = 1,
-				desc_id = "bm_wp_sho_m1912_b_standard_desc",
-				name_id = "bm_wp_sho_m1912_b_standard",
+				desc_id = "bm_wp_ass_carbine_g_standard_desc",
+				name_id = "bm_wp_ass_carbine_g_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_ass_garand_body_standard = {
@@ -16586,10 +16710,16 @@ tweak_data = {
 				name_id = "bm_wp_ass_garand_body_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_lee_enfield_b_long = {
+			wpn_fps_snp_lee_enfield_cheek_rest = {
 				value = 1,
-				desc_id = "bm_wp_snp_lee_enfield_b_long_desc",
-				name_id = "bm_wp_snp_lee_enfield_b_long",
+				desc_id = "bm_wp_snp_lee_enfield_cheek_rest_desc",
+				name_id = "bm_wp_snp_lee_enfield_cheek_rest",
+				max_in_inventory = 2,
+			},
+			wpn_fps_ass_garand_golden_s_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_garand_golden_s_standard_desc",
+				name_id = "bm_wp_ass_garand_golden_s_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_smg_thompson_o_standard = {
@@ -16598,16 +16728,10 @@ tweak_data = {
 				name_id = "bm_wp_smg_thompson_o_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_lee_enfield_b_standard = {
+			wpn_fps_pis_m1911_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_snp_lee_enfield_b_standard_desc",
-				name_id = "bm_wp_snp_lee_enfield_b_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_pis_webley_casing_5 = {
-				value = 1,
-				desc_id = "bm_wp_webley_casing_5_desc",
-				name_id = "bm_wp_webley_casing_5",
+				desc_id = "bm_wp_pis_m1911_m_standard_desc",
+				name_id = "bm_wp_pis_m1911_m_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_m1903_body_type_c = {
@@ -16616,40 +16740,16 @@ tweak_data = {
 				name_id = "bm_wp_snp_m1903_body_type_c",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_mp38_m_standard_double = {
+			wpn_fps_snp_lee_enfield_s_standard = {
 				value = 1,
-				desc_id = "bm_wp_smg_mp38_m_standard_double_desc",
-				name_id = "bm_wp_smg_mp38_m_standard_double",
+				desc_id = "bm_wp_snp_lee_enfield_s_standard_desc",
+				name_id = "bm_wp_snp_lee_enfield_s_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_bren_m_extended = {
+			wpn_fps_snp_lee_enfield_b_long = {
 				value = 1,
-				desc_id = "bm_wp_lmg_bren_m_extended_desc",
-				name_id = "bm_wp_lmg_bren_m_extended",
-				max_in_inventory = 2,
-			},
-			wpn_fps_ass_garand_golden_strip_standard = {
-				value = 1,
-				desc_id = "bm_wp_ass_garand_golden_strip_standard_desc",
-				name_id = "bm_wp_ass_garand_golden_strip_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_lmg_bren_m_standard = {
-				value = 1,
-				desc_id = "bm_wp_lmg_bren_m_standard_desc",
-				name_id = "bm_wp_lmg_bren_m_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_pis_shotty_lock = {
-				value = 1,
-				desc_id = "bm_wp_pis_shotty_lock_desc",
-				name_id = "bm_wp_pis_shotty_lock",
-				max_in_inventory = 2,
-			},
-			wpn_fps_sho_m1912_body_standard = {
-				value = 1,
-				desc_id = "bm_wp_sho_m1912_body_standard_desc",
-				name_id = "bm_wp_sho_m1912_body_standard",
+				desc_id = "bm_wp_snp_lee_enfield_b_long_desc",
+				name_id = "bm_wp_snp_lee_enfield_b_long",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_bren_b_standard = {
@@ -16658,28 +16758,52 @@ tweak_data = {
 				name_id = "bm_wp_lmg_bren_b_standard",
 				max_in_inventory = 2,
 			},
+			wpn_fps_snp_kar_98k_bullet = {
+				value = 1,
+				desc_id = "bm_wp_snp_kar_98k_bullet_desc",
+				name_id = "bm_wp_snp_kar_98k_bullet",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_bren_s_standard = {
+				value = 1,
+				desc_id = "bm_wp_lmg_bren_s_standard_desc",
+				name_id = "bm_wp_lmg_bren_s_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_smg_mp38_m_standard_double = {
+				value = 1,
+				desc_id = "bm_wp_smg_mp38_m_standard_double_desc",
+				name_id = "bm_wp_smg_mp38_m_standard_double",
+				max_in_inventory = 2,
+			},
+			wpn_fps_ass_garand_golden_strip_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_garand_golden_strip_standard_desc",
+				name_id = "bm_wp_ass_garand_golden_strip_standard",
+				max_in_inventory = 2,
+			},
 			wpn_fps_lmg_mg42_band_3 = {
 				value = 1,
 				desc_id = "bm_wp_mg42_band_3_desc",
 				name_id = "bm_wp_mg42_band_3",
 				max_in_inventory = 2,
 			},
-			wpn_fps_sho_m1912_m_standard = {
+			wpn_fps_lmg_bren_m_extended = {
 				value = 1,
-				desc_id = "bm_wp_sho_m1912_m_standard_desc",
-				name_id = "bm_wp_sho_m1912_m_standard",
+				desc_id = "bm_wp_lmg_bren_m_extended_desc",
+				name_id = "bm_wp_lmg_bren_m_extended",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_tt33_g_standard = {
+			wpn_fps_ass_garand_strip_standard = {
 				value = 1,
-				desc_id = "bm_wp_pis_tt33_g_standard_desc",
-				name_id = "bm_wp_pis_tt33_g_standard",
+				desc_id = "bm_wp_ass_garand_strip_standard_desc",
+				name_id = "bm_wp_ass_garand_strip_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_mosin_clip_standard = {
+			wpn_fps_sho_geco_shell_2 = {
 				value = 1,
-				desc_id = "bm_wp_mosin_clip_standard_desc",
-				name_id = "bm_wp_mosin_clip_standard",
+				desc_id = "bm_wp_sho_geco_shell_2_desc",
+				name_id = "bm_wp_sho_geco_shell_2",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_m1918_body_standard = {
@@ -16688,10 +16812,16 @@ tweak_data = {
 				name_id = "bm_wp_lmg_m1918_body_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_kar_98k_bullets = {
+			wpn_fps_snp_lee_enfield_b_standard = {
 				value = 1,
-				desc_id = "bm_wp_snp_kar_98k_bullets_desc",
-				name_id = "bm_wp_snp_kar_98k_bullets",
+				desc_id = "bm_wp_snp_lee_enfield_b_standard_desc",
+				name_id = "bm_wp_snp_lee_enfield_b_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_mg42_dh_mg34 = {
+				value = 1,
+				desc_id = "bm_wp_mg42_dh_mg34_desc",
+				name_id = "bm_wp_mg42_dh_mg34",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_bren_ns_brake = {
@@ -16700,34 +16830,28 @@ tweak_data = {
 				name_id = "bm_wp_lmg_bren_ns_brake",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_tt33_b_standard = {
-				value = 1,
-				desc_id = "bm_wp_pis_tt33_b_standard_desc",
-				name_id = "bm_wp_pis_tt33_b_standard",
-				max_in_inventory = 2,
-			},
 			wpn_fps_ass_carbine_body_wooden = {
 				value = 1,
 				desc_id = "bm_wp_ass_carbine_body_wooden_desc",
 				name_id = "bm_wp_ass_carbine_body_wooden",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_m1903_bolt_standard = {
-				value = 1,
-				desc_id = "bm_wp_snp_m1903_m_standard_desc",
-				name_id = "bm_wp_snp_m1903_m_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_snp_kar_98k_body_standard = {
-				value = 1,
-				desc_id = "bm_wp_snp_kar_98k_body_standard_desc",
-				name_id = "bm_wp_snp_kar_98k_body_standard",
-				max_in_inventory = 2,
-			},
 			wpn_fps_ass_mp44_o_scope = {
 				value = 1,
 				desc_id = "bm_wp_ass_mp44_o_scope_desc",
 				name_id = "bm_wp_ass_mp44_o_scope",
+				max_in_inventory = 2,
+			},
+			wpn_fps_snp_kar_98k_dh_standard = {
+				value = 1,
+				desc_id = "bm_wp_snp_kar_98k_dh_standard_desc",
+				name_id = "bm_wp_snp_kar_98k_dh_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_snp_kar_98k_pad_standard = {
+				value = 1,
+				desc_id = "bm_wp_snp_kar_98k_pad_standard_desc",
+				name_id = "bm_wp_snp_kar_98k_pad_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_ass_carbine_m_extended = {
@@ -16742,34 +16866,34 @@ tweak_data = {
 				name_id = "bm_wp_sho_m1912_s_pistol_grip",
 				max_in_inventory = 2,
 			},
+			wpn_fps_snp_kar_98k_bolt_standard = {
+				value = 1,
+				desc_id = "bm_wp_snp_kar_98k_bolt_desc",
+				name_id = "bm_wp_snp_kar_98k_bolt",
+				max_in_inventory = 2,
+			},
 			wpn_fps_snp_m1903_b_standard = {
 				value = 1,
 				desc_id = "bm_wp_snp_m1903_b_standard_desc",
 				name_id = "bm_wp_snp_m1903_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_dp28_m_standard = {
+			wpn_fps_sho_m1912_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_lmg_dp28_m_standard_desc",
-				name_id = "bm_wp_lmg_dp28_m_standard",
+				desc_id = "bm_wp_sho_m1912_m_standard_desc",
+				name_id = "bm_wp_sho_m1912_m_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_lmg_mg42_receiver = {
+				value = 1,
+				desc_id = "bm_wp_mg42_receiver_desc",
+				name_id = "bm_wp_mg42_receiver",
 				max_in_inventory = 2,
 			},
 			wpn_fps_pis_webley_casing_6 = {
 				value = 1,
 				desc_id = "bm_wp_webley_casing_6_desc",
 				name_id = "bm_wp_webley_casing_6",
-				max_in_inventory = 2,
-			},
-			wpn_fps_smg_thompson_body_standard = {
-				value = 0,
-				desc_id = "bm_wp_smg_thompson_body_standard_desc",
-				name_id = "bm_wp_smg_thompson_body_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_pis_c96_b_long = {
-				value = 1,
-				desc_id = "bm_wp_c96_b_long_desc",
-				name_id = "bm_wp_c96_b_long",
 				max_in_inventory = 2,
 			},
 			wpn_fps_pis_c96_m_long = {
@@ -16790,34 +16914,34 @@ tweak_data = {
 				name_id = "bm_wp_lmg_dp28_trigger",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_m1918_ns_cutts = {
-				value = 1,
-				desc_id = "bm_wp_lmg_m1918_ns_cutts_desc",
-				name_id = "bm_wp_lmg_m1918_ns_cutts",
+			wpn_fps_smg_thompson_body_standard = {
+				value = 0,
+				desc_id = "bm_wp_smg_thompson_body_standard_desc",
+				name_id = "bm_wp_smg_thompson_body_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_bolt_standard = {
+			wpn_fps_pis_c96_b_long = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_bolt_standard_desc",
-				name_id = "bm_wp_ass_garand_bolt_standard",
+				desc_id = "bm_wp_c96_b_long_desc",
+				name_id = "bm_wp_c96_b_long",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_dh_standard = {
+			wpn_fps_snp_m1903_bolt_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_dh_standard_desc",
-				name_id = "bm_wp_ass_garand_dh_standard",
+				desc_id = "bm_wp_snp_m1903_m_standard_desc",
+				name_id = "bm_wp_snp_m1903_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_strip_standard = {
+			wpn_fps_pis_webley_trigger_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_strip_standard_desc",
-				name_id = "bm_wp_ass_garand_strip_standard",
+				desc_id = "bm_wp_webley_trigger_standard_desc",
+				name_id = "bm_wp_webley_trigger_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_kar_98k_bolt_standard = {
+			wpn_fps_snp_kar_98k_body_standard = {
 				value = 1,
-				desc_id = "bm_wp_snp_kar_98k_bolt_desc",
-				name_id = "bm_wp_snp_kar_98k_bolt",
+				desc_id = "bm_wp_snp_kar_98k_body_standard_desc",
+				name_id = "bm_wp_snp_kar_98k_body_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_kar_98k_trigger = {
@@ -16826,16 +16950,16 @@ tweak_data = {
 				name_id = "bm_wp_snp_kar_98k_trigger",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sten_m_standard = {
+			wpn_fps_lmg_dp28_o_standard = {
 				value = 1,
-				desc_id = "bm_wp_smg_sten_m_standard_desc",
-				name_id = "bm_wp_smg_sten_m_standard",
+				desc_id = "bm_wp_lmg_dp28_o_standard_desc",
+				name_id = "bm_wp_lmg_dp28_o_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_kar_98k_b_long = {
+			wpn_fps_pis_webley_body_standard = {
 				value = 1,
-				desc_id = "bm_wp_snp_kar_98k_b_long_desc",
-				name_id = "bm_wp_snp_kar_98k_b_long",
+				desc_id = "bm_wp_webley_body_standard_desc",
+				name_id = "bm_wp_webley_body_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_ass_mp44_fg_standard = {
@@ -16844,16 +16968,16 @@ tweak_data = {
 				name_id = "bm_wp_ass_mp44_fg_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_mg42_dh_mg34 = {
+			wpn_fps_smg_sten_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_mg42_dh_mg34_desc",
-				name_id = "bm_wp_mg42_dh_mg34",
+				desc_id = "bm_wp_smg_sten_m_standard_desc",
+				name_id = "bm_wp_smg_sten_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_m1918_m_standard = {
+			wpn_fps_smg_sten_body_mk3 = {
 				value = 1,
-				desc_id = "bm_wp_lmg_m1918_m_standard_desc",
-				name_id = "bm_wp_lmg_m1918_m_standard",
+				desc_id = "bm_wp_smg_sten_body_mk3_desc",
+				name_id = "bm_wp_smg_sten_body_mk3",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_mg42_lid_standard = {
@@ -16874,16 +16998,16 @@ tweak_data = {
 				name_id = "bm_wp_smg_mp38_body_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sterling_m_long_double = {
+			wpn_fps_lmg_m1918_ns_cutts = {
 				value = 1,
-				desc_id = "bm_wp_sterling_m_long_double_desc",
-				name_id = "bm_wp_sterling_m_long_double",
+				desc_id = "bm_wp_lmg_m1918_ns_cutts_desc",
+				name_id = "bm_wp_lmg_m1918_ns_cutts",
 				max_in_inventory = 2,
 			},
-			wpn_fps_sho_m1912_b_long = {
+			wpn_fps_ass_garand_bolt_standard = {
 				value = 1,
-				desc_id = "bm_wp_sho_m1912_b_long_desc",
-				name_id = "bm_wp_sho_m1912_b_long",
+				desc_id = "bm_wp_ass_garand_bolt_standard_desc",
+				name_id = "bm_wp_ass_garand_bolt_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_ass_mp44_s_standard = {
@@ -16892,22 +17016,28 @@ tweak_data = {
 				name_id = "bm_wp_ass_mp44_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_m_bar_standard = {
+			wpn_fps_ass_garand_dh_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_m_bar_standard_desc",
-				name_id = "bm_wp_ass_garand_m_bar_standard",
+				desc_id = "bm_wp_ass_garand_dh_standard_desc",
+				name_id = "bm_wp_ass_garand_dh_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_sho_geco_shell_2 = {
+			wpn_fps_sho_ithaca_b_reinforced = {
 				value = 1,
-				desc_id = "bm_wp_sho_geco_shell_2_desc",
-				name_id = "bm_wp_sho_geco_shell_2",
+				desc_id = "bm_wp_sho_ithaca_b_reinforced_desc",
+				name_id = "bm_wp_sho_ithaca_b_reinforced",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_lee_enfield_body_standard = {
+			wpn_fps_pis_shotty_lock = {
 				value = 1,
-				desc_id = "bm_wp_snp_lee_enfield_body_standard_desc",
-				name_id = "bm_wp_snp_lee_enfield_body_standard",
+				desc_id = "bm_wp_pis_shotty_lock_desc",
+				name_id = "bm_wp_pis_shotty_lock",
+				max_in_inventory = 2,
+			},
+			wpn_fps_sho_geco_trigger_1 = {
+				value = 1,
+				desc_id = "bm_wp_sho_geco_trigger_1_desc",
+				name_id = "bm_wp_sho_geco_trigger_1",
 				max_in_inventory = 2,
 			},
 			wpn_fps_ass_carbine_s_standard = {
@@ -16916,28 +17046,22 @@ tweak_data = {
 				name_id = "bm_wp_ass_carbine_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_sten_fg_wooden = {
+			wpn_fps_snp_lee_enfield_firepin = {
 				value = 1,
-				desc_id = "bm_wp_smg_sten_fg_wooden_desc",
-				name_id = "bm_wp_smg_sten_fg_wooden",
+				desc_id = "bm_wp_snp_lee_enfield_firepin_desc",
+				name_id = "bm_wp_snp_lee_enfield_firepin",
 				max_in_inventory = 2,
 			},
-			wpn_fps_lmg_m1918_b_standard = {
+			wpn_fps_ass_garand_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_lmg_m1918_b_standard_desc",
-				name_id = "bm_wp_lmg_m1918_b_standard",
+				desc_id = "bm_wp_ass_garand_m_standard_desc",
+				name_id = "bm_wp_ass_garand_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_m_bar_extended = {
+			wpn_fps_lmg_m1918_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_m_bar_extended_desc",
-				name_id = "bm_wp_ass_garand_m_bar_extended",
-				max_in_inventory = 2,
-			},
-			wpn_fps_pis_m1911_b_standard = {
-				value = 1,
-				desc_id = "bm_wp_pis_m1911_b_standard_desc",
-				name_id = "bm_wp_pis_m1911_b_standard",
+				desc_id = "bm_wp_lmg_m1918_m_standard_desc",
+				name_id = "bm_wp_lmg_m1918_m_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_m1918_g_monitor = {
@@ -16946,22 +17070,22 @@ tweak_data = {
 				name_id = "bm_wp_lmg_m1918_g_monitor",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_thompson_o_m1928 = {
-				value = 0,
-				desc_id = "bm_wp_smg_thompson_o_m1928_desc",
-				name_id = "bm_wp_smg_thompson_o_m1928",
+			wpn_fps_pis_webley_casing_5 = {
+				value = 1,
+				desc_id = "bm_wp_webley_casing_5_desc",
+				name_id = "bm_wp_webley_casing_5",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_c96_g_standard = {
+			wpn_fps_smg_sterling_m_long_double = {
 				value = 1,
-				desc_id = "bm_wp_c96_g_standard_desc",
-				name_id = "bm_wp_c96_g_standard",
+				desc_id = "bm_wp_sterling_m_long_double_desc",
+				name_id = "bm_wp_sterling_m_long_double",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_mosin_bullet = {
+			wpn_fps_ass_garand_golden_extra1_swiwel = {
 				value = 1,
-				desc_id = "bm_wp_mosin_bullet_desc",
-				name_id = "bm_wp_mosin_bullet",
+				desc_id = "bm_wp_ass_garand_golden_extra1_swiwel_desc",
+				name_id = "bm_wp_ass_garand_golden_extra1_swiwel",
 				max_in_inventory = 2,
 			},
 			wpn_fps_ass_garand_golden_s_folding = {
@@ -16970,22 +17094,28 @@ tweak_data = {
 				name_id = "bm_wp_ass_garand_golden_s_folding",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_golden_body_standard = {
+			wpn_fps_lmg_dp28_m_extended = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_golden_body_standard_desc",
-				name_id = "bm_wp_ass_garand_golden_body_standard",
+				desc_id = "bm_wp_lmg_dp28_m_extended_desc",
+				name_id = "bm_wp_lmg_dp28_m_extended",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_webley_ejector_standard = {
+			wpn_fps_sho_ithaca_ns_brake = {
 				value = 1,
-				desc_id = "bm_wp_webley_ejector_standard_desc",
-				name_id = "bm_wp_webley_ejector_standard",
+				desc_id = "bm_wp_sho_ithaca_ns_brake_desc",
+				name_id = "bm_wp_sho_ithaca_ns_brake",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_garand_golden_bolt_standard = {
+			wpn_fps_snp_mosin_dh_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_garand_golden_bolt_standard_desc",
-				name_id = "bm_wp_ass_garand_golden_bolt_standard",
+				desc_id = "bm_wp_mosin_dh_standard_desc",
+				name_id = "bm_wp_mosin_dh_standard",
+				max_in_inventory = 2,
+			},
+			wpn_fps_sho_ithaca_s_standard = {
+				value = 1,
+				desc_id = "bm_wp_sho_ithaca_s_standard_desc",
+				name_id = "bm_wp_sho_ithaca_s_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_lee_enfield_dh_standard = {
@@ -16994,22 +17124,16 @@ tweak_data = {
 				name_id = "bm_wp_snp_lee_enfield_dh_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_c96_hammer_standard = {
-				value = 1,
-				desc_id = "bm_wp_c96_hammer_standard_desc",
-				name_id = "bm_wp_c96_hammer_standard",
-				max_in_inventory = 2,
-			},
 			wpn_fps_sho_m1912_s_pad = {
 				value = 1,
 				desc_id = "bm_wp_sho_m1912_s_pad_desc",
 				name_id = "bm_wp_sho_m1912_s_pad",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_carbine_m_standard = {
-				value = 1,
-				desc_id = "bm_wp_ass_carbine_m_standard_desc",
-				name_id = "bm_wp_ass_carbine_m_standard",
+			wpn_fps_smg_thompson_o_m1928 = {
+				value = 0,
+				desc_id = "bm_wp_smg_thompson_o_m1928_desc",
+				name_id = "bm_wp_smg_thompson_o_m1928",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_mg42_dh_standard = {
@@ -17030,16 +17154,16 @@ tweak_data = {
 				name_id = "bm_wp_pis_tt33_m_extended",
 				max_in_inventory = 2,
 			},
-			wpn_fps_ass_mp44_dh_standard = {
+			wpn_fps_lmg_bren_m_standard = {
 				value = 1,
-				desc_id = "bm_wp_ass_mp44_dh_standard_desc",
-				name_id = "bm_wp_ass_mp44_dh_standard",
+				desc_id = "bm_wp_lmg_bren_m_standard_desc",
+				name_id = "bm_wp_lmg_bren_m_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_thompson_m_standard = {
-				value = 0,
-				desc_id = "bm_wp_smg_thompson_m_standard_desc",
-				name_id = "bm_wp_smg_thompson_m_standard",
+			wpn_fps_ass_garand_golden_bolt_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_garand_golden_bolt_standard_desc",
+				name_id = "bm_wp_ass_garand_golden_bolt_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_m1918_carry_handle = {
@@ -17048,10 +17172,10 @@ tweak_data = {
 				name_id = "bm_wp_lmg_m1918_carry_handle",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_thompson_g_standard = {
+			wpn_fps_smg_thompson_s_standard = {
 				value = 0,
-				desc_id = "bm_wp_smg_thompson_g_standard_desc",
-				name_id = "bm_wp_smg_thompson_g_standard",
+				desc_id = "bm_wp_smg_thompson_s_standard_desc",
+				name_id = "bm_wp_smg_thompson_s_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_bren_b_long = {
@@ -17078,22 +17202,22 @@ tweak_data = {
 				name_id = "bm_wp_sterling_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_c96_b_standard = {
+			wpn_fps_ass_garand_b_standard = {
 				value = 1,
-				desc_id = "bm_wp_c96_b_standard_desc",
-				name_id = "bm_wp_c96_b_standard",
+				desc_id = "bm_wp_ass_garand_b_standard_desc",
+				name_id = "bm_wp_ass_garand_b_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_pis_c96_bolt_standard = {
+			wpn_fps_ass_mp44_dh_standard = {
 				value = 1,
-				desc_id = "bm_wp_c96_bolt_standard_desc",
-				name_id = "bm_wp_c96_bolt_standard",
+				desc_id = "bm_wp_ass_mp44_dh_standard_desc",
+				name_id = "bm_wp_ass_mp44_dh_standard",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_mp38_m_standard = {
+			wpn_fps_sho_m1912_s_standard = {
 				value = 1,
-				desc_id = "bm_wp_smg_mp38_m_standard_desc",
-				name_id = "bm_wp_smg_mp38_m_standard",
+				desc_id = "bm_wp_sho_m1912_s_standard_desc",
+				name_id = "bm_wp_sho_m1912_s_standard",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_lee_enfield_m_extended = {
@@ -17102,10 +17226,10 @@ tweak_data = {
 				name_id = "bm_wp_snp_lee_enfield_m_extended",
 				max_in_inventory = 2,
 			},
-			wpn_fps_smg_mp38_s_wooden = {
+			wpn_fps_snp_kar_98k_b_long = {
 				value = 1,
-				desc_id = "bm_wp_smg_mp38_s_wooden_desc",
-				name_id = "bm_wp_smg_mp38_s_wooden",
+				desc_id = "bm_wp_snp_kar_98k_b_long_desc",
+				name_id = "bm_wp_snp_kar_98k_b_long",
 				max_in_inventory = 2,
 			},
 			wpn_fps_lmg_dp28_b_coned = {
@@ -17120,6 +17244,18 @@ tweak_data = {
 				name_id = "bm_wp_lmg_dp28_m_casing_ext",
 				max_in_inventory = 2,
 			},
+			wpn_fps_smg_mp38_s_wooden = {
+				value = 1,
+				desc_id = "bm_wp_smg_mp38_s_wooden_desc",
+				name_id = "bm_wp_smg_mp38_s_wooden",
+				max_in_inventory = 2,
+			},
+			wpn_fps_ass_mp44_b_standard = {
+				value = 1,
+				desc_id = "bm_wp_ass_mp44_b_standard_desc",
+				name_id = "bm_wp_ass_mp44_b_standard",
+				max_in_inventory = 2,
+			},
 			wpn_fps_smg_thompson_dh_m1928 = {
 				value = 0,
 				desc_id = "bm_wp_smg_thompson_dh_m1928_desc",
@@ -17130,18 +17266,6 @@ tweak_data = {
 				value = 1,
 				desc_id = "bm_wp_ass_mp44_m_standard_desc",
 				name_id = "bm_wp_ass_mp44_m_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_ass_carbine_b_standard = {
-				value = 1,
-				desc_id = "bm_wp_ass_carbine_b_standard_desc",
-				name_id = "bm_wp_ass_carbine_b_standard",
-				max_in_inventory = 2,
-			},
-			wpn_fps_ass_mp44_m_short_double = {
-				value = 1,
-				desc_id = "bm_wp_ass_mp44_m_short_double_desc",
-				name_id = "bm_wp_ass_mp44_m_short_double",
 				max_in_inventory = 2,
 			},
 			wpn_fps_snp_m1903_s_cheek_rest = {
@@ -17156,10 +17280,10 @@ tweak_data = {
 				name_id = "bm_wp_mosin_o_scope",
 				max_in_inventory = 2,
 			},
-			wpn_fps_snp_m1903_extra_follower = {
+			wpn_fps_smg_sten_g_wooden = {
 				value = 1,
-				desc_id = "bm_wp_snp_m1903_m_standard_desc",
-				name_id = "bm_wp_snp_m1903_m_standard",
+				desc_id = "bm_wp_smg_sten_g_wooden_desc",
+				name_id = "bm_wp_smg_sten_g_wooden",
 				max_in_inventory = 2,
 			},
 		},
@@ -21787,6 +21911,188 @@ tweak_data = {
 				fire_rate = 0.2,
 			},
 		},
+		ithaca = {
+			timers = {
+				shotgun_reload_enter = 0.53333333333333,
+				shotgun_reload_exit_not_empty = 0.4,
+				equip = 0.6,
+				shotgun_reload_exit_empty = 0.4,
+				shotgun_reload_first_shell_offset = 0.13333333333333,
+				unequip = 0.85,
+				shotgun_reload_shell = 0.66666666666667,
+			},
+			rays = 12,
+			inventory_texture = "ui/temp/customization_temp_df",
+			name_id = "bm_w_ithaca",
+			category = "shotgun",
+			AMMO_MAX = 36,
+			gui = {
+				rotation_offset = -39,
+				height_offset = 0,
+				icon_large = "weapon_itchaca_large",
+				initial_rotation = {
+					roll = 0,
+					yaw = -90,
+					pitch = 0,
+				},
+				distance_offset = 85,
+				display_offset = -10,
+			},
+			kick = {
+				crouching_steelsight = {
+					[1] = 3.2,
+					[2] = 3.4,
+					[3] = -1.8,
+					[4] = 1.8,
+				},
+				standing = {
+					[1] = 3.6,
+					[2] = 4.2,
+					[3] = -2,
+					[4] = 2,
+				},
+				steelsight = {
+					[1] = 3.4,
+					[2] = 3.8,
+					[3] = -2,
+					[4] = 2,
+				},
+				crouching = {
+					[1] = 3.2,
+					[2] = 3.8,
+					[3] = -2,
+					[4] = 2,
+				},
+			},
+			use_shotgun_reload = true,
+			shake = {
+				fire_multiplier = 2,
+				fire_steelsight_multiplier = -2,
+			},
+			CAN_TOGGLE_FIREMODE = false,
+			crosshair = {
+				standing = {
+					offset = 0.7,
+					kick_offset = 0.8,
+					moving_offset = 0.7,
+				},
+				steelsight = {
+					moving_offset = 0,
+					offset = 0,
+					kick_offset = 0,
+					hidden = true,
+				},
+				crouching = {
+					offset = 0.65,
+					kick_offset = 0.75,
+					moving_offset = 0.65,
+				},
+			},
+			damage_melee_effect_mul = 0,
+			dismember_chance = 0.75,
+			AMMO_PICKUP = {
+				[1] = 0.72,
+				[2] = 1.8,
+			},
+			damage_melee = 100,
+			desc_id = "bm_w_ithaca_desc",
+			autohit = {
+				near_angle = 3,
+				MIN_RATIO = 0.6,
+				far_dis = 5000,
+				far_angle = 1.5,
+				INIT_RATIO = 0.15,
+				MAX_RATIO = 0.7,
+			},
+			spread = {
+				per_shot_steelsight = 0,
+				crouching = 2,
+				moving_crouching = 2,
+				per_shot = 0,
+				moving_steelsight = 2,
+				recovery = 12,
+				recovery_wait_multiplier = 0.5,
+				moving_standing = 2,
+				steelsight = 2,
+				standing = 2,
+			},
+			single = {
+				fire_rate = 1,
+			},
+			panic_suppression_chance = 0.2,
+			damage_profile = {
+				[1] = {
+					range = 1000,
+					damage = 240,
+				},
+				[2] = {
+					range = 2000,
+					damage = 30,
+				},
+			},
+			ammo_pickup_base = 3,
+			sounds = {
+				fire = "ithaca_fire_1p_single",
+				dryfire = "primary_dryfire",
+			},
+			muzzleflash = "effects/vanilla/weapons/12g_auto_fps",
+			weapon_hold = "ithaca",
+			description_id = "des_ithaca",
+			stats = {
+				concealment = 12,
+				suppression = 6,
+				extra_ammo = 6,
+				value = 1,
+				spread_moving = 9,
+				spread = 6,
+				alert_size = 7,
+				recoil = 5,
+				total_ammo_mod = 21,
+				zoom = 3,
+			},
+			hud = {
+				icon = "weapons_panel_itchaca",
+			},
+			animations = {
+				recoil_steelsight = true,
+				equip_id = "equip_ithaca",
+			},
+			aim_assist = {
+				near_angle = 20,
+				MIN_RATIO = 0.6,
+				far_dis = 5000,
+				MAX_RATIO = 0.7,
+				far_angle = 1.5,
+				INIT_RATIO = 0.15,
+			},
+			gun_kick = {
+				hip_fire = {
+					[1] = 60,
+					[2] = 80,
+					[3] = -55,
+					[4] = 55,
+				},
+				steelsight = {
+					[1] = 48,
+					[2] = 58,
+					[3] = -45,
+					[4] = -45,
+				},
+				position_ratio = -0.075,
+			},
+			NR_CLIPS_MAX = 6,
+			CLIP_AMMO_MAX = 6,
+			headshot_multiplier = 3,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_slug_semi",
+			FIRE_MODE = "single",
+			fire_mode_data = {
+				fire_rate = 1,
+			},
+			use_data = {
+				align_place = "right_hand",
+				selection_index = 2,
+			},
+		},
 		mp38 = {
 			timers = {
 				unequip = 0.75,
@@ -21966,50 +22272,29 @@ tweak_data = {
 				INIT_RATIO = 0.15,
 			},
 		},
-		m24 = {
-			timers = {
-				unequip = 0.25,
-				equip = 0.3,
-				reload_not_empty = 1.25,
-				reload_empty = 1.65,
-			},
-			name_id = "bm_grenade_frag",
-			gui = {
-				icon_large = "weapon_ass_garand_large",
-			},
+		mp5_tactical_npc = {
+			has_suppressor = "suppressed_a",
+			CLIP_AMMO_MAX = 30,
 			sounds = {
-				prefix = "",
-				single = "grenade_explode",
+				prefix = "mp5_npc",
 			},
-			hold = "grenade",
-			weapon_hold = "m24",
-			transition_duration = 0,
-			usage_anim = "c45",
+			AMMO_MAX = 150,
 			suppression = 1,
-			damage_melee_effect_mul = 1,
-			auto = {
-				fire_rate = 0.4,
-			},
-			usage = "c45",
-			damage_melee = 66,
-			stance = "m24",
-			exit_run_speed_multiplier = 1,
+			DAMAGE = 1,
+			muzzleflash = "effects/vanilla/weapons/9mm_auto",
+			usage = "mp5",
 			use_data = {
-				equip = {
-					align_place = "right_hand",
-				},
-				unequip = {
-					align_place = "back",
-				},
-				selection_index = 3,
+				selection_index = 1,
 			},
+			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
+			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
+			usage_anim = "mp5",
 			alert_size = 5000,
-			weapon_movement_penalty = 1,
-			hud = {
-				icon = "weapon_panel_gre_m24",
-				panel_class = "grenade",
+			hold = "rifle",
+			NR_CLIPS_MAX = 5,
+			auto = {
+				fire_rate = 0.12,
 			},
-			sound_event = "grenade_explode",
 		},
 		mosin = {
 			timers = {
@@ -22211,27 +22496,29 @@ tweak_data = {
 				},
 			},
 		},
-		mp5_npc = {
-			CLIP_AMMO_MAX = 30,
-			use_data = {
-				selection_index = 1,
-			},
+		m1918_npc = {
+			CLIP_AMMO_MAX = 20,
 			alert_size = 5000,
 			suppression = 1,
-			DAMAGE = 1,
-			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
-			usage = "mp5",
-			sounds = {
-				prefix = "mp5_npc",
+			DAMAGE = 2,
+			use_data = {
+				selection_index = 2,
 			},
-			AMMO_MAX = 150,
-			muzzleflash = "effects/vanilla/weapons/9mm_auto",
-			usage_anim = "mp5",
-			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
-			hold = "rifle",
-			NR_CLIPS_MAX = 5,
+			usage = "m1918",
+			sounds = {
+				autofire_stop = "m1918_fire_npc_stop",
+				autofire_start = "m1918_fire_npc",
+				prefix = "",
+				single = "m1918_fire_npc_single",
+			},
+			usage_anim = "m1918",
+			muzzleflash = "effects/vanilla/weapons/556_auto",
+			AMMO_MAX = 120,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
+			hold = "m1918",
+			NR_CLIPS_MAX = 6,
 			auto = {
-				fire_rate = 0.12,
+				fire_rate = 0.16,
 			},
 		},
 		usa_m1911_npc = {
@@ -22521,102 +22808,205 @@ tweak_data = {
 				fire_rate = 0.4,
 			},
 		},
-		turret_flak_20mm = {
-			AUTO_RELOAD = true,
-			MIN_VEL_SPIN = 10,
-			anim_enter = "ntl_enter_flakvierling",
+		sten = {
+			timers = {
+				unequip = 0.75,
+				equip = 0.4,
+				reload_not_empty = 2.25,
+				reload_empty = 3.25,
+			},
+			inventory_texture = "ui/temp/customization_temp_df",
+			name_id = "bm_w_sten",
+			category = "smg",
+			AMMO_MAX = 192,
+			gui = {
+				rotation_offset = -15,
+				height_offset = -5,
+				icon_large = "weapon_smg_sten_large",
+				initial_rotation = {
+					roll = 0,
+					yaw = -90,
+					pitch = 0,
+				},
+				distance_offset = 0,
+				display_offset = -1,
+			},
+			kick = {
+				recenter_speed = 500,
+				crouching = {
+					[1] = 1.1,
+					[2] = 1.3,
+					[3] = -1.8,
+					[4] = 1.8,
+				},
+				recenter_speed_steelsight = 500,
+				standing = {
+					[1] = 1.2,
+					[2] = 1.4,
+					[3] = -2,
+					[4] = 2,
+				},
+				steelsight = {
+					[1] = 1,
+					[2] = 1.2,
+					[3] = -1.7,
+					[4] = 1.7,
+				},
+				crouching_steelsight = {
+					[1] = 0.9,
+					[2] = 1.05,
+					[3] = -1.6,
+					[4] = 1.6,
+				},
+			},
+			shake = {
+				fire_multiplier = 1,
+				fire_steelsight_multiplier = -1,
+			},
+			CLIP_AMMO_MAX = 32,
+			crosshair = {
+				standing = {
+					offset = 0.16,
+					kick_offset = 0.6,
+					moving_offset = 0.8,
+				},
+				steelsight = {
+					moving_offset = 0,
+					offset = 0,
+					kick_offset = 0.1,
+					hidden = true,
+				},
+				crouching = {
+					offset = 0.08,
+					kick_offset = 0.4,
+					moving_offset = 0.7,
+				},
+			},
+			damage_melee_effect_mul = 0,
+			dismember_chance = 0.1,
+			AMMO_PICKUP = {
+				[1] = 3.84,
+				[2] = 9.6,
+			},
+			damage_melee = 83,
+			desc_id = "bm_w_sten_desc",
+			autohit = {
+				near_angle = 3,
+				MIN_RATIO = 0.75,
+				far_dis = 4000,
+				far_angle = 1,
+				INIT_RATIO = 0.15,
+				MAX_RATIO = 0.85,
+			},
+			spread = {
+				max = 2,
+				per_shot_steelsight = 0.05,
+				crouching = 3.2,
+				moving_crouching = 4,
+				per_shot = 0.08,
+				moving_steelsight = 2.25,
+				recovery = 8,
+				recovery_wait_multiplier = 2,
+				moving_standing = 5,
+				steelsight = 2,
+				standing = 4,
+			},
+			NR_CLIPS_MAX = 6,
+			damage_profile = {
+				[1] = {
+					range = 1500,
+					damage = 58,
+				},
+				[2] = {
+					range = 2500,
+					damage = 35,
+				},
+			},
+			ammo_pickup_base = 19,
+			use_data = {
+				selection_index = 2,
+			},
+			muzzleflash = "effects/vanilla/weapons/9mm_auto_fps",
+			auto = {
+				fire_rate = 0.125,
+			},
+			description_id = "des_sten",
 			stats = {
-				concealment = 20,
+				concealment = 17,
 				suppression = 10,
 				extra_ammo = 6,
 				value = 1,
-				recoil = 7,
-				spread_moving = 7,
-				spread = 7,
+				spread_moving = 9,
+				spread = 6,
 				alert_size = 7,
-				damage = 10,
+				recoil = 5,
 				total_ammo_mod = 21,
-				zoom = 3,
+				zoom = 4,
 			},
-			SLOWDOWN_ANGLE_PITCH = 5,
-			DETECTION_RANGE = 500000,
-			shaker_multiplier = 0.5,
-			ACC_SPIN = 500,
-			ACC_PITCH = 50,
-			MAX_VEL_SPIN = 100,
-			camera_limit_vertical_mid = 35,
-			MAX_VEL_PITCH = 10,
-			DAMAGE = 5,
-			dismember_chance = 1,
-			MAX_PITCH_ANGLE = 70,
-			AUTO_RELOAD_DURATION = 5,
-			KEEP_FIRE_ANGLE = 0.99,
-			SLOWDOWN_ANGLE_SPIN = 5,
-			VELOCITY_COMPENSATION = {
-				OVERCOMPENSATION = 50,
-				SNAPSHOT_INTERVAL = 0.3,
+			hud = {
+				icon = "weapon_panel_smg_sten",
 			},
-			SUPPRESSION = 1,
-			MIN_VEL_PITCH = 0.5,
-			overheat_time = 7,
-			WAIT_FOR_TARGET = 2,
-			HACKABLE_WITH_ECM = false,
-			SHIELD_HEALTH_INIT = 1000,
-			DETECTION_DELAY = {
-				[1] = {
-					[1] = 900,
-					[2] = 0.3,
+			animations = {
+				magazine_empty = "last_recoil",
+				equip_id = "equip_m4",
+				recoil_steelsight = true,
+			},
+			weapon_hold = "sten",
+			aim_assist = {
+				near_angle = 20,
+				MIN_RATIO = 0.75,
+				far_dis = 4000,
+				MAX_RATIO = 0.85,
+				far_angle = 1,
+				INIT_RATIO = 0.15,
+			},
+			sounds = {
+				dryfire = "primary_dryfire",
+				stop_fire = "sten_fire_1p_stop",
+				fire_auto = "sten_fire_1p",
+				fire_single = "sten_fire_1p_single",
+			},
+			gun_kick = {
+				hip_fire = {
+					[1] = -40,
+					[2] = 40,
+					[3] = -40,
+					[4] = 40,
 				},
-				[2] = {
-					[1] = 3500,
-					[2] = 1.5,
+				steelsight = {
+					[1] = -10,
+					[2] = 25,
+					[3] = -15,
+					[4] = 35,
+				},
+				position_ratio = 0.1,
+			},
+			FIRE_MODE = "auto",
+			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence_fps",
+			headshot_multiplier = 3.5,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
+			fire_mode_data = {
+				fire_rate = 0.125,
+			},
+			CAN_TOGGLE_FIREMODE = true,
+			minimum_view_kick = {
+				crouching_steelsight = {
+					[1] = 0,
+					[2] = 0.6,
+				},
+				standing = {
+					[1] = 0,
+					[2] = 0.5,
+				},
+				steelsight = {
+					[1] = 0,
+					[2] = 0.7,
+				},
+				crouching = {
+					[1] = 0,
+					[2] = 0.5,
 				},
 			},
-			camera_limit_vertical = 35,
-			DEATH_VERIFICATION = {
-				[1] = 0.4,
-				[2] = 0.75,
-			},
-			sound_movement_stop = "aa_gun_movement_loop_stop",
-			CLIP_SIZE = 1,
-			EXPLOSION_DMG_MUL = 7,
-			FIRE_RANGE = 500000,
-			rate_of_fire = 800,
-			SHIELD_DMG_MUL = 1,
-			puppet_stance = "sitting",
-			headshot_dmg_mul = 4,
-			damage = 50,
-			SPREAD = 0.2,
-			camera_speed_limit = 0.5,
-			FIRE_DMG_MUL = 1,
-			DAMAGE_MUL_RANGE = {
-				[1] = {
-					[1] = 800,
-					[2] = 1,
-				},
-				[2] = {
-					[1] = 1000,
-					[2] = 1,
-				},
-				[3] = {
-					[1] = 1500,
-					[2] = 1,
-				},
-			},
-			ECM_HACKABLE = false,
-			HEALTH_INIT = 5000,
-			number_of_barrels = 4,
-			exit_turret_speed = 1,
-			MIN_PITCH_ANGLE = 0,
-			BAG_DMG_MUL = 200,
-			SHIELD_DAMAGE_CLAMP = 10000,
-			fire_type = "auto",
-			camera_limit_horizontal = 360,
-			dazed_duration = 3,
-			fire_range = 1000000,
-			sound_fire_start = "aa_gun",
-			sound_movement_start = "aa_gun_movement_loop_start",
-			sound_fire_stop = "aa_gun_stop",
 		},
 		geco_npc = {
 			CLIP_AMMO_MAX = 2,
@@ -23606,203 +23996,27 @@ tweak_data = {
 				fire_rate = 0.12,
 			},
 		},
-		kar_98k = {
-			timers = {
-				shotgun_reload_enter = 0.63333333333333,
-				shotgun_reload_exit_not_empty = 0.83333333333333,
-				equip = 0.5,
-				shotgun_reload_exit_empty = 0.83333333333333,
-				shotgun_reload_shell = 0.86666666666667,
-				shotgun_reload_first_shell_offset = 0.16666666666667,
-				unequip = 0.6,
-				reload_empty = 2.07,
-			},
-			inventory_texture = "ui/temp/customization_temp_df",
-			name_id = "bm_w_kar_98k",
-			category = "snp",
-			AMMO_MAX = 45,
-			can_shoot_through_shield = false,
-			kick = {
-				recenter_speed = 490,
-				crouching = {
-					[1] = 2.1,
-					[2] = 2.4,
-					[3] = -2.1,
-					[4] = 2.1,
-				},
-				recenter_speed_steelsight = 400,
-				standing = {
-					[1] = 2.3,
-					[2] = 2.6,
-					[3] = -2.4,
-					[4] = 2.4,
-				},
-				steelsight = {
-					[1] = 2.05,
-					[2] = 2.3,
-					[3] = -2,
-					[4] = 2.05,
-				},
-				crouching_steelsight = {
-					[1] = 1.95,
-					[2] = 2.2,
-					[3] = -1.95,
-					[4] = 1.95,
-				},
-			},
-			use_shotgun_reload = true,
-			shake = {
-				fire_multiplier = 2,
-				fire_steelsight_multiplier = -1,
-			},
-			CAN_TOGGLE_FIREMODE = false,
-			crosshair = {
-				standing = {
-					offset = 0.16,
-					kick_offset = 0.6,
-					moving_offset = 0.8,
-				},
-				steelsight = {
-					moving_offset = 0,
-					offset = 0,
-					kick_offset = 0.1,
-					hidden = true,
-				},
-				crouching = {
-					offset = 0.08,
-					kick_offset = 0,
-					moving_offset = 0.7,
-				},
-			},
-			damage_melee_effect_mul = 0,
-			dismember_chance = 0.25,
-			AMMO_PICKUP = {
-				[1] = 0.7,
-				[2] = 1,
-			},
-			damage_melee = 100,
-			desc_id = "bm_w_kar_98k_desc",
-			autohit = {
-				near_angle = 2,
-				MIN_RATIO = 0.2,
-				far_dis = 5000,
-				far_angle = 0.2,
-				INIT_RATIO = 0.05,
-				MAX_RATIO = 0.4,
-			},
-			spread = {
-				per_shot_steelsight = 0.1,
-				crouching = 3.1,
-				moving_crouching = 6,
-				per_shot = 0.8,
-				moving_steelsight = 0.16,
-				recovery = 16,
-				recovery_wait_multiplier = 0.9,
-				moving_standing = 8.9,
-				steelsight = 0.1,
-				standing = 4.4,
-			},
-			NR_CLIPS_MAX = 9,
-			damage_profile = {
-				[1] = {
-					range = 1000,
-					damage = 235,
-				},
-			},
-			ammo_pickup_base = 5,
-			sounds = {
-				dryfire = "primary_dryfire",
-				fire_single = "kar98_fire_1p_single",
-			},
-			muzzleflash = "effects/vanilla/weapons/762_auto_fps",
-			stats = {
-				concealment = 10,
-				suppression = 8,
-				extra_ammo = 6,
-				value = 1,
-				spread_moving = 8,
-				spread = 5,
-				alert_size = 7,
-				recoil = 3,
-				total_ammo_mod = 21,
-				zoom = 6,
-			},
-			hud = {
-				icon = "weapons_panel_kar_98k",
-			},
-			auto = {
-				fire_rate = 1.2,
-			},
-			gui = {
-				rotation_offset = -27,
-				height_offset = -6,
-				icon_large = "weapon_kar_98k_large",
-				initial_rotation = {
-					roll = 0,
-					yaw = -90,
-					pitch = 0,
-				},
-				distance_offset = 70,
-				display_offset = -8,
-			},
-			description_id = "des_kar_98k",
-			animations = {
-				recoil_steelsight = true,
-				equip_id = "kar_98k",
-			},
-			can_shoot_through_wall = false,
-			can_shoot_through_enemy = true,
-			armor_piercing_chance = 1,
-			weapon_hold = "kar_98k",
-			aim_assist = {
-				near_angle = 10,
-				MIN_RATIO = 0.2,
-				far_dis = 5000,
-				MAX_RATIO = 0.4,
-				far_angle = 0.2,
-				INIT_RATIO = 0.05,
-			},
-			gun_kick = {
-				hip_fire = {
-					[1] = 40,
-					[2] = 40,
-					[3] = -40,
-					[4] = 40,
-				},
-				steelsight = {
-					[1] = 0,
-					[2] = 0,
-					[3] = 0,
-					[4] = 0,
-				},
-			},
-			CLIP_AMMO_MAX = 5,
-			FIRE_MODE = "single",
-			headshot_multiplier = 3.5,
-			shell_ejection = "effects/vanilla/weapons/shells/shell_sniper",
-			fire_mode_data = {
-				fire_rate = 1.2,
-			},
-			minimum_view_kick = {
-				crouching_steelsight = {
-					[1] = 0,
-					[2] = 1.4,
-				},
-				standing = {
-					[1] = 0,
-					[2] = 1.9,
-				},
-				steelsight = {
-					[1] = 0,
-					[2] = 1.65,
-				},
-				crouching = {
-					[1] = 0,
-					[2] = 1.75,
-				},
-			},
+		m1903_npc = {
+			CLIP_AMMO_MAX = 6,
+			alert_size = 5000,
+			suppression = 1,
+			DAMAGE = 2,
 			use_data = {
 				selection_index = 2,
+			},
+			usage = "springfield",
+			sounds = {
+				prefix = "",
+				single = "springfield_fire_npc_single",
+			},
+			usage_anim = "springfield",
+			muzzleflash = "effects/vanilla/weapons/556_auto",
+			AMMO_MAX = 48,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
+			hold = "springfield",
+			NR_CLIPS_MAX = 8,
+			auto = {
+				fire_rate = 1.2,
 			},
 		},
 		usa_garand_npc = {
@@ -23960,6 +24174,32 @@ tweak_data = {
 			damage_falloff_far = 2000,
 			NR_CLIPS_MAX = 5,
 			usage_anim = "ak47",
+		},
+		sterling_npc = {
+			CLIP_AMMO_MAX = 40,
+			use_data = {
+				selection_index = 2,
+			},
+			alert_size = 5000,
+			suppression = 1,
+			DAMAGE = 2,
+			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
+			usage = "sterling",
+			sounds = {
+				autofire_stop = "sterling_fire_npc_stop",
+				autofire_start = "sterling_fire_npc",
+				prefix = "",
+				single = "sterling_fire_npc_single",
+			},
+			AMMO_MAX = 200,
+			muzzleflash = "effects/vanilla/weapons/9mm_auto",
+			usage_anim = "sterling",
+			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
+			hold = "sterling",
+			NR_CLIPS_MAX = 5,
+			auto = {
+				fire_rate = 0.11,
+			},
 		},
 		garand_golden = {
 			timers = {
@@ -24190,32 +24430,6 @@ tweak_data = {
 				fire_rate = 0.05,
 			},
 		},
-		sterling_npc = {
-			CLIP_AMMO_MAX = 40,
-			use_data = {
-				selection_index = 2,
-			},
-			alert_size = 5000,
-			suppression = 1,
-			DAMAGE = 2,
-			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
-			usage = "sterling",
-			sounds = {
-				autofire_stop = "sterling_fire_npc_stop",
-				autofire_start = "sterling_fire_npc",
-				prefix = "",
-				single = "sterling_fire_npc_single",
-			},
-			AMMO_MAX = 200,
-			muzzleflash = "effects/vanilla/weapons/9mm_auto",
-			usage_anim = "sterling",
-			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
-			hold = "sterling",
-			NR_CLIPS_MAX = 5,
-			auto = {
-				fire_rate = 0.11,
-			},
-		},
 		webley_npc = {
 			CLIP_AMMO_MAX = 5,
 			suppression = 1,
@@ -24256,6 +24470,13 @@ tweak_data = {
 			hold = "pistol",
 			NR_CLIPS_MAX = 5,
 			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
+		},
+		npc_melee = {
+			fists = {
+				animation_param = "melee_fist",
+				player_blood_effect = true,
+				damage = 8,
+			},
 		},
 		stats = {
 			concealment = {
@@ -24506,30 +24727,27 @@ tweak_data = {
 				fire_rate = 0.175,
 			},
 		},
-		m1918_npc = {
-			CLIP_AMMO_MAX = 20,
+		ger_geco_npc = {
+			CLIP_AMMO_MAX = 2,
+			is_shotgun = true,
 			alert_size = 5000,
-			suppression = 1,
-			DAMAGE = 2,
+			suppression = 1.8,
+			DAMAGE = 3,
 			use_data = {
 				selection_index = 2,
 			},
-			usage = "m1918",
+			usage = "ger_geco_npc",
 			sounds = {
-				autofire_stop = "m1918_fire_npc_stop",
-				autofire_start = "m1918_fire_npc",
 				prefix = "",
-				single = "m1918_fire_npc_single",
+				single = "double_barrel_fire_npc_single",
 			},
-			usage_anim = "m1918",
-			muzzleflash = "effects/vanilla/weapons/556_auto",
-			AMMO_MAX = 120,
-			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
-			hold = "m1918",
-			NR_CLIPS_MAX = 6,
-			auto = {
-				fire_rate = 0.16,
-			},
+			AMMO_MAX = 24,
+			muzzleflash = "effects/vanilla/weapons/762_auto",
+			usage_anim = "ger_geco_npc",
+			shell_ejection = "effects/vanilla/weapons/shells/shell_slug_semi",
+			hold = "rifle",
+			NR_CLIPS_MAX = 12,
+			FIRE_MODE = "single",
 		},
 		m1912_npc = {
 			CLIP_AMMO_MAX = 4,
@@ -24694,27 +24912,28 @@ tweak_data = {
 				INIT_RATIO = 0.15,
 			},
 		},
-		ger_geco_npc = {
-			CLIP_AMMO_MAX = 2,
-			is_shotgun = true,
+		ithaca_npc = {
+			CLIP_AMMO_MAX = 4,
 			alert_size = 5000,
-			suppression = 1.8,
-			DAMAGE = 3,
+			suppression = 1,
+			DAMAGE = 6,
 			use_data = {
 				selection_index = 2,
 			},
-			usage = "ger_geco_npc",
+			usage = "m1912",
 			sounds = {
 				prefix = "",
-				single = "double_barrel_fire_npc_single",
+				single = "ithaca_fire_npc_single",
 			},
-			AMMO_MAX = 24,
-			muzzleflash = "effects/vanilla/weapons/762_auto",
-			usage_anim = "ger_geco_npc",
+			usage_anim = "m1912",
+			muzzleflash = "effects/vanilla/weapons/12g_auto_fps",
+			AMMO_MAX = 256,
 			shell_ejection = "effects/vanilla/weapons/shells/shell_slug_semi",
-			hold = "rifle",
-			NR_CLIPS_MAX = 12,
-			FIRE_MODE = "single",
+			hold = "m1912",
+			NR_CLIPS_MAX = 64,
+			auto = {
+				fire_rate = 0.8,
+			},
 		},
 		usa_sten_npc = {
 			CLIP_AMMO_MAX = 30,
@@ -24737,21 +24956,115 @@ tweak_data = {
 				fire_rate = 0.125,
 			},
 		},
-		_all_fps_animation_weights = {
-			[1] = "thompson_t2_spread",
-			[2] = "sten_t3_recoil",
-			[3] = "m1911_t1_mag",
-			[4] = "m1911_t2_spread",
-			[5] = "m1911_t2_mag",
-			[6] = "tt33_t2_mag",
-			[7] = "mg42_t3_mag",
-			[8] = "thompson_t3_spread",
-			[9] = "sten_t2_spread",
-			[10] = "carbine_t2_recoil",
-			[11] = "mp38_t2_recoil",
-			[12] = "m1918_t1_spread",
-			[13] = "dp28_t2_recoil",
-			[14] = "tt33_t1_mag",
+		turret_flak_88 = {
+			ACC_SPIN = 500,
+			SLOWDOWN_ANGLE_PITCH = 5,
+			camera_limit_vertical_mid = 20,
+			dismember_chance = 1,
+			MAX_PITCH_ANGLE = 70,
+			AUTO_RELOAD_DURATION = 5,
+			MAX_VEL_SPIN = 100,
+			VELOCITY_COMPENSATION = {
+				OVERCOMPENSATION = 50,
+				SNAPSHOT_INTERVAL = 0.3,
+			},
+			hud = {
+				reticle = "weapons_reticles_smg_thompson",
+			},
+			HACKABLE_WITH_ECM = false,
+			SHIELD_DMG_MUL = 1,
+			puppet_stance = "sitting",
+			damage = 1400,
+			SPREAD = 0.2,
+			ECM_HACKABLE = false,
+			HEALTH_INIT = 5000,
+			fire_range = 60000,
+			armor_piercing = true,
+			BAG_DMG_MUL = 200,
+			DEATH_VERIFICATION = {
+				[1] = 0.4,
+				[2] = 0.75,
+			},
+			ACC_PITCH = 50,
+			MAX_VEL_PITCH = 10,
+			name = "turret_flak_88",
+			muzzle_effect = "effects/vanilla/explosions/flak_88_fire_explosion",
+			number_of_barrels = 1,
+			MIN_VEL_SPIN = 10,
+			FIRE_DMG_MUL = 1,
+			DETECTION_RANGE = 100000,
+			sound_movement_start = "aa_gun_movement_loop_start",
+			DAMAGE = 25,
+			stats = {
+				concealment = 20,
+				suppression = 10,
+				extra_ammo = 6,
+				value = 1,
+				recoil = 7,
+				spread_moving = 7,
+				spread = 3,
+				alert_size = 7,
+				damage = 10,
+				total_ammo_mod = 21,
+				zoom = 3,
+			},
+			shaker_multiplier = 0.5,
+			anim_exit = "e_so_flak_88_sit_exit",
+			MIN_VEL_PITCH = 0.5,
+			bullet_type = "shell",
+			SLOWDOWN_ANGLE_SPIN = 5,
+			SHIELD_HEALTH_INIT = 1000,
+			camera_limit_vertical = 30,
+			WAIT_FOR_TARGET = 2,
+			sound_movement_stop = "aa_gun_movement_loop_stop",
+			CLIP_SIZE = 1,
+			EXPLOSION_DMG_MUL = 7,
+			usable_by_npc = false,
+			rate_of_fire = 60,
+			sound_fire_start = "flak88_fire",
+			exit_turret_speed = 1,
+			turret_rotation_speed = 30,
+			SUPPRESSION = 1,
+			FIRE_RANGE = 100000,
+			can_shoot_at_AI = false,
+			SHIELD_DAMAGE_CLAMP = 10000,
+			DAMAGE_MUL_RANGE = {
+				[1] = {
+					[1] = 800,
+					[2] = 1,
+				},
+				[2] = {
+					[1] = 1000,
+					[2] = 1,
+				},
+				[3] = {
+					[1] = 1500,
+					[2] = 1,
+				},
+			},
+			AUTO_RELOAD = true,
+			camera_limit_horizontal = 55,
+			damage_radius = 200,
+			puppet_damage_multiplier = 1,
+			MIN_PITCH_ANGLE = -14,
+			use_dof = true,
+			turret_rotation_deadzone = 30,
+			fire_type = "auto",
+			abandon_proximity = 500,
+			dazed_duration = 0.5,
+			headshot_dmg_mul = 4,
+			DETECTION_DELAY = {
+				[1] = {
+					[1] = 900,
+					[2] = 0.3,
+				},
+				[2] = {
+					[1] = 3500,
+					[2] = 1.5,
+				},
+			},
+			anim_enter = "e_so_flak_88_sit_enter",
+			KEEP_FIRE_ANGLE = 0.99,
 		},
 		kar_98k_npc = {
 			CLIP_AMMO_MAX = 6,
@@ -25176,6 +25489,51 @@ tweak_data = {
 			},
 			sound_event = "new_grenade_explode",
 		},
+		m24 = {
+			timers = {
+				unequip = 0.25,
+				equip = 0.3,
+				reload_not_empty = 1.25,
+				reload_empty = 1.65,
+			},
+			name_id = "bm_grenade_frag",
+			gui = {
+				icon_large = "weapon_ass_garand_large",
+			},
+			sounds = {
+				prefix = "",
+				single = "grenade_explode",
+			},
+			hold = "grenade",
+			weapon_hold = "m24",
+			transition_duration = 0,
+			usage_anim = "c45",
+			suppression = 1,
+			damage_melee_effect_mul = 1,
+			auto = {
+				fire_rate = 0.4,
+			},
+			usage = "c45",
+			damage_melee = 66,
+			stance = "m24",
+			exit_run_speed_multiplier = 1,
+			use_data = {
+				equip = {
+					align_place = "right_hand",
+				},
+				unequip = {
+					align_place = "back",
+				},
+				selection_index = 3,
+			},
+			alert_size = 5000,
+			weapon_movement_penalty = 1,
+			hud = {
+				icon = "weapon_panel_gre_m24",
+				panel_class = "grenade",
+			},
+			sound_event = "grenade_explode",
+		},
 		shotty_npc = {
 			CLIP_AMMO_MAX = 2,
 			alert_size = 5000,
@@ -25197,13 +25555,6 @@ tweak_data = {
 			NR_CLIPS_MAX = 32,
 			auto = {
 				fire_rate = 0.8,
-			},
-		},
-		npc_melee = {
-			fists = {
-				animation_param = "melee_fist",
-				player_blood_effect = true,
-				damage = 8,
 			},
 		},
 		thompson_npc = {
@@ -25557,12 +25908,28 @@ tweak_data = {
 				fire_rate = 0.125,
 			},
 		},
-		trip_mines = {
-			damage_size = 300,
-			delay = 0.3,
-			damage = 100,
-			player_damage = 6,
-			alert_radius = 5000,
+		garand_golden_npc = {
+			CLIP_AMMO_MAX = 8,
+			alert_size = 5000,
+			suppression = 1,
+			DAMAGE = 2,
+			use_data = {
+				selection_index = 2,
+			},
+			usage = "garand",
+			sounds = {
+				prefix = "",
+				single = "m1garand_fire_npc",
+			},
+			usage_anim = "garand",
+			muzzleflash = "effects/vanilla/weapons/556_auto",
+			AMMO_MAX = 32,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
+			hold = "garand",
+			NR_CLIPS_MAX = 4,
+			auto = {
+				fire_rate = 0.2,
+			},
 		},
 		carbine = {
 			timers = {
@@ -25758,28 +26125,123 @@ tweak_data = {
 				INIT_RATIO = 0.15,
 			},
 		},
-		ump_npc = {
-			CLIP_AMMO_MAX = 30,
-			sounds = {
-				prefix = "mp5_npc",
+		turret_m2 = {
+			ACC_SPIN = 250,
+			SLOWDOWN_ANGLE_PITCH = 5,
+			dismember_chance = 0.6,
+			MAX_PITCH_ANGLE = 30,
+			FIRE_RANGE = 20000,
+			MAX_VEL_SPIN = 50,
+			VELOCITY_COMPENSATION = {
+				OVERCOMPENSATION = 50,
+				SNAPSHOT_INTERVAL = 0.5,
 			},
-			AMMO_MAX = 150,
-			suppression = 1,
-			DAMAGE = 1,
-			muzzleflash = "effects/vanilla/weapons/9mm_auto",
-			usage = "mp5",
-			use_data = {
-				selection_index = 1,
+			hud = {
+				reticle = "weapons_reticles_smg_thompson",
 			},
-			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
-			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
-			usage_anim = "mp5",
-			alert_size = 5000,
-			hold = "rifle",
-			NR_CLIPS_MAX = 5,
-			auto = {
-				fire_rate = 0.12,
+			HACKABLE_WITH_ECM = false,
+			heat_material_parameter = "intensity",
+			sound_fire_stop_fps = "mg42_fire_1p_stop",
+			SHIELD_DMG_MUL = 1,
+			puppet_stance = "standing",
+			damage = 83,
+			SPREAD = 1,
+			sound_fire_start_fps = "mg42_fire_1p",
+			ECM_HACKABLE = false,
+			HEALTH_INIT = 5000,
+			fire_range = 30000,
+			BAG_DMG_MUL = 200,
+			DEATH_VERIFICATION = {
+				[1] = 0.4,
+				[2] = 0.75,
 			},
+			ACC_PITCH = 50,
+			MAX_VEL_PITCH = 10,
+			announce_shooting_cooldown = {
+				[1] = 5,
+				[2] = 15,
+			},
+			muzzle_effect = "effects/vanilla/weapons/mg_34_3dp",
+			sound_fire_stop = "mg42_fire_npc_stop",
+			MIN_VEL_SPIN = 5,
+			FIRE_DMG_MUL = 1,
+			DETECTION_RANGE = 20000,
+			MAX_TARGETING_PITCH = 30,
+			DAMAGE = 2,
+			stats = {
+				concealment = 20,
+				suppression = 10,
+				extra_ammo = 6,
+				value = 1,
+				recoil = 7,
+				spread_moving = 7,
+				spread = 1,
+				alert_size = 7,
+				damage = 32,
+				total_ammo_mod = 21,
+				zoom = 3,
+			},
+			shaker_multiplier = 1,
+			anim_exit = "e_so_mg34_exit",
+			MIN_VEL_PITCH = 0.5,
+			overheat_time = 10,
+			WAIT_FOR_TARGET = 2,
+			SLOWDOWN_ANGLE_SPIN = 5,
+			SHIELD_HEALTH_INIT = 1000,
+			camera_limit_vertical = 35,
+			usable_by_npc = true,
+			CLIP_SIZE = 1,
+			EXPLOSION_DMG_MUL = 7,
+			heat_material = "blinn2",
+			rate_of_fire = 800,
+			MAX_TARGETING_SPIN = 45,
+			camera_limit_horizontal = 45,
+			sound_fire_start = "mg42_fire_npc",
+			anim_enter = "e_so_mg34_enter",
+			headshot_dmg_mul = 1.5,
+			AUTO_RELOAD_DURATION = 5,
+			AUTO_RELOAD = true,
+			DAMAGE_MUL_RANGE = {
+				[1] = {
+					[1] = 3000,
+					[2] = 1,
+				},
+				[2] = {
+					[1] = 5000,
+					[2] = 0.5,
+				},
+				[3] = {
+					[1] = 7000,
+					[2] = 0.25,
+				},
+				[4] = {
+					[1] = 9000,
+					[2] = 0.1,
+				},
+			},
+			SHIELD_DAMAGE_CLAMP = 10000,
+			puppet_damage_multiplier = 1,
+			number_of_barrels = 1,
+			exit_turret_speed = 1,
+			MIN_PITCH_ANGLE = -30,
+			use_dof = true,
+			SUPPRESSION = 1,
+			fire_type = "auto",
+			abandon_proximity = 3500,
+			dazed_duration = 0.5,
+			can_shoot_at_AI = false,
+			DETECTION_DELAY = {
+				[1] = {
+					[1] = 900,
+					[2] = 0.15,
+				},
+				[2] = {
+					[1] = 3500,
+					[2] = 0.35,
+				},
+			},
+			KEEP_FIRE_ANGLE = 0.99,
+			shell_ejection_effect = "effects/vanilla/weapons/shells/shell_556",
 		},
 		lee_enfield_npc = {
 			CLIP_AMMO_MAX = 6,
@@ -25804,26 +26266,12 @@ tweak_data = {
 				fire_rate = 1.2,
 			},
 		},
-		c45_npc = {
-			CLIP_AMMO_MAX = 10,
-			alert_size = 5000,
-			suppression = 1,
-			DAMAGE = 1,
-			use_data = {
-				selection_index = 1,
-			},
-			usage = "c45",
-			sounds = {
-				prefix = "",
-				single = "mauser_c96_fire_npc",
-			},
-			AMMO_MAX = 50,
-			muzzleflash = "effects/vanilla/weapons/9mm_auto",
-			usage_anim = "c45",
-			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
-			hold = "pistol",
-			NR_CLIPS_MAX = 5,
-			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
+		trip_mines = {
+			damage_size = 300,
+			delay = 0.3,
+			damage = 100,
+			player_damage = 6,
+			alert_radius = 5000,
 		},
 		m1911_npc = {
 			CLIP_AMMO_MAX = 10,
@@ -25846,138 +26294,221 @@ tweak_data = {
 			NR_CLIPS_MAX = 5,
 			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
 		},
-		m4_npc = {
-			CLIP_AMMO_MAX = 20,
-			alert_size = 5000,
-			suppression = 1,
-			DAMAGE = 1,
+		kar_98k = {
+			timers = {
+				shotgun_reload_enter = 0.63333333333333,
+				shotgun_reload_exit_not_empty = 0.83333333333333,
+				equip = 0.5,
+				shotgun_reload_exit_empty = 0.83333333333333,
+				shotgun_reload_shell = 0.86666666666667,
+				shotgun_reload_first_shell_offset = 0.16666666666667,
+				unequip = 0.6,
+				reload_empty = 2.07,
+			},
+			inventory_texture = "ui/temp/customization_temp_df",
+			name_id = "bm_w_kar_98k",
+			category = "snp",
+			AMMO_MAX = 45,
+			can_shoot_through_shield = false,
+			kick = {
+				recenter_speed = 490,
+				crouching = {
+					[1] = 2.1,
+					[2] = 2.4,
+					[3] = -2.1,
+					[4] = 2.1,
+				},
+				recenter_speed_steelsight = 400,
+				standing = {
+					[1] = 2.3,
+					[2] = 2.6,
+					[3] = -2.4,
+					[4] = 2.4,
+				},
+				steelsight = {
+					[1] = 2.05,
+					[2] = 2.3,
+					[3] = -2,
+					[4] = 2.05,
+				},
+				crouching_steelsight = {
+					[1] = 1.95,
+					[2] = 2.2,
+					[3] = -1.95,
+					[4] = 1.95,
+				},
+			},
+			use_shotgun_reload = true,
+			shake = {
+				fire_multiplier = 2,
+				fire_steelsight_multiplier = -1,
+			},
+			CAN_TOGGLE_FIREMODE = false,
+			crosshair = {
+				standing = {
+					offset = 0.16,
+					kick_offset = 0.6,
+					moving_offset = 0.8,
+				},
+				steelsight = {
+					moving_offset = 0,
+					offset = 0,
+					kick_offset = 0.1,
+					hidden = true,
+				},
+				crouching = {
+					offset = 0.08,
+					kick_offset = 0,
+					moving_offset = 0.7,
+				},
+			},
+			damage_melee_effect_mul = 0,
+			dismember_chance = 0.25,
+			AMMO_PICKUP = {
+				[1] = 0.7,
+				[2] = 1,
+			},
+			damage_melee = 100,
+			desc_id = "bm_w_kar_98k_desc",
+			autohit = {
+				near_angle = 2,
+				MIN_RATIO = 0.2,
+				far_dis = 5000,
+				far_angle = 0.2,
+				INIT_RATIO = 0.05,
+				MAX_RATIO = 0.4,
+			},
+			spread = {
+				per_shot_steelsight = 0.1,
+				crouching = 3.1,
+				moving_crouching = 6,
+				per_shot = 0.8,
+				moving_steelsight = 0.16,
+				recovery = 16,
+				recovery_wait_multiplier = 0.9,
+				moving_standing = 8.9,
+				steelsight = 0.1,
+				standing = 4.4,
+			},
+			NR_CLIPS_MAX = 9,
+			damage_profile = {
+				[1] = {
+					range = 1000,
+					damage = 235,
+				},
+			},
+			ammo_pickup_base = 5,
+			sounds = {
+				dryfire = "primary_dryfire",
+				fire_single = "kar98_fire_1p_single",
+			},
+			muzzleflash = "effects/vanilla/weapons/762_auto_fps",
+			stats = {
+				concealment = 10,
+				suppression = 8,
+				extra_ammo = 6,
+				value = 1,
+				spread_moving = 8,
+				spread = 5,
+				alert_size = 7,
+				recoil = 3,
+				total_ammo_mod = 21,
+				zoom = 6,
+			},
+			hud = {
+				icon = "weapons_panel_kar_98k",
+			},
+			auto = {
+				fire_rate = 1.2,
+			},
+			gui = {
+				rotation_offset = -27,
+				height_offset = -6,
+				icon_large = "weapon_kar_98k_large",
+				initial_rotation = {
+					roll = 0,
+					yaw = -90,
+					pitch = 0,
+				},
+				distance_offset = 70,
+				display_offset = -8,
+			},
+			description_id = "des_kar_98k",
+			animations = {
+				recoil_steelsight = true,
+				equip_id = "kar_98k",
+			},
+			can_shoot_through_wall = false,
+			can_shoot_through_enemy = true,
+			armor_piercing_chance = 1,
+			weapon_hold = "kar_98k",
+			aim_assist = {
+				near_angle = 10,
+				MIN_RATIO = 0.2,
+				far_dis = 5000,
+				MAX_RATIO = 0.4,
+				far_angle = 0.2,
+				INIT_RATIO = 0.05,
+			},
+			gun_kick = {
+				hip_fire = {
+					[1] = 40,
+					[2] = 40,
+					[3] = -40,
+					[4] = 40,
+				},
+				steelsight = {
+					[1] = 0,
+					[2] = 0,
+					[3] = 0,
+					[4] = 0,
+				},
+			},
+			CLIP_AMMO_MAX = 5,
+			FIRE_MODE = "single",
+			headshot_multiplier = 3.5,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_sniper",
+			fire_mode_data = {
+				fire_rate = 1.2,
+			},
+			minimum_view_kick = {
+				crouching_steelsight = {
+					[1] = 0,
+					[2] = 1.4,
+				},
+				standing = {
+					[1] = 0,
+					[2] = 1.9,
+				},
+				steelsight = {
+					[1] = 0,
+					[2] = 1.65,
+				},
+				crouching = {
+					[1] = 0,
+					[2] = 1.75,
+				},
+			},
 			use_data = {
 				selection_index = 2,
 			},
-			usage = "m4",
-			sounds = {
-				prefix = "",
-				single = "sniper_enemy_fire",
-			},
-			usage_anim = "m4",
-			muzzleflash = "effects/vanilla/weapons/556_auto",
-			AMMO_MAX = 100,
-			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
-			hold = "rifle",
-			NR_CLIPS_MAX = 5,
-			auto = {
-				fire_rate = 0.175,
-			},
 		},
-		turret_flak_88 = {
-			ACC_SPIN = 500,
-			SLOWDOWN_ANGLE_PITCH = 5,
-			camera_limit_vertical_mid = 20,
-			dismember_chance = 1,
-			MAX_PITCH_ANGLE = 70,
-			AUTO_RELOAD_DURATION = 5,
-			MAX_VEL_SPIN = 100,
-			VELOCITY_COMPENSATION = {
-				OVERCOMPENSATION = 50,
-				SNAPSHOT_INTERVAL = 0.3,
-			},
-			hud = {
-				reticle = "weapons_reticles_smg_thompson",
-			},
-			HACKABLE_WITH_ECM = false,
-			SHIELD_DMG_MUL = 1,
-			puppet_stance = "sitting",
-			damage = 1400,
-			SPREAD = 0.2,
-			ECM_HACKABLE = false,
-			HEALTH_INIT = 5000,
-			fire_range = 60000,
-			armor_piercing = true,
-			BAG_DMG_MUL = 200,
-			DEATH_VERIFICATION = {
-				[1] = 0.4,
-				[2] = 0.75,
-			},
-			ACC_PITCH = 50,
-			MAX_VEL_PITCH = 10,
-			name = "turret_flak_88",
-			muzzle_effect = "effects/vanilla/explosions/flak_88_fire_explosion",
-			number_of_barrels = 1,
-			MIN_VEL_SPIN = 10,
-			FIRE_DMG_MUL = 1,
-			DETECTION_RANGE = 100000,
-			sound_movement_start = "aa_gun_movement_loop_start",
-			DAMAGE = 25,
-			stats = {
-				concealment = 20,
-				suppression = 10,
-				extra_ammo = 6,
-				value = 1,
-				recoil = 7,
-				spread_moving = 7,
-				spread = 3,
-				alert_size = 7,
-				damage = 10,
-				total_ammo_mod = 21,
-				zoom = 3,
-			},
-			shaker_multiplier = 0.5,
-			anim_exit = "e_so_flak_88_sit_exit",
-			MIN_VEL_PITCH = 0.5,
-			bullet_type = "shell",
-			SLOWDOWN_ANGLE_SPIN = 5,
-			SHIELD_HEALTH_INIT = 1000,
-			camera_limit_vertical = 30,
-			WAIT_FOR_TARGET = 2,
-			sound_movement_stop = "aa_gun_movement_loop_stop",
-			CLIP_SIZE = 1,
-			EXPLOSION_DMG_MUL = 7,
-			usable_by_npc = false,
-			rate_of_fire = 60,
-			sound_fire_start = "flak88_fire",
-			exit_turret_speed = 1,
-			turret_rotation_speed = 30,
-			SUPPRESSION = 1,
-			FIRE_RANGE = 100000,
-			can_shoot_at_AI = false,
-			SHIELD_DAMAGE_CLAMP = 10000,
-			DAMAGE_MUL_RANGE = {
-				[1] = {
-					[1] = 800,
-					[2] = 1,
-				},
-				[2] = {
-					[1] = 1000,
-					[2] = 1,
-				},
-				[3] = {
-					[1] = 1500,
-					[2] = 1,
-				},
-			},
-			AUTO_RELOAD = true,
-			camera_limit_horizontal = 55,
-			damage_radius = 200,
-			puppet_damage_multiplier = 1,
-			MIN_PITCH_ANGLE = -14,
-			use_dof = true,
-			turret_rotation_deadzone = 30,
-			fire_type = "auto",
-			abandon_proximity = 500,
-			dazed_duration = 0.5,
-			headshot_dmg_mul = 4,
-			DETECTION_DELAY = {
-				[1] = {
-					[1] = 900,
-					[2] = 0.3,
-				},
-				[2] = {
-					[1] = 3500,
-					[2] = 1.5,
-				},
-			},
-			anim_enter = "e_so_flak_88_sit_enter",
-			KEEP_FIRE_ANGLE = 0.99,
+		_all_fps_animation_weights = {
+			[1] = "thompson_t2_spread",
+			[2] = "sten_t3_recoil",
+			[3] = "m1911_t1_mag",
+			[4] = "m1911_t2_spread",
+			[5] = "m1911_t2_mag",
+			[6] = "tt33_t2_mag",
+			[7] = "mg42_t3_mag",
+			[8] = "ithaca_t4_recoil",
+			[9] = "thompson_t3_spread",
+			[10] = "dp28_t2_recoil",
+			[11] = "carbine_t2_recoil",
+			[12] = "mp38_t2_recoil",
+			[13] = "m1918_t1_spread",
+			[14] = "sten_t2_spread",
+			[15] = "tt33_t1_mag",
 		},
 		thompson = {
 			timers = {
@@ -26177,49 +26708,10 @@ tweak_data = {
 				},
 			},
 		},
-		turret_m2 = {
-			ACC_SPIN = 250,
-			SLOWDOWN_ANGLE_PITCH = 5,
-			dismember_chance = 0.6,
-			MAX_PITCH_ANGLE = 30,
-			FIRE_RANGE = 20000,
-			MAX_VEL_SPIN = 50,
-			VELOCITY_COMPENSATION = {
-				OVERCOMPENSATION = 50,
-				SNAPSHOT_INTERVAL = 0.5,
-			},
-			hud = {
-				reticle = "weapons_reticles_smg_thompson",
-			},
-			HACKABLE_WITH_ECM = false,
-			heat_material_parameter = "intensity",
-			sound_fire_stop_fps = "mg42_fire_1p_stop",
-			SHIELD_DMG_MUL = 1,
-			puppet_stance = "standing",
-			damage = 83,
-			SPREAD = 1,
-			sound_fire_start_fps = "mg42_fire_1p",
-			ECM_HACKABLE = false,
-			HEALTH_INIT = 5000,
-			fire_range = 30000,
-			BAG_DMG_MUL = 200,
-			DEATH_VERIFICATION = {
-				[1] = 0.4,
-				[2] = 0.75,
-			},
-			ACC_PITCH = 50,
-			MAX_VEL_PITCH = 10,
-			announce_shooting_cooldown = {
-				[1] = 5,
-				[2] = 15,
-			},
-			muzzle_effect = "effects/vanilla/weapons/mg_34_3dp",
-			sound_fire_stop = "mg42_fire_npc_stop",
-			MIN_VEL_SPIN = 5,
-			FIRE_DMG_MUL = 1,
-			DETECTION_RANGE = 20000,
-			MAX_TARGETING_PITCH = 30,
-			DAMAGE = 2,
+		turret_flak_20mm = {
+			AUTO_RELOAD = true,
+			MIN_VEL_SPIN = 10,
+			anim_enter = "ntl_enter_flakvierling",
 			stats = {
 				concealment = 20,
 				suppression = 10,
@@ -26227,272 +26719,113 @@ tweak_data = {
 				value = 1,
 				recoil = 7,
 				spread_moving = 7,
-				spread = 1,
+				spread = 7,
 				alert_size = 7,
-				damage = 32,
+				damage = 10,
 				total_ammo_mod = 21,
 				zoom = 3,
 			},
-			shaker_multiplier = 1,
-			anim_exit = "e_so_mg34_exit",
-			MIN_VEL_PITCH = 0.5,
-			overheat_time = 10,
-			WAIT_FOR_TARGET = 2,
-			SLOWDOWN_ANGLE_SPIN = 5,
-			SHIELD_HEALTH_INIT = 1000,
-			camera_limit_vertical = 35,
-			usable_by_npc = true,
-			CLIP_SIZE = 1,
-			EXPLOSION_DMG_MUL = 7,
-			heat_material = "blinn2",
-			rate_of_fire = 800,
-			MAX_TARGETING_SPIN = 45,
-			camera_limit_horizontal = 45,
-			sound_fire_start = "mg42_fire_npc",
-			anim_enter = "e_so_mg34_enter",
-			headshot_dmg_mul = 1.5,
+			SLOWDOWN_ANGLE_PITCH = 5,
+			DETECTION_RANGE = 500000,
+			shaker_multiplier = 0.5,
+			ACC_SPIN = 500,
+			ACC_PITCH = 50,
+			MAX_VEL_SPIN = 100,
+			camera_limit_vertical_mid = 35,
+			MAX_VEL_PITCH = 10,
+			DAMAGE = 5,
+			dismember_chance = 1,
+			MAX_PITCH_ANGLE = 70,
 			AUTO_RELOAD_DURATION = 5,
-			AUTO_RELOAD = true,
-			DAMAGE_MUL_RANGE = {
-				[1] = {
-					[1] = 3000,
-					[2] = 1,
-				},
-				[2] = {
-					[1] = 5000,
-					[2] = 0.5,
-				},
-				[3] = {
-					[1] = 7000,
-					[2] = 0.25,
-				},
-				[4] = {
-					[1] = 9000,
-					[2] = 0.1,
-				},
+			KEEP_FIRE_ANGLE = 0.99,
+			SLOWDOWN_ANGLE_SPIN = 5,
+			VELOCITY_COMPENSATION = {
+				OVERCOMPENSATION = 50,
+				SNAPSHOT_INTERVAL = 0.3,
 			},
-			SHIELD_DAMAGE_CLAMP = 10000,
-			puppet_damage_multiplier = 1,
-			number_of_barrels = 1,
-			exit_turret_speed = 1,
-			MIN_PITCH_ANGLE = -30,
-			use_dof = true,
 			SUPPRESSION = 1,
-			fire_type = "auto",
-			abandon_proximity = 3500,
-			dazed_duration = 0.5,
-			can_shoot_at_AI = false,
+			MIN_VEL_PITCH = 0.5,
+			overheat_time = 7,
+			WAIT_FOR_TARGET = 2,
+			HACKABLE_WITH_ECM = false,
+			SHIELD_HEALTH_INIT = 1000,
 			DETECTION_DELAY = {
 				[1] = {
 					[1] = 900,
-					[2] = 0.15,
+					[2] = 0.3,
 				},
 				[2] = {
 					[1] = 3500,
-					[2] = 0.35,
+					[2] = 1.5,
 				},
 			},
-			KEEP_FIRE_ANGLE = 0.99,
-			shell_ejection_effect = "effects/vanilla/weapons/shells/shell_556",
-		},
-		sten = {
-			timers = {
-				unequip = 0.75,
-				equip = 0.4,
-				reload_not_empty = 2.25,
-				reload_empty = 3.25,
+			camera_limit_vertical = 35,
+			DEATH_VERIFICATION = {
+				[1] = 0.4,
+				[2] = 0.75,
 			},
-			inventory_texture = "ui/temp/customization_temp_df",
-			name_id = "bm_w_sten",
-			category = "smg",
-			AMMO_MAX = 192,
-			gui = {
-				rotation_offset = -15,
-				height_offset = -5,
-				icon_large = "weapon_smg_sten_large",
-				initial_rotation = {
-					roll = 0,
-					yaw = -90,
-					pitch = 0,
-				},
-				distance_offset = 0,
-				display_offset = -1,
-			},
-			kick = {
-				recenter_speed = 500,
-				crouching = {
-					[1] = 1.1,
-					[2] = 1.3,
-					[3] = -1.8,
-					[4] = 1.8,
-				},
-				recenter_speed_steelsight = 500,
-				standing = {
-					[1] = 1.2,
-					[2] = 1.4,
-					[3] = -2,
-					[4] = 2,
-				},
-				steelsight = {
-					[1] = 1,
-					[2] = 1.2,
-					[3] = -1.7,
-					[4] = 1.7,
-				},
-				crouching_steelsight = {
-					[1] = 0.9,
-					[2] = 1.05,
-					[3] = -1.6,
-					[4] = 1.6,
-				},
-			},
-			shake = {
-				fire_multiplier = 1,
-				fire_steelsight_multiplier = -1,
-			},
-			CLIP_AMMO_MAX = 32,
-			crosshair = {
-				standing = {
-					offset = 0.16,
-					kick_offset = 0.6,
-					moving_offset = 0.8,
-				},
-				steelsight = {
-					moving_offset = 0,
-					offset = 0,
-					kick_offset = 0.1,
-					hidden = true,
-				},
-				crouching = {
-					offset = 0.08,
-					kick_offset = 0.4,
-					moving_offset = 0.7,
-				},
-			},
-			damage_melee_effect_mul = 0,
-			dismember_chance = 0.1,
-			AMMO_PICKUP = {
-				[1] = 3.84,
-				[2] = 9.6,
-			},
-			damage_melee = 83,
-			desc_id = "bm_w_sten_desc",
-			autohit = {
-				near_angle = 3,
-				MIN_RATIO = 0.75,
-				far_dis = 4000,
-				far_angle = 1,
-				INIT_RATIO = 0.15,
-				MAX_RATIO = 0.85,
-			},
-			spread = {
-				max = 2,
-				per_shot_steelsight = 0.05,
-				crouching = 3.2,
-				moving_crouching = 4,
-				per_shot = 0.08,
-				moving_steelsight = 2.25,
-				recovery = 8,
-				recovery_wait_multiplier = 2,
-				moving_standing = 5,
-				steelsight = 2,
-				standing = 4,
-			},
-			NR_CLIPS_MAX = 6,
-			damage_profile = {
+			sound_movement_stop = "aa_gun_movement_loop_stop",
+			CLIP_SIZE = 1,
+			EXPLOSION_DMG_MUL = 7,
+			FIRE_RANGE = 500000,
+			rate_of_fire = 800,
+			SHIELD_DMG_MUL = 1,
+			puppet_stance = "sitting",
+			headshot_dmg_mul = 4,
+			damage = 50,
+			SPREAD = 0.2,
+			camera_speed_limit = 0.5,
+			FIRE_DMG_MUL = 1,
+			DAMAGE_MUL_RANGE = {
 				[1] = {
-					range = 1500,
-					damage = 58,
+					[1] = 800,
+					[2] = 1,
 				},
 				[2] = {
-					range = 2500,
-					damage = 35,
+					[1] = 1000,
+					[2] = 1,
+				},
+				[3] = {
+					[1] = 1500,
+					[2] = 1,
 				},
 			},
-			ammo_pickup_base = 19,
+			ECM_HACKABLE = false,
+			HEALTH_INIT = 5000,
+			number_of_barrels = 4,
+			exit_turret_speed = 1,
+			MIN_PITCH_ANGLE = 0,
+			BAG_DMG_MUL = 200,
+			SHIELD_DAMAGE_CLAMP = 10000,
+			fire_type = "auto",
+			camera_limit_horizontal = 360,
+			dazed_duration = 3,
+			fire_range = 1000000,
+			sound_fire_start = "aa_gun",
+			sound_movement_start = "aa_gun_movement_loop_start",
+			sound_fire_stop = "aa_gun_stop",
+		},
+		m4_npc = {
+			CLIP_AMMO_MAX = 20,
+			alert_size = 5000,
+			suppression = 1,
+			DAMAGE = 1,
 			use_data = {
 				selection_index = 2,
 			},
-			muzzleflash = "effects/vanilla/weapons/9mm_auto_fps",
-			auto = {
-				fire_rate = 0.125,
-			},
-			description_id = "des_sten",
-			stats = {
-				concealment = 17,
-				suppression = 10,
-				extra_ammo = 6,
-				value = 1,
-				spread_moving = 9,
-				spread = 6,
-				alert_size = 7,
-				recoil = 5,
-				total_ammo_mod = 21,
-				zoom = 4,
-			},
-			hud = {
-				icon = "weapon_panel_smg_sten",
-			},
-			animations = {
-				magazine_empty = "last_recoil",
-				equip_id = "equip_m4",
-				recoil_steelsight = true,
-			},
-			weapon_hold = "sten",
-			aim_assist = {
-				near_angle = 20,
-				MIN_RATIO = 0.75,
-				far_dis = 4000,
-				MAX_RATIO = 0.85,
-				far_angle = 1,
-				INIT_RATIO = 0.15,
-			},
+			usage = "m4",
 			sounds = {
-				dryfire = "primary_dryfire",
-				stop_fire = "sten_fire_1p_stop",
-				fire_auto = "sten_fire_1p",
-				fire_single = "sten_fire_1p_single",
+				prefix = "",
+				single = "sniper_enemy_fire",
 			},
-			gun_kick = {
-				hip_fire = {
-					[1] = -40,
-					[2] = 40,
-					[3] = -40,
-					[4] = 40,
-				},
-				steelsight = {
-					[1] = -10,
-					[2] = 25,
-					[3] = -15,
-					[4] = 35,
-				},
-				position_ratio = 0.1,
-			},
-			FIRE_MODE = "auto",
-			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence_fps",
-			headshot_multiplier = 3.5,
-			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
-			fire_mode_data = {
-				fire_rate = 0.125,
-			},
-			CAN_TOGGLE_FIREMODE = true,
-			minimum_view_kick = {
-				crouching_steelsight = {
-					[1] = 0,
-					[2] = 0.6,
-				},
-				standing = {
-					[1] = 0,
-					[2] = 0.5,
-				},
-				steelsight = {
-					[1] = 0,
-					[2] = 0.7,
-				},
-				crouching = {
-					[1] = 0,
-					[2] = 0.5,
-				},
+			usage_anim = "m4",
+			muzzleflash = "effects/vanilla/weapons/556_auto",
+			AMMO_MAX = 100,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
+			hold = "rifle",
+			NR_CLIPS_MAX = 5,
+			auto = {
+				fire_rate = 0.175,
 			},
 		},
 		m1903 = {
@@ -26693,211 +27026,90 @@ tweak_data = {
 				selection_index = 2,
 			},
 		},
-		garand_golden_npc = {
-			CLIP_AMMO_MAX = 8,
-			alert_size = 5000,
+		ump_npc = {
+			CLIP_AMMO_MAX = 30,
+			sounds = {
+				prefix = "mp5_npc",
+			},
+			AMMO_MAX = 150,
 			suppression = 1,
-			DAMAGE = 2,
+			DAMAGE = 1,
+			muzzleflash = "effects/vanilla/weapons/9mm_auto",
+			usage = "mp5",
 			use_data = {
-				selection_index = 2,
+				selection_index = 1,
 			},
-			usage = "garand",
-			sounds = {
-				prefix = "",
-				single = "m1garand_fire_npc",
-			},
-			usage_anim = "garand",
-			muzzleflash = "effects/vanilla/weapons/556_auto",
-			AMMO_MAX = 32,
-			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
-			hold = "garand",
-			NR_CLIPS_MAX = 4,
+			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
+			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
+			usage_anim = "mp5",
+			alert_size = 5000,
+			hold = "rifle",
+			NR_CLIPS_MAX = 5,
 			auto = {
-				fire_rate = 0.2,
-			},
-		},
-		bren = {
-			timers = {
-				unequip = 0.9,
-				equip = 0.9,
-				reload_not_empty = 1.8,
-				reload_empty = 2.4,
-			},
-			inventory_texture = "ui/temp/customization_temp_df",
-			name_id = "bm_w_bren",
-			category = "lmg",
-			AMMO_MAX = 120,
-			gui = {
-				rotation_offset = -32,
-				height_offset = -6,
-				icon_large = "weapon_bren_large",
-				initial_rotation = {
-					roll = 0,
-					yaw = -90,
-					pitch = 0,
-				},
-				distance_offset = 80,
-				display_offset = -10,
-			},
-			kick = {
-				recenter_speed_steelsight = 800,
-				crouching = {
-					[1] = 1.25,
-					[2] = 1.1,
-					[3] = 0.8,
-					[4] = 0.8,
-				},
-				crouching_steelsight = {
-					[1] = 1,
-					[2] = 0.86,
-					[3] = 0.55,
-					[4] = 0.65,
-				},
-				recenter_speed = 800,
-				recovery = 9,
-				recovery_wait_multiplier = 2,
-				steelsight = {
-					[1] = 1.05,
-					[2] = 0.9,
-					[3] = 0.65,
-					[4] = 0.7,
-				},
-				standing = {
-					[1] = 1.4,
-					[2] = 1.3,
-					[3] = 0.9,
-					[4] = 1,
-				},
-			},
-			shake = {
-				fire_multiplier = 1,
-				fire_steelsight_multiplier = -1,
-			},
-			CAN_TOGGLE_FIREMODE = true,
-			crosshair = {
-				standing = {
-					offset = 0.16,
-					kick_offset = 0.8,
-					moving_offset = 1,
-				},
-				steelsight = {
-					moving_offset = 0,
-					offset = 0,
-					kick_offset = 0.14,
-					hidden = true,
-				},
-				crouching = {
-					offset = 0.1,
-					kick_offset = 0.4,
-					moving_offset = 0.6,
-				},
-			},
-			damage_melee_effect_mul = 0,
-			dismember_chance = 0.4,
-			AMMO_PICKUP = {
-				[1] = 10,
-				[2] = 1,
-			},
-			damage_melee = 100,
-			desc_id = "bm_w_bren_desc",
-			autohit = {
-				near_angle = 2,
-				MIN_RATIO = 0.2,
-				far_dis = 2000,
-				far_angle = 0.2,
-				INIT_RATIO = 0.05,
-				MAX_RATIO = 0.4,
-			},
-			spread = {
-				per_shot_steelsight = 0.085,
-				crouching = 3.5,
-				moving_crouching = 6,
-				per_shot = 0.33,
-				moving_steelsight = 3.1,
-				recovery = 9,
-				recovery_wait_multiplier = 1,
-				moving_standing = 12,
-				steelsight = 2.3,
-				standing = 6,
-			},
-			NR_CLIPS_MAX = 6,
-			damage_profile = {
-				[1] = {
-					range = 3500,
-					damage = 160,
-				},
-				[2] = {
-					range = 5500,
-					damage = 100,
-				},
-			},
-			ammo_pickup_base = 20,
-			use_data = {
-				selection_index = 2,
-			},
-			muzzleflash = "effects/vanilla/weapons/762_auto_fps",
-			weapon_hold = "bren",
-			description_id = "des_bren",
-			stats = {
-				concealment = 2,
-				suppression = 6,
-				extra_ammo = 6,
-				value = 9,
-				spread_moving = 9,
-				spread = 6,
-				alert_size = 8,
-				recoil = 5,
-				total_ammo_mod = 21,
-				zoom = 2,
-			},
-			hud = {
-				icon = "weapons_panel_bren",
-			},
-			animations = {
-				recoil_steelsight = true,
-				equip_id = "equip_bren",
-			},
-			CLIP_AMMO_MAX = 20,
-			gun_kick = {
-				hip_fire = {
-					[1] = -46,
-					[2] = 40,
-					[3] = -43,
-					[4] = 42,
-				},
-				steelsight = {
-					[1] = 4,
-					[2] = 11,
-					[3] = 3,
-					[4] = 11,
-				},
-				position_ratio = -0.025,
-			},
-			sounds = {
-				dryfire = "primary_dryfire",
-				stop_fire = "bren_fire_1p_stop",
-				fire_auto = "bren_fire_1p",
-				fire_single = "bren_fire_1p_single",
-			},
-			FIRE_MODE = "auto",
-			headshot_multiplier = 2,
-			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
-			fire_mode_data = {
 				fire_rate = 0.12,
 			},
-			auto = {
-				fire_rate = 0.1,
+		},
+		mp5_npc = {
+			CLIP_AMMO_MAX = 30,
+			use_data = {
+				selection_index = 1,
 			},
-			aim_assist = {
-				near_angle = 8,
-				MIN_RATIO = 0.2,
-				far_dis = 2000,
-				MAX_RATIO = 0.4,
-				far_angle = 0.2,
-				INIT_RATIO = 0.05,
+			alert_size = 5000,
+			suppression = 1,
+			DAMAGE = 1,
+			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
+			usage = "mp5",
+			sounds = {
+				prefix = "mp5_npc",
+			},
+			AMMO_MAX = 150,
+			muzzleflash = "effects/vanilla/weapons/9mm_auto",
+			usage_anim = "mp5",
+			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
+			hold = "rifle",
+			NR_CLIPS_MAX = 5,
+			auto = {
+				fire_rate = 0.12,
 			},
 		},
 		factory = {
+			wpn_fps_sho_ithaca = {
+				default_blueprint = {
+					[1] = "wpn_fps_sho_ithaca_m_standard",
+					[2] = "wpn_fps_sho_ithaca_b_standard",
+					[3] = "wpn_fps_sho_ithaca_body_standard",
+					[4] = "wpn_fps_sho_ithaca_lifter",
+					[5] = "wpn_fps_sho_ithaca_trigger",
+					[6] = "wpn_fps_sho_ithaca_sl_standard",
+					[7] = "wpn_fps_sho_ithaca_s_standard",
+				},
+				unit = "units/upd_017/weapons/wpn_fps_sho_ithaca/wpn_fps_sho_ithaca",
+				optional_types = {
+					[1] = "barrel_ext",
+					[2] = "gadget",
+					[3] = "barrel",
+					[4] = "lower_receiver",
+				},
+				uses_parts = {
+					[1] = "wpn_fps_sho_ithaca_m_standard",
+					[2] = "wpn_fps_sho_ithaca_b_standard",
+					[3] = "wpn_fps_sho_ithaca_body_standard",
+					[4] = "wpn_fps_sho_ithaca_lifter",
+					[5] = "wpn_fps_sho_ithaca_trigger",
+					[6] = "wpn_fps_sho_ithaca_sl_standard",
+					[7] = "wpn_fps_sho_ithaca_s_standard",
+					[8] = "wpn_fps_sho_ithaca_b_reinforced",
+					[9] = "wpn_fps_sho_ithaca_b_heat_shield",
+					[10] = "wpn_fps_sho_ithaca_ns_brake",
+					[11] = "wpn_fps_sho_ithaca_s_cheek_rest",
+					[12] = "wpn_fps_sho_ithaca_s_pistol_grip",
+				},
+				animations = {
+					fire_steelsight = "recoil",
+					reload_exit = "reload_exit",
+					fire = "recoil",
+				},
+			},
 			wpn_fps_pis_m1911 = {
 				default_blueprint = {
 					[1] = "wpn_fps_pis_m1911_body_standard",
@@ -27401,6 +27613,43 @@ tweak_data = {
 					fire = "recoil",
 				},
 			},
+			wpn_fps_pis_tt33 = {
+				default_blueprint = {
+					[1] = "wpn_fps_pis_tt33_body_standard",
+					[2] = "wpn_fps_pis_tt33_b_standard",
+					[3] = "wpn_fps_pis_tt33_sl_standard",
+					[4] = "wpn_fps_pis_tt33_m_standard",
+					[5] = "wpn_fps_pis_tt33_hammer",
+					[6] = "wpn_fps_pis_tt33_trigger",
+					[7] = "wpn_fps_pis_tt33_release",
+					[8] = "wpn_fps_pis_tt33_g_standard",
+				},
+				unit = "units/upd_001/weapons/wpn_fps_pis_tt33/wpn_fps_pis_tt33",
+				optional_types = {
+					[1] = "barrel_ext",
+					[2] = "gadget",
+				},
+				uses_parts = {
+					[1] = "wpn_fps_pis_tt33_body_standard",
+					[2] = "wpn_fps_pis_tt33_b_standard",
+					[3] = "wpn_fps_pis_tt33_sl_standard",
+					[4] = "wpn_fps_pis_tt33_m_standard",
+					[5] = "wpn_fps_pis_tt33_hammer",
+					[6] = "wpn_fps_pis_tt33_trigger",
+					[7] = "wpn_fps_pis_tt33_release",
+					[8] = "wpn_fps_pis_tt33_g_standard",
+					[9] = "wpn_fps_pis_tt33_m_extended",
+					[10] = "wpn_fps_pis_tt33_m_long",
+					[11] = "wpn_fps_pis_tt33_ns_brake",
+					[12] = "wpn_fps_pis_tt33_g_wooden",
+				},
+				animations = {
+					reload_not_empty = "reload_not_empty",
+					fire_steelsight = "recoil",
+					reload = "reload",
+					fire = "recoil",
+				},
+			},
 			wpn_fps_sho_geco = {
 				default_blueprint = {
 					[1] = "wpn_fps_sho_geco_b_standard",
@@ -27544,41 +27793,45 @@ tweak_data = {
 					fire = "recoil",
 				},
 			},
-			wpn_fps_pis_tt33 = {
-				default_blueprint = {
-					[1] = "wpn_fps_pis_tt33_body_standard",
-					[2] = "wpn_fps_pis_tt33_b_standard",
-					[3] = "wpn_fps_pis_tt33_sl_standard",
-					[4] = "wpn_fps_pis_tt33_m_standard",
-					[5] = "wpn_fps_pis_tt33_hammer",
-					[6] = "wpn_fps_pis_tt33_trigger",
-					[7] = "wpn_fps_pis_tt33_release",
-					[8] = "wpn_fps_pis_tt33_g_standard",
+			wpn_fps_snp_lee_enfield_npc = {
+				uses_parts = {
+					[1] = "wpn_fps_snp_lee_enfield_dh_standard",
+					[2] = "wpn_fps_snp_lee_enfield_b_standard",
+					[3] = "wpn_fps_snp_lee_enfield_body_standard",
+					[4] = "wpn_fps_snp_lee_enfield_firepin",
+					[5] = "wpn_fps_snp_lee_enfield_s_standard",
+					[6] = "wpn_fps_snp_lee_enfield_m_standard",
+					[7] = "wpn_fps_snp_lee_enfield_bullet",
+					[8] = "wpn_fps_snp_lee_enfield_b_long",
+					[9] = "wpn_fps_snp_lee_enfield_ns_coned",
+					[10] = "wpn_fps_snp_lee_enfield_pad_buffered",
+					[11] = "wpn_fps_snp_lee_enfield_cheek_rest",
+					[12] = "wpn_fps_snp_lee_enfield_m_extended",
+					[13] = "wpn_fps_snp_lee_enfield_o_scope",
 				},
-				unit = "units/upd_001/weapons/wpn_fps_pis_tt33/wpn_fps_pis_tt33",
+				unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield/wpn_fps_snp_lee_enfield_npc",
 				optional_types = {
 					[1] = "barrel_ext",
 					[2] = "gadget",
+					[3] = "barrel",
+					[4] = "lower_receiver",
 				},
-				uses_parts = {
-					[1] = "wpn_fps_pis_tt33_body_standard",
-					[2] = "wpn_fps_pis_tt33_b_standard",
-					[3] = "wpn_fps_pis_tt33_sl_standard",
-					[4] = "wpn_fps_pis_tt33_m_standard",
-					[5] = "wpn_fps_pis_tt33_hammer",
-					[6] = "wpn_fps_pis_tt33_trigger",
-					[7] = "wpn_fps_pis_tt33_release",
-					[8] = "wpn_fps_pis_tt33_g_standard",
-					[9] = "wpn_fps_pis_tt33_m_extended",
-					[10] = "wpn_fps_pis_tt33_m_long",
-					[11] = "wpn_fps_pis_tt33_ns_brake",
-					[12] = "wpn_fps_pis_tt33_g_wooden",
+				default_blueprint = {
+					[1] = "wpn_fps_snp_lee_enfield_dh_standard",
+					[2] = "wpn_fps_snp_lee_enfield_b_standard",
+					[3] = "wpn_fps_snp_lee_enfield_body_standard",
+					[4] = "wpn_fps_snp_lee_enfield_firepin",
+					[5] = "wpn_fps_snp_lee_enfield_s_standard",
+					[6] = "wpn_fps_snp_lee_enfield_m_standard",
+					[7] = "wpn_fps_snp_lee_enfield_bullet",
 				},
 				animations = {
+					reload_enter = "reload_enter",
 					reload_not_empty = "reload_not_empty",
+					reload_not_empty_exit = "reload_exit",
 					fire_steelsight = "recoil",
-					reload = "reload",
 					fire = "recoil",
+					reload = "reload",
 				},
 			},
 			wpn_fps_smg_sten = {
@@ -27730,47 +27983,6 @@ tweak_data = {
 					reload = "reload",
 				},
 			},
-			wpn_fps_snp_lee_enfield_npc = {
-				uses_parts = {
-					[1] = "wpn_fps_snp_lee_enfield_dh_standard",
-					[2] = "wpn_fps_snp_lee_enfield_b_standard",
-					[3] = "wpn_fps_snp_lee_enfield_body_standard",
-					[4] = "wpn_fps_snp_lee_enfield_firepin",
-					[5] = "wpn_fps_snp_lee_enfield_s_standard",
-					[6] = "wpn_fps_snp_lee_enfield_m_standard",
-					[7] = "wpn_fps_snp_lee_enfield_bullet",
-					[8] = "wpn_fps_snp_lee_enfield_b_long",
-					[9] = "wpn_fps_snp_lee_enfield_ns_coned",
-					[10] = "wpn_fps_snp_lee_enfield_pad_buffered",
-					[11] = "wpn_fps_snp_lee_enfield_cheek_rest",
-					[12] = "wpn_fps_snp_lee_enfield_m_extended",
-					[13] = "wpn_fps_snp_lee_enfield_o_scope",
-				},
-				unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield/wpn_fps_snp_lee_enfield_npc",
-				optional_types = {
-					[1] = "barrel_ext",
-					[2] = "gadget",
-					[3] = "barrel",
-					[4] = "lower_receiver",
-				},
-				default_blueprint = {
-					[1] = "wpn_fps_snp_lee_enfield_dh_standard",
-					[2] = "wpn_fps_snp_lee_enfield_b_standard",
-					[3] = "wpn_fps_snp_lee_enfield_body_standard",
-					[4] = "wpn_fps_snp_lee_enfield_firepin",
-					[5] = "wpn_fps_snp_lee_enfield_s_standard",
-					[6] = "wpn_fps_snp_lee_enfield_m_standard",
-					[7] = "wpn_fps_snp_lee_enfield_bullet",
-				},
-				animations = {
-					reload_enter = "reload_enter",
-					reload_not_empty = "reload_not_empty",
-					reload_not_empty_exit = "reload_exit",
-					fire_steelsight = "recoil",
-					fire = "recoil",
-					reload = "reload",
-				},
-			},
 			wpn_fps_snp_lee_enfield = {
 				default_blueprint = {
 					[1] = "wpn_fps_snp_lee_enfield_dh_standard",
@@ -27812,6 +28024,37 @@ tweak_data = {
 					reload = "reload",
 				},
 			},
+			wpn_fps_lmg_bren_npc = {
+				uses_parts = {
+					[1] = "wpn_fps_lmg_bren_b_standard",
+					[2] = "wpn_fps_lmg_bren_body_standard",
+					[3] = "wpn_fps_lmg_bren_dh_standard",
+					[4] = "wpn_fps_lmg_bren_m_standard",
+					[5] = "wpn_fps_lmg_bren_s_standard",
+					[6] = "wpn_fps_lmg_bren_pad_standard",
+					[7] = "wpn_fps_lmg_bren_b_long",
+					[8] = "wpn_fps_lmg_bren_ns_brake",
+					[9] = "wpn_fps_lmg_bren_bipod",
+					[10] = "wpn_fps_lmg_bren_support",
+					[11] = "wpn_fps_lmg_bren_m_extended",
+					[12] = "wpn_fps_lmg_bren_pad_buffered",
+				},
+				default_blueprint = {
+					[1] = "wpn_fps_lmg_bren_b_standard",
+					[2] = "wpn_fps_lmg_bren_body_standard",
+					[3] = "wpn_fps_lmg_bren_dh_standard",
+					[4] = "wpn_fps_lmg_bren_m_standard",
+					[5] = "wpn_fps_lmg_bren_s_standard",
+					[6] = "wpn_fps_lmg_bren_pad_standard",
+				},
+				unit = "units/upd_005/weapons/wpn_fps_lmg_bren/wpn_fps_lmg_bren_npc",
+				animations = {
+					fire = "recoil",
+					fire_steelsight = "recoil",
+					reload_not_empty = "reload_not_empty",
+					reload = "reload",
+				},
+			},
 			wpn_fps_ass_carbine_npc = {
 				uses_parts = {
 					[1] = "wpn_fps_ass_carbine_b_standard",
@@ -27847,30 +28090,37 @@ tweak_data = {
 					reload = "reload",
 				},
 			},
-			wpn_fps_lmg_bren_npc = {
+			wpn_fps_lmg_dp28_npc = {
 				uses_parts = {
-					[1] = "wpn_fps_lmg_bren_b_standard",
-					[2] = "wpn_fps_lmg_bren_body_standard",
-					[3] = "wpn_fps_lmg_bren_dh_standard",
-					[4] = "wpn_fps_lmg_bren_m_standard",
-					[5] = "wpn_fps_lmg_bren_s_standard",
-					[6] = "wpn_fps_lmg_bren_pad_standard",
-					[7] = "wpn_fps_lmg_bren_b_long",
-					[8] = "wpn_fps_lmg_bren_ns_brake",
-					[9] = "wpn_fps_lmg_bren_bipod",
-					[10] = "wpn_fps_lmg_bren_support",
-					[11] = "wpn_fps_lmg_bren_m_extended",
-					[12] = "wpn_fps_lmg_bren_pad_buffered",
+					[1] = "wpn_fps_lmg_dp28_b_standard",
+					[2] = "wpn_fps_lmg_dp28_body_standard",
+					[3] = "wpn_fps_lmg_dp28_dh_standard",
+					[4] = "wpn_fps_lmg_dp28_m_strap",
+					[5] = "wpn_fps_lmg_dp28_m_casing",
+					[6] = "wpn_fps_lmg_dp28_m_standard",
+					[7] = "wpn_fps_lmg_dp28_o_standard",
+					[8] = "wpn_fps_lmg_dp28_s_standard",
+					[9] = "wpn_fps_lmg_dp28_trigger",
+					[10] = "wpn_fps_lmg_dp28_b_coned",
+					[11] = "wpn_fps_lmg_dp28_bipod",
+					[12] = "wpn_fps_lmg_dp28_g_standard",
+					[13] = "wpn_fps_lmg_dp28_m_casing_ext",
+					[14] = "wpn_fps_lmg_dp28_m_extended",
+					[15] = "wpn_fps_lmg_dp28_o_extended",
+					[16] = "wpn_fps_lmg_dp28_s_light",
 				},
 				default_blueprint = {
-					[1] = "wpn_fps_lmg_bren_b_standard",
-					[2] = "wpn_fps_lmg_bren_body_standard",
-					[3] = "wpn_fps_lmg_bren_dh_standard",
-					[4] = "wpn_fps_lmg_bren_m_standard",
-					[5] = "wpn_fps_lmg_bren_s_standard",
-					[6] = "wpn_fps_lmg_bren_pad_standard",
+					[1] = "wpn_fps_lmg_dp28_b_standard",
+					[2] = "wpn_fps_lmg_dp28_body_standard",
+					[3] = "wpn_fps_lmg_dp28_dh_standard",
+					[4] = "wpn_fps_lmg_dp28_m_strap",
+					[5] = "wpn_fps_lmg_dp28_m_casing",
+					[6] = "wpn_fps_lmg_dp28_m_standard",
+					[7] = "wpn_fps_lmg_dp28_o_standard",
+					[8] = "wpn_fps_lmg_dp28_s_standard",
+					[9] = "wpn_fps_lmg_dp28_trigger",
 				},
-				unit = "units/upd_005/weapons/wpn_fps_lmg_bren/wpn_fps_lmg_bren_npc",
+				unit = "units/upd_001/weapons/wpn_fps_lmg_dp28/wpn_fps_lmg_dp28_npc",
 				animations = {
 					fire = "recoil",
 					fire_steelsight = "recoil",
@@ -28034,42 +28284,41 @@ tweak_data = {
 					reload = "reload",
 				},
 			},
-			wpn_fps_lmg_dp28_npc = {
+			wpn_fps_sho_ithaca_npc = {
 				uses_parts = {
-					[1] = "wpn_fps_lmg_dp28_b_standard",
-					[2] = "wpn_fps_lmg_dp28_body_standard",
-					[3] = "wpn_fps_lmg_dp28_dh_standard",
-					[4] = "wpn_fps_lmg_dp28_m_strap",
-					[5] = "wpn_fps_lmg_dp28_m_casing",
-					[6] = "wpn_fps_lmg_dp28_m_standard",
-					[7] = "wpn_fps_lmg_dp28_o_standard",
-					[8] = "wpn_fps_lmg_dp28_s_standard",
-					[9] = "wpn_fps_lmg_dp28_trigger",
-					[10] = "wpn_fps_lmg_dp28_b_coned",
-					[11] = "wpn_fps_lmg_dp28_bipod",
-					[12] = "wpn_fps_lmg_dp28_g_standard",
-					[13] = "wpn_fps_lmg_dp28_m_casing_ext",
-					[14] = "wpn_fps_lmg_dp28_m_extended",
-					[15] = "wpn_fps_lmg_dp28_o_extended",
-					[16] = "wpn_fps_lmg_dp28_s_light",
+					[1] = "wpn_fps_sho_ithaca_m_standard",
+					[2] = "wpn_fps_sho_ithaca_b_standard",
+					[3] = "wpn_fps_sho_ithaca_body_standard",
+					[4] = "wpn_fps_sho_ithaca_lifter",
+					[5] = "wpn_fps_sho_ithaca_trigger",
+					[6] = "wpn_fps_sho_ithaca_sl_standard",
+					[7] = "wpn_fps_sho_ithaca_s_standard",
+					[8] = "wpn_fps_sho_ithaca_b_reinforced",
+					[9] = "wpn_fps_sho_ithaca_b_heat_shield",
+					[10] = "wpn_fps_sho_ithaca_ns_brake",
+					[11] = "wpn_fps_sho_ithaca_s_cheek_rest",
+					[12] = "wpn_fps_sho_ithaca_s_pistol_grip",
+				},
+				unit = "units/upd_017/weapons/wpn_fps_sho_ithaca/wpn_fps_sho_ithaca_npc",
+				optional_types = {
+					[1] = "barrel_ext",
+					[2] = "gadget",
+					[3] = "barrel",
+					[4] = "lower_receiver",
 				},
 				default_blueprint = {
-					[1] = "wpn_fps_lmg_dp28_b_standard",
-					[2] = "wpn_fps_lmg_dp28_body_standard",
-					[3] = "wpn_fps_lmg_dp28_dh_standard",
-					[4] = "wpn_fps_lmg_dp28_m_strap",
-					[5] = "wpn_fps_lmg_dp28_m_casing",
-					[6] = "wpn_fps_lmg_dp28_m_standard",
-					[7] = "wpn_fps_lmg_dp28_o_standard",
-					[8] = "wpn_fps_lmg_dp28_s_standard",
-					[9] = "wpn_fps_lmg_dp28_trigger",
+					[1] = "wpn_fps_sho_ithaca_m_standard",
+					[2] = "wpn_fps_sho_ithaca_b_standard",
+					[3] = "wpn_fps_sho_ithaca_body_standard",
+					[4] = "wpn_fps_sho_ithaca_lifter",
+					[5] = "wpn_fps_sho_ithaca_trigger",
+					[6] = "wpn_fps_sho_ithaca_sl_standard",
+					[7] = "wpn_fps_sho_ithaca_s_standard",
 				},
-				unit = "units/upd_001/weapons/wpn_fps_lmg_dp28/wpn_fps_lmg_dp28_npc",
 				animations = {
-					fire = "recoil",
 					fire_steelsight = "recoil",
-					reload_not_empty = "reload_not_empty",
-					reload = "reload",
+					reload_exit = "reload_exit",
+					fire = "recoil",
 				},
 			},
 			wpn_fps_lmg_dp28 = {
@@ -28111,6 +28360,16 @@ tweak_data = {
 				},
 			},
 			parts = {
+				wpn_fps_sho_ithaca_body_standard = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_body_standard",
+					name_id = "bm_wp_sho_ithaca_body_standard",
+					a_obj = "a_body",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_body_standard",
+					type = "lower_receiver",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_smg_thompson_fg_m1928 = {
 					forbids = {
 						[1] = "wpn_fps_smg_thompson_extra_sling",
@@ -28169,14 +28428,29 @@ tweak_data = {
 					},
 					type = "extra",
 				},
-				wpn_fps_sho_geco_trigger_1 = {
-					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_trigger_1",
-					name_id = "bm_wp_sho_geco_trigger_1",
-					a_obj = "a_trigger_1",
-					type = "trigger_1",
-					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_trigger_1",
+				wpn_fps_snp_m1903_m_extended = {
+					unit = "units/vanilla/weapons/wpn_fps_snp_m1903_pts/wpn_fps_snp_m1903_m_extended",
+					name_id = "bm_wp_snp_m1903_m_standard",
+					parent = "body",
 					stats = {
 						value = 1,
+					},
+					third_unit = "units/vanilla/weapons/wpn_third_snp_m1903_pts/wpn_third_snp_m1903_m_extended",
+					forbids = {
+						[1] = "wpn_fps_snp_m1903_m_standard",
+					},
+					a_obj = "a_m",
+					bullet_objects = {
+						amount = 10,
+						prefix = "g_bullet_",
+					},
+					type = "magazine_ext",
+					animations = {
+						reload_enter = "reload_enter",
+						reload_exit = "reload_exit",
+						reload_not_empty_exit = "reload_exit",
+						fire_steelsight = "recoil",
+						fire = "recoil",
 					},
 				},
 				wpn_fps_smg_thompson_m_drum = {
@@ -28406,14 +28680,18 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_sho_geco_b_short = {
-					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_b_short",
-					name_id = "bm_wp_sho_geco_b_short",
-					a_obj = "a_b",
-					type = "barrel",
-					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_b_short",
+				wpn_fps_sho_ithaca_sl_standard = {
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_sl_standard",
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_sl_standard",
+					name_id = "bm_wp_sho_ithaca_sl_standard",
+					a_obj = "a_sl",
 					stats = {
 						value = 1,
+					},
+					type = "foregrip",
+					animations = {
+						fire = "recoil",
+						fire_steelsight = "recoil",
 					},
 				},
 				wpn_fps_sho_m1912_b_heat_shield = {
@@ -28539,6 +28817,16 @@ tweak_data = {
 					a_obj = "a_hammer",
 					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_hammer_standard",
 					type = "hammer",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_sho_ithaca_s_standard = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_s_standard",
+					name_id = "bm_wp_sho_ithaca_s_standard",
+					a_obj = "a_s",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_s_standard",
+					type = "stock",
 					stats = {
 						value = 1,
 					},
@@ -28808,12 +29096,6 @@ tweak_data = {
 					},
 				},
 				wpn_fps_ass_mp44_body_standard = {
-					stance_mod = {
-						wpn_fps_ass_mp44 = {
-							translation = Vector3(-0.105, 6, 2.3),
-							rotation = Rotation(0, -0.65, 0),
-						},
-					},
 					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_body_standard",
 					name_id = "bm_wp_ass_mp44_body_standard",
 					a_obj = "a_body",
@@ -29149,12 +29431,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_mg42_receiver = {
-					unit = "units/vanilla/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_receiver",
-					name_id = "bm_wp_mg42_receiver",
-					a_obj = "a_body",
-					third_unit = "units/vanilla/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_receiver",
-					type = "lower_receiver",
+				wpn_fps_sho_ithaca_b_heat_shield = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_b_heat_shield",
+					name_id = "bm_wp_sho_ithaca_b_heat_shield",
+					a_obj = "a_b",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_b_heat_shield",
+					type = "barrel",
 					stats = {
 						value = 1,
 					},
@@ -29255,23 +29537,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_kar_98k_bullet = {
-					animations = {
-						reload_enter = "reload_enter",
-						reload_exit = "reload_exit",
-						reload_not_empty_exit = "reload_exit",
-						fire_steelsight = "recoil",
-						fire = "recoil",
-					},
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_bullet",
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_bullet",
-					name_id = "bm_wp_snp_kar_98k_bullet",
-					type = "magazine",
-					bullet_objects = {
-						amount = 5,
-						prefix = "g_bullet_",
-					},
-					a_obj = "a_bullets",
+				wpn_fps_pis_webley_casing_3 = {
+					third_unit = "units/vanilla/weapons/wpn_third_pis_webley_pts/wpn_third_pis_webley_casing_3",
+					name_id = "bm_wp_webley_casing_3",
+					a_obj = "a_casing_3",
+					type = "extra_3",
+					unit = "units/vanilla/weapons/wpn_fps_pis_webley_pts/wpn_fps_pis_webley_casing_3",
 					stats = {
 						value = 1,
 					},
@@ -29377,12 +29648,52 @@ tweak_data = {
 						value = 1,
 					},
 				},
+				wpn_fps_sho_m1912_s_cheek_rest = {
+					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_s_cheek_rest",
+					name_id = "bm_wp_sho_m1912_s_cheek_rest",
+					a_obj = "a_s",
+					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_s_cheek_rest",
+					type = "stock",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_pis_m1911_sl_standard = {
 					third_unit = "units/vanilla/weapons/wpn_third_pis_m1911_pts/wpn_third_pis_m1911_sl_standard",
 					name_id = "bm_wp_pis_m1911_sl_standard",
 					a_obj = "a_sl",
 					type = "custom",
 					unit = "units/vanilla/weapons/wpn_fps_pis_m1911_pts/wpn_fps_pis_m1911_sl_standard",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_sho_ithaca_s_cheek_rest = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_s_cheek_rest",
+					name_id = "bm_wp_sho_ithaca_s_cheek_rest",
+					a_obj = "a_s",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_s_cheek_rest",
+					type = "stock",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_shotty_lock = {
+					third_unit = "units/upd_015/weapons/wpn_third_pis_shotty_pts/wpn_third_pis_shotty_lock",
+					name_id = "bm_wp_pis_shotty_lock",
+					a_obj = "a_lock",
+					type = "lock",
+					unit = "units/upd_015/weapons/wpn_fps_pis_shotty_pts/wpn_fps_pis_shotty_lock",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_shotty_body_standard = {
+					third_unit = "units/upd_015/weapons/wpn_third_pis_shotty_pts/wpn_third_pis_shotty_body_standard",
+					name_id = "bm_wp_pis_shotty_body_standard",
+					a_obj = "a_body",
+					type = "lower_receiver",
+					unit = "units/upd_015/weapons/wpn_fps_pis_shotty_pts/wpn_fps_pis_shotty_body_standard",
 					stats = {
 						value = 1,
 					},
@@ -29397,6 +29708,16 @@ tweak_data = {
 						prefix = "g_bullet_",
 					},
 					type = "magazine",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_lmg_dp28_g_standard = {
+					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_g_standard",
+					name_id = "bm_wp_lmg_dp28_g_standard",
+					a_obj = "a_body",
+					type = "grip",
+					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_g_standard",
 					stats = {
 						value = 1,
 					},
@@ -29432,175 +29753,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_garand_golden_b_tanker = {
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_b_tanker",
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_b_tanker",
-					name_id = "bm_wp_ass_garand_golden_b_tanker",
-					a_obj = "a_b",
-					forbids = {
-						[1] = "wpn_fps_ass_garand_golden_extra_swiwel",
-					},
-					type = "barrel",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_ass_mp44_m_standard_double = {
-					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_m_standard_double",
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_short",
-					name_id = "bm_wp_ass_mp44_m_standard_double",
-					a_obj = "a_m",
-					bullet_objects = {
-						amount = 5,
-						prefix = "g_bullet_",
-					},
-					type = "magazine",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_snp_kar_98k_m_long = {
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_m_long",
-					name_id = "bm_wp_snp_kar_98k_m_long",
-					a_obj = "a_m",
-					type = "magazine",
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_m_long",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_c96_bolt_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_bolt_standard",
-					name_id = "bm_wp_c96_bolt_standard",
-					a_obj = "a_bolt",
-					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_bolt_standard",
-					type = "bolt",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_c96_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_b_standard",
-					name_id = "bm_wp_c96_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_b_standard",
-					type = "slide",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_m1911_m_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_pis_m1911_pts/wpn_fps_pis_m1911_m_standard",
-					third_unit = "units/vanilla/weapons/wpn_third_pis_m1911_pts/wpn_third_pis_m1911_m_standard",
-					name_id = "bm_wp_pis_m1911_m_standard",
-					type = "magazine",
-					bullet_objects = {
-						amount = 8,
-						prefix = "g_bullet_",
-					},
-					a_obj = "a_m",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_ass_garand_golden_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_b_standard",
-					name_id = "bm_wp_ass_garand_golden_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_b_standard",
-					type = "barrel",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_c96_bullets_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_bullets_standard",
-					name_id = "bm_wp_c96_bullets_standard",
-					a_obj = "a_bullets",
-					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_bullets_standard",
-					type = "bullets",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_sho_geco_s_standard = {
-					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_s_standard",
-					name_id = "bm_wp_sho_geco_s_standard",
-					a_obj = "a_s",
-					type = "stock",
-					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_s_standard",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_snp_kar_98k_dh_standard = {
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_dh_standard",
-					name_id = "bm_wp_snp_kar_98k_dh_standard",
-					a_obj = "a_dh",
-					type = "drag_handle",
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_dh_standard",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_shotty_lock = {
-					third_unit = "units/upd_015/weapons/wpn_third_pis_shotty_pts/wpn_third_pis_shotty_lock",
-					name_id = "bm_wp_pis_shotty_lock",
-					a_obj = "a_lock",
-					type = "lock",
-					unit = "units/upd_015/weapons/wpn_fps_pis_shotty_pts/wpn_fps_pis_shotty_lock",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_webley_bullets = {
-					stats = {
-						value = 1,
-					},
-					unit = "units/vanilla/weapons/wpn_fps_pis_webley_pts/wpn_fps_pis_webley_bullets",
-					third_unit = "units/vanilla/weapons/wpn_third_pis_webley_pts/wpn_third_pis_webley_bullets",
-					name_id = "bm_wp_webley_bullets",
-					type = "magazine",
-					bullet_objects = {
-						amount = 6,
-						prefix = "g_bullet_",
-					},
-					a_obj = "a_bullets",
-					animations = {
-						reload_not_empty = "reload_not_empty",
-						reload = "reload",
-					},
-				},
-				wpn_fps_pis_shotty_body_standard = {
-					third_unit = "units/upd_015/weapons/wpn_third_pis_shotty_pts/wpn_third_pis_shotty_body_standard",
-					name_id = "bm_wp_pis_shotty_body_standard",
-					a_obj = "a_body",
-					type = "lower_receiver",
-					unit = "units/upd_015/weapons/wpn_fps_pis_shotty_pts/wpn_fps_pis_shotty_body_standard",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_lmg_dp28_body_standard = {
-					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_body_standard",
-					name_id = "bm_wp_lmg_dp28_body_standard",
-					a_obj = "a_body",
-					type = "receiver",
-					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_body_standard",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_lmg_bren_dh_standard = {
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_dh_standard",
-					name_id = "bm_wp_lmg_bren_dh_standard",
-					a_obj = "a_dh",
-					type = "drag_handle",
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_dh_standard",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_snp_lee_enfield_bullet = {
 					stats = {
 						value = 1,
@@ -29618,6 +29770,33 @@ tweak_data = {
 						fire = "recoil",
 					},
 				},
+				wpn_fps_ass_garand_golden_b_tanker = {
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_b_tanker",
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_b_tanker",
+					name_id = "bm_wp_ass_garand_golden_b_tanker",
+					a_obj = "a_b",
+					forbids = {
+						[1] = "wpn_fps_ass_garand_golden_extra_swiwel",
+					},
+					type = "barrel",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_ass_mp44_m_standard_double = {
+					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_m_standard_double",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_standard_double",
+					name_id = "bm_wp_ass_mp44_m_standard_double",
+					a_obj = "a_m",
+					bullet_objects = {
+						amount = 5,
+						prefix = "g_bullet_",
+					},
+					type = "magazine",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_snp_lee_enfield_m_standard = {
 					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_m_standard",
 					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_m_standard",
@@ -29628,6 +29807,16 @@ tweak_data = {
 						prefix = "g_bullet_",
 					},
 					a_obj = "a_m",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_snp_kar_98k_b_long = {
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_b_long",
+					name_id = "bm_wp_snp_kar_98k_b_long",
+					a_obj = "a_b",
+					type = "barrel",
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_b_long",
 					stats = {
 						value = 1,
 					},
@@ -29652,12 +29841,206 @@ tweak_data = {
 						value = 1,
 					},
 				},
+				wpn_fps_pis_c96_bolt_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_bolt_standard",
+					name_id = "bm_wp_c96_bolt_standard",
+					a_obj = "a_bolt",
+					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_bolt_standard",
+					type = "bolt",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_c96_g_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_g_standard",
+					name_id = "bm_wp_c96_g_standard",
+					a_obj = "a_g",
+					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_g_standard",
+					type = "grip",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_snp_lee_enfield_cheek_rest = {
 					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_cheek_rest",
 					name_id = "bm_wp_snp_lee_enfield_cheek_rest",
 					a_obj = "a_rest",
 					type = "rest",
 					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_cheek_rest",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_m1911_m_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_pis_m1911_pts/wpn_fps_pis_m1911_m_standard",
+					third_unit = "units/vanilla/weapons/wpn_third_pis_m1911_pts/wpn_third_pis_m1911_m_standard",
+					name_id = "bm_wp_pis_m1911_m_standard",
+					type = "magazine",
+					bullet_objects = {
+						amount = 8,
+						prefix = "g_bullet_",
+					},
+					a_obj = "a_m",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_sho_ithaca_s_pistol_grip = {
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_s_pistol_grip",
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_s_pistol_grip",
+					name_id = "bm_wp_sho_ithaca_s_pistol_grip",
+					a_obj = "a_s",
+					type = "stock",
+					fps_animation_weight = "ithaca_t4_recoil",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_c96_bullets_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_bullets_standard",
+					name_id = "bm_wp_c96_bullets_standard",
+					a_obj = "a_bullets",
+					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_bullets_standard",
+					type = "bullets",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_sho_geco_s_standard = {
+					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_s_standard",
+					name_id = "bm_wp_sho_geco_s_standard",
+					a_obj = "a_s",
+					type = "stock",
+					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_s_standard",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_lmg_m1918_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_b_standard",
+					name_id = "bm_wp_lmg_m1918_b_standard",
+					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_lmg_m1918_pts/wpn_third_lmg_m1918_b_standard",
+					type = "barrel",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_snp_lee_enfield_s_standard = {
+					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_s_standard",
+					name_id = "bm_wp_snp_lee_enfield_s_standard",
+					a_obj = "a_s",
+					type = "stock",
+					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_s_standard",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_webley_bullets = {
+					stats = {
+						value = 1,
+					},
+					unit = "units/vanilla/weapons/wpn_fps_pis_webley_pts/wpn_fps_pis_webley_bullets",
+					third_unit = "units/vanilla/weapons/wpn_third_pis_webley_pts/wpn_third_pis_webley_bullets",
+					name_id = "bm_wp_webley_bullets",
+					type = "magazine",
+					bullet_objects = {
+						amount = 6,
+						prefix = "g_bullet_",
+					},
+					a_obj = "a_bullets",
+					animations = {
+						reload_not_empty = "reload_not_empty",
+						reload = "reload",
+					},
+				},
+				wpn_fps_sho_ithaca_trigger = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_trigger",
+					name_id = "bm_wp_sho_ithaca_trigger_standard",
+					a_obj = "a_trigger",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_trigger",
+					type = "trigger",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_ass_garand_golden_extra1_swiwel = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_extra1_swiwel",
+					name_id = "bm_wp_ass_garand_golden_extra1_swiwel",
+					a_obj = "a_extra1",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_extra1_swiwel",
+					type = "extra",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_lmg_bren_dh_standard = {
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_dh_standard",
+					name_id = "bm_wp_lmg_bren_dh_standard",
+					a_obj = "a_dh",
+					type = "drag_handle",
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_dh_standard",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_snp_lee_enfield_b_long = {
+					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_b_long",
+					name_id = "bm_wp_snp_lee_enfield_b_long",
+					a_obj = "a_b",
+					type = "barrel",
+					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_b_long",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_lmg_bren_b_standard = {
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_b_standard",
+					name_id = "bm_wp_lmg_bren_b_standard",
+					a_obj = "a_b",
+					type = "barrel",
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_b_standard",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_lmg_bren_pad_buffered = {
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_pad_buffered",
+					name_id = "bm_wp_lmg_bren_pad_buffered",
+					a_obj = "a_pad",
+					type = "stock_ext",
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_pad_buffered",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_snp_kar_98k_bullet = {
+					animations = {
+						reload_enter = "reload_enter",
+						reload_exit = "reload_exit",
+						reload_not_empty_exit = "reload_exit",
+						fire_steelsight = "recoil",
+						fire = "recoil",
+					},
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_bullet",
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_bullet",
+					name_id = "bm_wp_snp_kar_98k_bullet",
+					type = "magazine",
+					bullet_objects = {
+						amount = 5,
+						prefix = "g_bullet_",
+					},
+					a_obj = "a_bullets",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_lmg_bren_s_standard = {
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_s_standard",
+					name_id = "bm_wp_lmg_bren_s_standard",
+					a_obj = "a_s",
+					type = "stock",
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_s_standard",
 					stats = {
 						value = 1,
 					},
@@ -29673,22 +30056,22 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_lee_enfield_s_standard = {
-					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_s_standard",
-					name_id = "bm_wp_snp_lee_enfield_s_standard",
-					a_obj = "a_s",
-					type = "stock",
-					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_s_standard",
+				wpn_fps_lmg_bren_m_extended = {
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_m_extended",
+					name_id = "bm_wp_lmg_bren_m_extended",
+					a_obj = "a_m",
+					type = "magazine",
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_m_extended",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_sho_m1912_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_b_standard",
-					name_id = "bm_wp_sho_m1912_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_b_standard",
-					type = "barrel",
+				wpn_fps_lmg_bren_m_standard = {
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_m_standard",
+					name_id = "bm_wp_lmg_bren_m_standard",
+					a_obj = "a_m",
+					type = "magazine",
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_m_standard",
 					stats = {
 						value = 1,
 					},
@@ -29703,12 +30086,13 @@ tweak_data = {
 						value = 0,
 					},
 				},
-				wpn_fps_snp_lee_enfield_b_long = {
-					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_b_long",
-					name_id = "bm_wp_snp_lee_enfield_b_long",
-					a_obj = "a_b",
-					type = "barrel",
-					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_b_long",
+				wpn_fps_lmg_bren_ns_brake = {
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_ns_brake",
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_ns_brake",
+					name_id = "bm_wp_lmg_bren_ns_brake",
+					type = "barrel_ext",
+					a_obj = "a_ns",
+					parent = "barrel",
 					stats = {
 						value = 1,
 					},
@@ -29723,12 +30107,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_bren_pad_buffered = {
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_pad_buffered",
-					name_id = "bm_wp_lmg_bren_pad_buffered",
-					a_obj = "a_pad",
-					type = "stock_ext",
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_pad_buffered",
+				wpn_fps_lmg_bren_b_long = {
+					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_b_long",
+					name_id = "bm_wp_lmg_bren_b_long",
+					a_obj = "a_b",
+					type = "barrel",
+					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_b_long",
 					stats = {
 						value = 1,
 					},
@@ -29743,12 +30127,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_bren_s_standard = {
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_s_standard",
-					name_id = "bm_wp_lmg_bren_s_standard",
-					a_obj = "a_s",
-					type = "stock",
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_s_standard",
+				wpn_fps_snp_kar_98k_m_long = {
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_m_long",
+					name_id = "bm_wp_snp_kar_98k_m_long",
+					a_obj = "a_m",
+					type = "magazine",
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_m_long",
 					stats = {
 						value = 1,
 					},
@@ -29778,53 +30162,61 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_bren_m_extended = {
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_m_extended",
-					name_id = "bm_wp_lmg_bren_m_extended",
-					a_obj = "a_m",
-					type = "magazine",
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_m_extended",
+				wpn_fps_ass_mp44_o_scope = {
+					stance_mod = {
+						wpn_fps_ass_mp44 = {
+							lens_distortion_power = 1.03,
+							translation = Vector3(0, -15, -1.64784),
+						},
+					},
+					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_o_scope",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_o_scope",
+					name_id = "bm_wp_ass_mp44_o_scope",
+					a_obj = "a_o",
+					type = "scope",
+					parent = "body",
+					stats = {
+						zoom = 5,
+						value = 1,
+					},
+				},
+				wpn_fps_snp_kar_98k_dh_standard = {
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_dh_standard",
+					name_id = "bm_wp_snp_kar_98k_dh_standard",
+					a_obj = "a_dh",
+					type = "drag_handle",
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_dh_standard",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_bren_m_standard = {
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_m_standard",
-					name_id = "bm_wp_lmg_bren_m_standard",
-					a_obj = "a_m",
-					type = "magazine",
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_m_standard",
+				wpn_fps_snp_kar_98k_bolt_standard = {
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_bolt_standard",
+					name_id = "bm_wp_snp_kar_98k_bolt",
+					a_obj = "a_bolt",
+					type = "bolt",
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_bolt_standard",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_bren_ns_brake = {
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_ns_brake",
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_ns_brake",
-					name_id = "bm_wp_lmg_bren_ns_brake",
-					type = "barrel_ext",
-					a_obj = "a_ns",
-					parent = "barrel",
+				wpn_fps_snp_kar_98k_pad_standard = {
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_pad_standard",
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_pad_standard",
+					name_id = "bm_wp_snp_kar_98k_pad_standard",
+					type = "stock_ext",
+					a_obj = "a_pad",
+					parent = "body",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_bren_b_long = {
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_b_long",
-					name_id = "bm_wp_lmg_bren_b_long",
+				wpn_fps_snp_m1903_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_snp_m1903_pts/wpn_fps_snp_m1903_b_standard",
+					name_id = "bm_wp_snp_m1903_b_standard",
 					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_snp_m1903_pts/wpn_third_snp_m1903_b_standard",
 					type = "barrel",
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_b_long",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_lmg_bren_b_standard = {
-					third_unit = "units/upd_005/weapons/wpn_third_lmg_bren_pts/wpn_third_lmg_bren_b_standard",
-					name_id = "bm_wp_lmg_bren_b_standard",
-					a_obj = "a_b",
-					type = "barrel",
-					unit = "units/upd_005/weapons/wpn_fps_lmg_bren_pts/wpn_fps_lmg_bren_b_standard",
 					stats = {
 						value = 1,
 					},
@@ -29839,19 +30231,19 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_pis_tt33_g_standard = {
-					third_unit = "units/upd_001/weapons/wpn_third_pis_tt33_pts/wpn_third_pis_tt33_g_standard",
-					name_id = "bm_wp_pis_tt33_g_standard",
-					a_obj = "a_g",
-					type = "grip",
-					unit = "units/upd_001/weapons/wpn_fps_pis_tt33_pts/wpn_fps_pis_tt33_g_standard",
+				wpn_fps_lmg_mg42_receiver = {
+					unit = "units/vanilla/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_receiver",
+					name_id = "bm_wp_mg42_receiver",
+					a_obj = "a_body",
+					third_unit = "units/vanilla/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_receiver",
+					type = "lower_receiver",
 					stats = {
 						value = 1,
 					},
 				},
 				wpn_fps_ass_mp44_m_short_double = {
 					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_m_short_double",
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_short",
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_m_short_double",
 					name_id = "bm_wp_ass_mp44_m_short_double",
 					a_obj = "a_m",
 					bullet_objects = {
@@ -29863,12 +30255,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_pis_tt33_b_standard = {
-					third_unit = "units/upd_001/weapons/wpn_third_pis_tt33_pts/wpn_third_pis_tt33_b_standard",
-					name_id = "bm_wp_pis_tt33_b_standard",
+				wpn_fps_sho_ithaca_b_standard = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_b_standard",
+					name_id = "bm_wp_sho_ithaca_b_standard",
 					a_obj = "a_b",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_b_standard",
 					type = "barrel",
-					unit = "units/upd_001/weapons/wpn_fps_pis_tt33_pts/wpn_fps_pis_tt33_b_standard",
 					stats = {
 						value = 1,
 					},
@@ -29924,42 +30316,22 @@ tweak_data = {
 						value = 0,
 					},
 				},
-				wpn_fps_ass_mp44_o_scope = {
-					stance_mod = {
-						wpn_fps_ass_mp44 = {
-							translation = Vector3(0, 0, 0),
-							rotation = Rotation(-0, -0, -0),
-						},
-					},
-					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_o_scope",
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_b_standard",
-					name_id = "bm_wp_ass_mp44_o_scope",
-					a_obj = "a_o",
-					type = "scope",
-					parent = "body",
-					stats = {
-						zoom = 0,
-					},
-				},
-				wpn_fps_snp_m1903_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_snp_m1903_pts/wpn_fps_snp_m1903_b_standard",
-					name_id = "bm_wp_snp_m1903_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_snp_m1903_pts/wpn_third_snp_m1903_b_standard",
-					type = "barrel",
+				wpn_fps_pis_webley_trigger_standard = {
+					third_unit = "units/vanilla/weapons/wpn_third_pis_webley_pts/wpn_third_pis_webley_trigger_standard",
+					name_id = "bm_wp_webley_trigger_standard",
+					a_obj = "a_trigger",
+					type = "trigger",
+					unit = "units/vanilla/weapons/wpn_fps_pis_webley_pts/wpn_fps_pis_webley_trigger_standard",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_dp28_m_standard = {
-					animations = {
-						fire = "recoil",
-					},
-					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_m_standard",
-					name_id = "bm_wp_lmg_dp28_m_standard",
-					a_obj = "a_m",
-					type = "magazine",
-					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_m_standard",
+				wpn_fps_lmg_dp28_o_standard = {
+					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_o_standard",
+					name_id = "bm_wp_lmg_dp28_o_standard",
+					a_obj = "a_o",
+					type = "sight",
+					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_o_standard",
 					stats = {
 						value = 1,
 					},
@@ -29980,6 +30352,17 @@ tweak_data = {
 					a_obj = "a_body",
 					third_unit = "units/vanilla/weapons/wpn_third_smg_sten_pts/wpn_third_smg_sten_body_mk3",
 					type = "upper_receiver",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_lmg_m1918_ns_cutts = {
+					third_unit = "units/vanilla/weapons/wpn_third_lmg_m1918_pts/wpn_third_lmg_m1918_ns_cutts",
+					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_ns_cutts",
+					name_id = "bm_wp_lmg_m1918_ns_cutts",
+					a_obj = "a_ns",
+					type = "barrel_ext",
+					parent = "barrel",
 					stats = {
 						value = 1,
 					},
@@ -30008,17 +30391,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_m1918_ns_cutts = {
-					third_unit = "units/vanilla/weapons/wpn_third_lmg_m1918_pts/wpn_third_lmg_m1918_ns_cutts",
-					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_ns_cutts",
-					name_id = "bm_wp_lmg_m1918_ns_cutts",
-					a_obj = "a_ns",
-					type = "barrel_ext",
-					parent = "barrel",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_ass_garand_bolt_standard = {
 					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_bolt_standard",
 					name_id = "bm_wp_ass_garand_bolt_standard",
@@ -30035,6 +30407,16 @@ tweak_data = {
 					a_obj = "a_dh",
 					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_dh_standard",
 					type = "drag_handle",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_smg_sterling_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_standard",
+					name_id = "bm_wp_sterling_b_standard",
+					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_smg_sterling_pts/wpn_third_smg_sterling_b_standard",
+					type = "barrel",
 					stats = {
 						value = 1,
 					},
@@ -30069,12 +30451,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_smg_sterling_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_standard",
-					name_id = "bm_wp_sterling_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_smg_sterling_pts/wpn_third_smg_sterling_b_standard",
-					type = "barrel",
+				wpn_fps_sho_geco_trigger_1 = {
+					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_trigger_1",
+					name_id = "bm_wp_sho_geco_trigger_1",
+					a_obj = "a_trigger_1",
+					type = "trigger_1",
+					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_trigger_1",
 					stats = {
 						value = 1,
 					},
@@ -30093,16 +30475,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_kar_98k_b_long = {
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_b_long",
-					name_id = "bm_wp_snp_kar_98k_b_long",
-					a_obj = "a_b",
-					type = "barrel",
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_b_long",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_smg_thompson_fg_standard = {
 					third_unit = "units/vanilla/weapons/wpn_third_smg_thompson_pts/wpn_third_smg_thompson_fg_standard",
 					name_id = "bm_wp_smg_thompson_fg_standard",
@@ -30111,6 +30483,20 @@ tweak_data = {
 					unit = "units/vanilla/weapons/wpn_fps_smg_thompson_pts/wpn_fps_smg_thompson_fg_standard",
 					stats = {
 						value = 0,
+					},
+				},
+				wpn_fps_ass_garand_m_standard = {
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_m_standard",
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_m_standard",
+					name_id = "bm_wp_ass_garand_m_standard",
+					a_obj = "a_m",
+					bullet_objects = {
+						amount = 8,
+						prefix = "g_bullet_",
+					},
+					type = "magazine",
+					stats = {
+						value = 1,
 					},
 				},
 				wpn_fps_pis_webley_casing_5 = {
@@ -30133,26 +30519,22 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_smg_sterling_m_long_double = {
-					third_unit = "units/vanilla/weapons/wpn_third_smg_sterling_pts/wpn_third_smg_sterling_m_long_double",
-					unit = "units/vanilla/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_m_long_double",
-					name_id = "bm_wp_sterling_m_long_double",
-					a_obj = "a_m",
-					bullet_objects = {
-						amount = 3,
-						prefix = "g_bullet_",
-					},
-					type = "magazine",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_ass_garand_m_bar_standard = {
 					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_m_bar_standard",
 					name_id = "bm_wp_ass_garand_m_bar_standard",
 					a_obj = "a_body",
 					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_m_bar_standard",
 					type = "magazine_ext",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_ass_garand_golden_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_b_standard",
+					name_id = "bm_wp_ass_garand_golden_b_standard",
+					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_b_standard",
+					type = "barrel",
 					stats = {
 						value = 1,
 					},
@@ -30167,22 +30549,16 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_sho_m1912_s_cheek_rest = {
-					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_s_cheek_rest",
-					name_id = "bm_wp_sho_m1912_s_cheek_rest",
-					a_obj = "a_s",
-					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_s_cheek_rest",
-					type = "stock",
-					stats = {
-						value = 1,
+				wpn_fps_smg_sterling_m_long_double = {
+					third_unit = "units/vanilla/weapons/wpn_third_smg_sterling_pts/wpn_third_smg_sterling_m_long_double",
+					unit = "units/vanilla/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_m_long_double",
+					name_id = "bm_wp_sterling_m_long_double",
+					a_obj = "a_m",
+					bullet_objects = {
+						amount = 3,
+						prefix = "g_bullet_",
 					},
-				},
-				wpn_fps_sho_m1912_body_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_body_standard",
-					name_id = "bm_wp_sho_m1912_body_standard",
-					a_obj = "a_body",
-					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_body_standard",
-					type = "lower_receiver",
+					type = "magazine",
 					stats = {
 						value = 1,
 					},
@@ -30197,30 +30573,31 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_smg_sten_fg_wooden = {
-					stance_mod = {
-						wpn_fps_smg_sten = {
-							translation = Vector3(-0.1535, 10.5846, 2.7523),
-						},
-					},
-					third_unit = "units/vanilla/weapons/wpn_third_smg_sten_pts/wpn_third_smg_sten_fg_wooden",
-					unit = "units/vanilla/weapons/wpn_fps_smg_sten_pts/wpn_fps_smg_sten_fg_wooden",
-					name_id = "bm_wp_smg_sten_fg_wooden",
-					a_obj = "a_body",
-					type = "foregrip",
-					fps_animation_weight = "sten_t2_spread",
+				wpn_fps_smg_thompson_b_standard = {
+					third_unit = "units/vanilla/weapons/wpn_third_smg_thompson_pts/wpn_third_smg_thompson_b_standard",
+					name_id = "bm_wp_smg_thompson_b_standard",
+					a_obj = "a_b",
+					type = "barrel",
+					unit = "units/vanilla/weapons/wpn_fps_smg_thompson_pts/wpn_fps_smg_thompson_b_standard",
 					stats = {
-						value = 1,
+						value = 0,
 					},
 				},
-				wpn_fps_lmg_m1918_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_b_standard",
-					name_id = "bm_wp_lmg_m1918_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_lmg_m1918_pts/wpn_third_lmg_m1918_b_standard",
-					type = "barrel",
+				wpn_fps_lmg_dp28_m_extended = {
+					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_m_extended",
+					name_id = "bm_wp_lmg_dp28_m_extended",
 					stats = {
 						value = 1,
+					},
+					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_m_extended",
+					forbids = {
+						[1] = "wpn_fps_lmg_dp28_m_strap",
+					},
+					type = "magazine",
+					a_obj = "a_m",
+					fps_animation_weight = "dp28_t2_recoil",
+					animations = {
+						fire = "recoil",
 					},
 				},
 				wpn_fps_ass_garand_m_bar_extended = {
@@ -30233,22 +30610,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_mosin_body_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_snp_mosin_pts/wpn_fps_snp_mosin_body_standard",
-					name_id = "bm_wp_mosin_body_standard",
-					a_obj = "a_body",
-					third_unit = "units/vanilla/weapons/wpn_third_snp_mosin_pts/wpn_third_snp_mosin_body_standard",
-					type = "body",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_ass_garand_body_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_body_standard",
-					name_id = "bm_wp_ass_garand_body_standard",
-					a_obj = "a_body",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_body_standard",
-					type = "lower_receiver",
+				wpn_fps_snp_mosin_dh_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_snp_mosin_pts/wpn_fps_snp_mosin_dh_standard",
+					name_id = "bm_wp_mosin_dh_standard",
+					a_obj = "a_dh",
+					third_unit = "units/vanilla/weapons/wpn_third_snp_mosin_pts/wpn_third_snp_mosin_dh_standard",
+					type = "drag_handle",
 					stats = {
 						value = 1,
 					},
@@ -30263,6 +30630,16 @@ tweak_data = {
 						value = 1,
 					},
 				},
+				wpn_fps_ass_garand_body_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_body_standard",
+					name_id = "bm_wp_ass_garand_body_standard",
+					a_obj = "a_body",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_body_standard",
+					type = "lower_receiver",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_smg_thompson_o_m1928 = {
 					third_unit = "units/vanilla/weapons/wpn_third_smg_thompson_pts/wpn_third_smg_thompson_o_m1928",
 					name_id = "bm_wp_smg_thompson_o_m1928",
@@ -30273,12 +30650,12 @@ tweak_data = {
 						value = 0,
 					},
 				},
-				wpn_fps_pis_c96_g_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_g_standard",
-					name_id = "bm_wp_c96_g_standard",
-					a_obj = "a_g",
-					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_g_standard",
-					type = "grip",
+				wpn_fps_ass_garand_s_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_s_standard",
+					name_id = "bm_wp_ass_garand_s_standard",
+					a_obj = "a_s",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_s_standard",
+					type = "stock",
 					stats = {
 						value = 1,
 					},
@@ -30293,16 +30670,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_m1903_body_type_c = {
-					unit = "units/vanilla/weapons/wpn_fps_snp_m1903_pts/wpn_fps_snp_m1903_body_type_c",
-					name_id = "bm_wp_snp_m1903_body_type_c",
-					a_obj = "a_body",
-					third_unit = "units/vanilla/weapons/wpn_third_snp_m1903_pts/wpn_third_snp_m1903_body_type_c",
-					type = "body",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_smg_thompson_o_standard = {
 					third_unit = "units/vanilla/weapons/wpn_third_smg_thompson_pts/wpn_third_smg_thompson_o_standard",
 					name_id = "bm_wp_smg_thompson_o_standard",
@@ -30311,6 +30678,16 @@ tweak_data = {
 					unit = "units/vanilla/weapons/wpn_fps_smg_thompson_pts/wpn_fps_smg_thompson_o_standard",
 					stats = {
 						value = 0,
+					},
+				},
+				wpn_fps_snp_m1903_body_type_c = {
+					unit = "units/vanilla/weapons/wpn_fps_snp_m1903_pts/wpn_fps_snp_m1903_body_type_c",
+					name_id = "bm_wp_snp_m1903_body_type_c",
+					a_obj = "a_body",
+					third_unit = "units/vanilla/weapons/wpn_third_snp_m1903_pts/wpn_third_snp_m1903_body_type_c",
+					type = "body",
+					stats = {
+						value = 1,
 					},
 				},
 				wpn_fps_ass_garand_golden_body_standard = {
@@ -30333,12 +30710,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_mg42_lid_mg34 = {
-					unit = "units/vanilla/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_lid_mg34",
-					name_id = "bm_wp_mg42_lid_mg34",
-					a_obj = "a_body",
-					third_unit = "units/vanilla/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_lid_mg34",
-					type = "upper_receiver",
+				wpn_fps_sho_geco_shell_2 = {
+					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_shell_2",
+					name_id = "bm_wp_sho_geco_shell_2",
+					a_obj = "a_shell_2",
+					type = "shell_2",
+					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_shell_2",
 					stats = {
 						value = 1,
 					},
@@ -30364,16 +30741,23 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_carbine_m_standard = {
-					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_m_standard",
-					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_m_standard",
-					name_id = "bm_wp_ass_carbine_m_standard",
-					a_obj = "a_m",
-					bullet_objects = {
-						amount = 5,
-						prefix = "g_bullet_",
+				wpn_fps_lmg_mg42_n34 = {
+					third_unit = "units/vanilla/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_n34",
+					unit = "units/vanilla/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_n42",
+					name_id = "bm_wp_mg42_n34",
+					a_obj = "a_ns",
+					type = "barrel_ext",
+					parent = "barrel",
+					stats = {
+						value = 1,
 					},
-					type = "magazine",
+				},
+				wpn_fps_ass_carbine_g_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_g_standard",
+					name_id = "bm_wp_ass_carbine_g_standard",
+					a_obj = "a_g",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_g_standard",
+					type = "grip",
 					stats = {
 						value = 1,
 					},
@@ -30388,22 +30772,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_carbine_bolt_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_bolt_standard",
-					name_id = "bm_wp_ass_carbine_bolt_standard",
-					a_obj = "a_bolt",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_bolt_standard",
-					type = "custom",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_ass_carbine_body_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_body_standard",
-					name_id = "bm_wp_ass_carbine_body_standard",
-					a_obj = "a_body",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_body_standard",
-					type = "lower_receiver",
+				wpn_fps_smg_mp38_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_smg_mp38_pts/wpn_fps_smg_mp38_b_standard",
+					name_id = "bm_wp_smg_mp38_b_standard",
+					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_smg_mp38_pts/wpn_third_smg_mp38_b_standard",
+					type = "barrel",
 					stats = {
 						value = 1,
 					},
@@ -30418,26 +30792,22 @@ tweak_data = {
 						value = 1,
 					},
 				},
+				wpn_fps_ass_garand_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_b_standard",
+					name_id = "bm_wp_ass_garand_b_standard",
+					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_b_standard",
+					type = "barrel",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_lmg_m1918_body_standard = {
 					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_body_standard",
 					name_id = "bm_wp_lmg_m1918_body_standard",
 					a_obj = "a_body",
 					third_unit = "units/vanilla/weapons/wpn_third_lmg_m1918_pts/wpn_third_lmg_m1918_body_standard",
 					type = "lower_receiver",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_ass_garand_m_standard = {
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_m_standard",
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_m_standard",
-					name_id = "bm_wp_ass_garand_m_standard",
-					a_obj = "a_m",
-					bullet_objects = {
-						amount = 8,
-						prefix = "g_bullet_",
-					},
-					type = "magazine",
 					stats = {
 						value = 1,
 					},
@@ -30466,6 +30836,16 @@ tweak_data = {
 						value = 0,
 					},
 				},
+				wpn_fps_sho_m1912_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_b_standard",
+					name_id = "bm_wp_sho_m1912_b_standard",
+					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_b_standard",
+					type = "barrel",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_ass_carbine_body_wooden = {
 					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_body_wooden",
 					forbids = {
@@ -30477,16 +30857,6 @@ tweak_data = {
 					type = "lower_receiver",
 					a_obj = "a_body",
 					fps_animation_weight = "carbine_t2_recoil",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_snp_kar_98k_body_standard = {
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_body_standard",
-					name_id = "bm_wp_snp_kar_98k_body_standard",
-					a_obj = "a_body",
-					type = "body",
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_body_standard",
 					stats = {
 						value = 1,
 					},
@@ -30511,13 +30881,26 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_kar_98k_pad_standard = {
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_pad_standard",
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_pad_standard",
-					name_id = "bm_wp_snp_kar_98k_pad_standard",
-					type = "stock_ext",
-					a_obj = "a_pad",
-					parent = "body",
+				wpn_fps_smg_thompson_body_standard = {
+					third_unit = "units/vanilla/weapons/wpn_third_smg_thompson_pts/wpn_third_smg_thompson_body_standard",
+					name_id = "bm_wp_smg_thompson_body_standard",
+					a_obj = "a_body",
+					type = "lower_receiver",
+					unit = "units/vanilla/weapons/wpn_fps_smg_thompson_pts/wpn_fps_smg_thompson_body_standard",
+					stats = {
+						value = 0,
+					},
+				},
+				wpn_fps_ass_carbine_m_extended = {
+					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_m_extended",
+					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_m_extended",
+					name_id = "bm_wp_ass_carbine_m_extended",
+					a_obj = "a_m",
+					bullet_objects = {
+						amount = 5,
+						prefix = "g_bullet_",
+					},
+					type = "magazine",
 					stats = {
 						value = 1,
 					},
@@ -30533,16 +30916,6 @@ tweak_data = {
 					type = "stock",
 					stats = {
 						value = 1,
-					},
-				},
-				wpn_fps_smg_thompson_body_standard = {
-					third_unit = "units/vanilla/weapons/wpn_third_smg_thompson_pts/wpn_third_smg_thompson_body_standard",
-					name_id = "bm_wp_smg_thompson_body_standard",
-					a_obj = "a_body",
-					type = "lower_receiver",
-					unit = "units/vanilla/weapons/wpn_fps_smg_thompson_pts/wpn_fps_smg_thompson_body_standard",
-					stats = {
-						value = 0,
 					},
 				},
 				wpn_fps_pis_c96_b_long = {
@@ -30579,16 +30952,23 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_carbine_m_extended = {
-					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_m_extended",
-					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_m_extended",
-					name_id = "bm_wp_ass_carbine_m_extended",
-					a_obj = "a_m",
-					bullet_objects = {
-						amount = 5,
-						prefix = "g_bullet_",
+				wpn_fps_smg_mp38_s_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_smg_mp38_pts/wpn_fps_smg_mp38_s_standard",
+					name_id = "bm_wp_smg_mp38_s_standard",
+					a_obj = "a_s",
+					third_unit = "units/vanilla/weapons/wpn_third_smg_mp38_pts/wpn_third_smg_mp38_s_standard",
+					type = "stock",
+					stats = {
+						value = 1,
 					},
-					type = "magazine",
+				},
+				wpn_fps_smg_mp38_s_wooden = {
+					third_unit = "units/vanilla/weapons/wpn_third_smg_mp38_pts/wpn_third_smg_mp38_s_wooden",
+					unit = "units/vanilla/weapons/wpn_fps_smg_mp38_pts/wpn_fps_smg_mp38_s_wooden",
+					name_id = "bm_wp_smg_mp38_s_wooden",
+					a_obj = "a_s",
+					type = "stock",
+					fps_animation_weight = "mp38_t2_recoil",
 					stats = {
 						value = 1,
 					},
@@ -30623,27 +31003,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_smg_mp38_s_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_smg_mp38_pts/wpn_fps_smg_mp38_s_standard",
-					name_id = "bm_wp_smg_mp38_s_standard",
-					a_obj = "a_s",
-					third_unit = "units/vanilla/weapons/wpn_third_smg_mp38_pts/wpn_third_smg_mp38_s_standard",
-					type = "stock",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_smg_mp38_s_wooden = {
-					third_unit = "units/vanilla/weapons/wpn_third_smg_mp38_pts/wpn_third_smg_mp38_s_wooden",
-					unit = "units/vanilla/weapons/wpn_fps_smg_mp38_pts/wpn_fps_smg_mp38_s_wooden",
-					name_id = "bm_wp_smg_mp38_s_wooden",
-					a_obj = "a_s",
-					type = "stock",
-					fps_animation_weight = "mp38_t2_recoil",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_ass_mp44_b_standard = {
 					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_b_standard",
 					name_id = "bm_wp_ass_mp44_b_standard",
@@ -30660,26 +31019,6 @@ tweak_data = {
 					a_obj = "a_s",
 					third_unit = "units/vanilla/weapons/wpn_third_smg_sten_pts/wpn_third_smg_sten_s_standard",
 					type = "stock",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_snp_kar_98k_bolt_standard = {
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_bolt_standard",
-					name_id = "bm_wp_snp_kar_98k_bolt",
-					a_obj = "a_bolt",
-					type = "bolt",
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_bolt_standard",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_snp_kar_98k_trigger = {
-					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_trigger",
-					name_id = "bm_wp_snp_kar_98k_trigger",
-					a_obj = "a_trigger",
-					type = "trigger",
-					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_trigger",
 					stats = {
 						value = 1,
 					},
@@ -30708,23 +31047,22 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_mp44_fg_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_b_standard",
-					name_id = "bm_wp_ass_mp44_fg_standard",
-					a_obj = "a_fg",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_fg_standard",
-					type = "foregrip",
+				wpn_fps_snp_kar_98k_body_standard = {
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_body_standard",
+					name_id = "bm_wp_snp_kar_98k_body_standard",
+					a_obj = "a_body",
+					type = "body",
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_body_standard",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_mg42_n34 = {
-					third_unit = "units/vanilla/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_n34",
-					unit = "units/vanilla/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_n42",
-					name_id = "bm_wp_mg42_n34",
-					a_obj = "a_ns",
-					type = "barrel_ext",
-					parent = "barrel",
+				wpn_fps_snp_kar_98k_trigger = {
+					third_unit = "units/upd_003/weapons/wpn_third_snp_kar_98k_pts/wpn_third_snp_kar_98k_trigger",
+					name_id = "bm_wp_snp_kar_98k_trigger",
+					a_obj = "a_trigger",
+					type = "trigger",
+					unit = "units/upd_003/weapons/wpn_fps_snp_kar_98k_pts/wpn_fps_snp_kar_98k_trigger",
 					stats = {
 						value = 1,
 					},
@@ -30735,6 +31073,50 @@ tweak_data = {
 					a_obj = "a_b",
 					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_b_standard",
 					type = "barrel",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_ass_carbine_body_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_body_standard",
+					name_id = "bm_wp_ass_carbine_body_standard",
+					a_obj = "a_body",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_body_standard",
+					type = "lower_receiver",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_ass_mp44_fg_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_fg_standard",
+					name_id = "bm_wp_ass_mp44_fg_standard",
+					a_obj = "a_fg",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_fg_standard",
+					type = "foregrip",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_ass_carbine_bolt_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_bolt_standard",
+					name_id = "bm_wp_ass_carbine_bolt_standard",
+					a_obj = "a_bolt",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_bolt_standard",
+					type = "custom",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_ass_carbine_m_standard = {
+					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_m_standard",
+					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_m_standard",
+					name_id = "bm_wp_ass_carbine_m_standard",
+					a_obj = "a_m",
+					bullet_objects = {
+						amount = 5,
+						prefix = "g_bullet_",
+					},
+					type = "magazine",
 					stats = {
 						value = 1,
 					},
@@ -30769,36 +31151,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_smg_mp38_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_smg_mp38_pts/wpn_fps_smg_mp38_b_standard",
-					name_id = "bm_wp_smg_mp38_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_smg_mp38_pts/wpn_third_smg_mp38_b_standard",
-					type = "barrel",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_ass_carbine_g_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_carbine_pts/wpn_fps_ass_carbine_g_standard",
-					name_id = "bm_wp_ass_carbine_g_standard",
-					a_obj = "a_g",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_carbine_pts/wpn_third_ass_carbine_g_standard",
-					type = "grip",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_ass_mp44_s_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_b_standard",
-					name_id = "bm_wp_ass_mp44_m_standard",
-					a_obj = "a_s",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_s_standard",
-					type = "stock",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_pis_webley_b_standard = {
 					third_unit = "units/vanilla/weapons/wpn_third_pis_webley_pts/wpn_third_pis_webley_b_standard",
 					name_id = "bm_wp_webley_b_standard",
@@ -30809,22 +31161,22 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_sho_geco_shell_2 = {
-					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_shell_2",
-					name_id = "bm_wp_sho_geco_shell_2",
-					a_obj = "a_shell_2",
-					type = "shell_2",
-					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_shell_2",
+				wpn_fps_lmg_mg42_lid_mg34 = {
+					unit = "units/vanilla/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_lid_mg34",
+					name_id = "bm_wp_mg42_lid_mg34",
+					a_obj = "a_body",
+					third_unit = "units/vanilla/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_lid_mg34",
+					type = "upper_receiver",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_lee_enfield_body_standard = {
-					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_body_standard",
-					name_id = "bm_wp_snp_lee_enfield_body_standard",
-					a_obj = "a_body",
-					type = "body",
-					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_body_standard",
+				wpn_fps_ass_mp44_s_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_ass_mp44_pts/wpn_fps_ass_mp44_s_standard",
+					name_id = "bm_wp_ass_mp44_m_standard",
+					a_obj = "a_s",
+					third_unit = "units/vanilla/weapons/wpn_third_ass_mp44_pts/wpn_third_ass_mp44_s_standard",
+					type = "stock",
 					stats = {
 						value = 1,
 					},
@@ -30839,12 +31191,22 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_garand_golden_extra1_swiwel = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_extra1_swiwel",
-					name_id = "bm_wp_ass_garand_golden_extra1_swiwel",
-					a_obj = "a_extra1",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_extra1_swiwel",
-					type = "extra",
+				wpn_fps_sho_ithaca_b_reinforced = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_b_reinforced",
+					name_id = "bm_wp_sho_ithaca_b_reinforced",
+					a_obj = "a_b",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_b_reinforced",
+					type = "barrel",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_snp_lee_enfield_body_standard = {
+					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_body_standard",
+					name_id = "bm_wp_snp_lee_enfield_body_standard",
+					a_obj = "a_body",
+					type = "body",
+					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_body_standard",
 					stats = {
 						value = 1,
 					},
@@ -30879,23 +31241,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_m1918_g_monitor = {
-					third_unit = "units/vanilla/weapons/wpn_third_lmg_m1918_pts/wpn_third_lmg_m1918_g_monitor",
-					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_g_monitor",
-					name_id = "bm_wp_lmg_m1918_g_monitor",
-					a_obj = "a_body",
-					type = "grip",
-					fps_animation_weight = "m1918_t1_spread",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_webley_trigger_standard = {
-					third_unit = "units/vanilla/weapons/wpn_third_pis_webley_pts/wpn_third_pis_webley_trigger_standard",
-					name_id = "bm_wp_webley_trigger_standard",
-					a_obj = "a_trigger",
-					type = "trigger",
-					unit = "units/vanilla/weapons/wpn_fps_pis_webley_pts/wpn_fps_pis_webley_trigger_standard",
+				wpn_fps_sho_ithaca_m_standard = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_m_standard",
+					name_id = "bm_wp_sho_ithaca_m_standard",
+					a_obj = "a_m",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_m_standard",
+					type = "magazine",
 					stats = {
 						value = 1,
 					},
@@ -30910,25 +31261,23 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_garand_s_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_s_standard",
-					name_id = "bm_wp_ass_garand_s_standard",
-					a_obj = "a_s",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_s_standard",
-					type = "stock",
+				wpn_fps_lmg_m1918_g_monitor = {
+					third_unit = "units/vanilla/weapons/wpn_third_lmg_m1918_pts/wpn_third_lmg_m1918_g_monitor",
+					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_g_monitor",
+					name_id = "bm_wp_lmg_m1918_g_monitor",
+					a_obj = "a_body",
+					type = "grip",
+					fps_animation_weight = "m1918_t1_spread",
 					stats = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_garand_golden_s_folding = {
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_s_folding",
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_s_folding",
-					name_id = "bm_wp_ass_garand_golden_s_folding",
-					a_obj = "a_s",
-					forbids = {
-						[1] = "wpn_fps_ass_garand_s_cheek_rest",
-					},
-					type = "stock",
+				wpn_fps_snp_mosin_body_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_snp_mosin_pts/wpn_fps_snp_mosin_body_standard",
+					name_id = "bm_wp_mosin_body_standard",
+					a_obj = "a_body",
+					third_unit = "units/vanilla/weapons/wpn_third_snp_mosin_pts/wpn_third_snp_mosin_body_standard",
+					type = "body",
 					stats = {
 						value = 1,
 					},
@@ -30953,12 +31302,15 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_snp_mosin_dh_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_snp_mosin_pts/wpn_fps_snp_mosin_dh_standard",
-					name_id = "bm_wp_mosin_dh_standard",
-					a_obj = "a_dh",
-					third_unit = "units/vanilla/weapons/wpn_third_snp_mosin_pts/wpn_third_snp_mosin_dh_standard",
-					type = "drag_handle",
+				wpn_fps_ass_garand_golden_s_folding = {
+					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_golden_s_folding",
+					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_golden_s_folding",
+					name_id = "bm_wp_ass_garand_golden_s_folding",
+					a_obj = "a_s",
+					forbids = {
+						[1] = "wpn_fps_ass_garand_s_cheek_rest",
+					},
+					type = "stock",
 					stats = {
 						value = 1,
 					},
@@ -30973,21 +31325,51 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_dp28_m_extended = {
-					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_m_extended",
-					name_id = "bm_wp_lmg_dp28_m_extended",
+				wpn_fps_sho_ithaca_ns_brake = {
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_ns_brake",
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_ns_brake",
+					name_id = "bm_wp_sho_ithaca_ns_brake",
+					a_obj = "a_ns",
+					type = "barrel_ext",
+					parent = "barrel",
 					stats = {
 						value = 1,
 					},
-					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_m_extended",
-					forbids = {
-						[1] = "wpn_fps_lmg_dp28_m_strap",
+				},
+				wpn_fps_smg_sten_fg_wooden = {
+					stance_mod = {
+						wpn_fps_smg_sten = {
+							translation = Vector3(-0.1535, 10.5846, 2.7523),
+						},
 					},
-					type = "magazine",
-					a_obj = "a_m",
-					fps_animation_weight = "dp28_t2_recoil",
-					animations = {
-						fire = "recoil",
+					third_unit = "units/vanilla/weapons/wpn_third_smg_sten_pts/wpn_third_smg_sten_fg_wooden",
+					unit = "units/vanilla/weapons/wpn_fps_smg_sten_pts/wpn_fps_smg_sten_fg_wooden",
+					name_id = "bm_wp_smg_sten_fg_wooden",
+					a_obj = "a_body",
+					type = "foregrip",
+					fps_animation_weight = "sten_t2_spread",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_smg_sterling_b_long = {
+					unit = "units/vanilla/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_long",
+					name_id = "bm_wp_sterling_b_long",
+					a_obj = "a_b",
+					third_unit = "units/vanilla/weapons/wpn_third_smg_sterling_pts/wpn_third_smg_sterling_b_long",
+					type = "barrel",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_sho_m1912_body_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_body_standard",
+					name_id = "bm_wp_sho_m1912_body_standard",
+					a_obj = "a_body",
+					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_body_standard",
+					type = "lower_receiver",
+					stats = {
+						value = 1,
 					},
 				},
 				wpn_fps_sho_m1912_s_pad = {
@@ -31001,12 +31383,13 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_smg_sterling_b_long = {
-					unit = "units/vanilla/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_long",
-					name_id = "bm_wp_sterling_b_long",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_smg_sterling_pts/wpn_third_smg_sterling_b_long",
-					type = "barrel",
+				wpn_fps_sho_m1912_ns_cutts = {
+					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_ns_cutts",
+					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_ns_cutts",
+					name_id = "bm_wp_sho_m1912_ns_cutts",
+					a_obj = "a_ns",
+					type = "barrel_ext",
+					parent = "barrel",
 					stats = {
 						value = 1,
 					},
@@ -31046,23 +31429,22 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_smg_thompson_b_standard = {
-					third_unit = "units/vanilla/weapons/wpn_third_smg_thompson_pts/wpn_third_smg_thompson_b_standard",
-					name_id = "bm_wp_smg_thompson_b_standard",
+				wpn_fps_sho_geco_b_standard = {
+					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_b_standard",
+					name_id = "bm_wp_sho_geco_b_standard",
 					a_obj = "a_b",
 					type = "barrel",
-					unit = "units/vanilla/weapons/wpn_fps_smg_thompson_pts/wpn_fps_smg_thompson_b_standard",
+					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_b_standard",
 					stats = {
-						value = 0,
+						value = 1,
 					},
 				},
-				wpn_fps_sho_m1912_ns_cutts = {
-					third_unit = "units/vanilla/weapons/wpn_third_sho_m1912_pts/wpn_third_sho_m1912_ns_cutts",
-					unit = "units/vanilla/weapons/wpn_fps_sho_m1912_pts/wpn_fps_sho_m1912_ns_cutts",
-					name_id = "bm_wp_sho_m1912_ns_cutts",
-					a_obj = "a_ns",
-					type = "barrel_ext",
-					parent = "barrel",
+				wpn_fps_sho_geco_b_short = {
+					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_b_short",
+					name_id = "bm_wp_sho_geco_b_short",
+					a_obj = "a_b",
+					type = "barrel",
+					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_b_short",
 					stats = {
 						value = 1,
 					},
@@ -31077,12 +31459,12 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_sho_geco_b_standard = {
-					third_unit = "units/upd_001/weapons/wpn_third_sho_geco_pts/wpn_third_sho_geco_b_standard",
-					name_id = "bm_wp_sho_geco_b_standard",
+				wpn_fps_pis_c96_b_standard = {
+					unit = "units/vanilla/weapons/wpn_fps_pis_c96_pts/wpn_fps_pis_c96_b_standard",
+					name_id = "bm_wp_c96_b_standard",
 					a_obj = "a_b",
-					type = "barrel",
-					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_b_standard",
+					third_unit = "units/vanilla/weapons/wpn_third_pis_c96_pts/wpn_third_pis_c96_b_standard",
+					type = "slide",
 					stats = {
 						value = 1,
 					},
@@ -31127,16 +31509,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_ass_garand_b_standard = {
-					unit = "units/vanilla/weapons/wpn_fps_ass_garand_pts/wpn_fps_ass_garand_b_standard",
-					name_id = "bm_wp_ass_garand_b_standard",
-					a_obj = "a_b",
-					third_unit = "units/vanilla/weapons/wpn_third_ass_garand_pts/wpn_third_ass_garand_b_standard",
-					type = "barrel",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_lmg_m1918_dh_standard = {
 					unit = "units/vanilla/weapons/wpn_fps_lmg_m1918_pts/wpn_fps_lmg_m1918_dh_standard",
 					name_id = "bm_wp_lmg_m1918_dh_standard",
@@ -31157,6 +31529,16 @@ tweak_data = {
 						value = 1,
 					},
 				},
+				wpn_fps_lmg_dp28_body_standard = {
+					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_body_standard",
+					name_id = "bm_wp_lmg_dp28_body_standard",
+					a_obj = "a_body",
+					type = "receiver",
+					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_body_standard",
+					stats = {
+						value = 1,
+					},
+				},
 				wpn_fps_snp_lee_enfield_m_extended = {
 					unit = "units/upd_015/weapons/wpn_fps_snp_lee_enfield_pts/wpn_fps_snp_lee_enfield_m_extended",
 					third_unit = "units/upd_015/weapons/wpn_third_snp_lee_enfield_pts/wpn_third_snp_lee_enfield_m_extended",
@@ -31171,12 +31553,15 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_dp28_g_standard = {
-					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_g_standard",
-					name_id = "bm_wp_lmg_dp28_g_standard",
-					a_obj = "a_body",
-					type = "grip",
-					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_g_standard",
+				wpn_fps_lmg_dp28_m_standard = {
+					animations = {
+						fire = "recoil",
+					},
+					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_m_standard",
+					name_id = "bm_wp_lmg_dp28_m_standard",
+					a_obj = "a_m",
+					type = "magazine",
+					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_m_standard",
 					stats = {
 						value = 1,
 					},
@@ -31201,26 +31586,6 @@ tweak_data = {
 						value = 1,
 					},
 				},
-				wpn_fps_lmg_dp28_o_standard = {
-					third_unit = "units/upd_001/weapons/wpn_third_lmg_dp28_pts/wpn_third_lmg_dp28_o_standard",
-					name_id = "bm_wp_lmg_dp28_o_standard",
-					a_obj = "a_o",
-					type = "sight",
-					unit = "units/upd_001/weapons/wpn_fps_lmg_dp28_pts/wpn_fps_lmg_dp28_o_standard",
-					stats = {
-						value = 1,
-					},
-				},
-				wpn_fps_pis_webley_casing_3 = {
-					third_unit = "units/vanilla/weapons/wpn_third_pis_webley_pts/wpn_third_pis_webley_casing_3",
-					name_id = "bm_wp_webley_casing_3",
-					a_obj = "a_casing_3",
-					type = "extra_3",
-					unit = "units/vanilla/weapons/wpn_fps_pis_webley_pts/wpn_fps_pis_webley_casing_3",
-					stats = {
-						value = 1,
-					},
-				},
 				wpn_fps_pis_tt33_hammer = {
 					third_unit = "units/upd_001/weapons/wpn_third_pis_tt33_pts/wpn_third_pis_tt33_hammer",
 					name_id = "bm_wp_pis_tt33_hammer",
@@ -31237,6 +31602,26 @@ tweak_data = {
 					a_obj = "a_trigger_2",
 					type = "trigger_2",
 					unit = "units/upd_001/weapons/wpn_fps_sho_geco_pts/wpn_fps_sho_geco_trigger_2",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_tt33_b_standard = {
+					third_unit = "units/upd_001/weapons/wpn_third_pis_tt33_pts/wpn_third_pis_tt33_b_standard",
+					name_id = "bm_wp_pis_tt33_b_standard",
+					a_obj = "a_b",
+					type = "barrel",
+					unit = "units/upd_001/weapons/wpn_fps_pis_tt33_pts/wpn_fps_pis_tt33_b_standard",
+					stats = {
+						value = 1,
+					},
+				},
+				wpn_fps_pis_tt33_g_standard = {
+					third_unit = "units/upd_001/weapons/wpn_third_pis_tt33_pts/wpn_third_pis_tt33_g_standard",
+					name_id = "bm_wp_pis_tt33_g_standard",
+					a_obj = "a_g",
+					type = "grip",
+					unit = "units/upd_001/weapons/wpn_fps_pis_tt33_pts/wpn_fps_pis_tt33_g_standard",
 					stats = {
 						value = 1,
 					},
@@ -31270,29 +31655,14 @@ tweak_data = {
 					reticle_obj = "g_reticle",
 					a_obj = "a_o",
 				},
-				wpn_fps_snp_m1903_m_extended = {
-					unit = "units/vanilla/weapons/wpn_fps_snp_m1903_pts/wpn_fps_snp_m1903_m_extended",
-					name_id = "bm_wp_snp_m1903_m_standard",
-					parent = "body",
+				wpn_fps_sho_ithaca_lifter = {
+					unit = "units/upd_017/weapons/wpn_fps_sho_ithaca_pts/wpn_fps_sho_ithaca_lifter",
+					name_id = "bm_wp_sho_ithaca_lifter_standard",
+					a_obj = "a_lifter",
+					third_unit = "units/upd_017/weapons/wpn_third_sho_ithaca_pts/wpn_third_sho_ithaca_lifter",
+					type = "custom",
 					stats = {
 						value = 1,
-					},
-					third_unit = "units/vanilla/weapons/wpn_third_snp_m1903_pts/wpn_third_snp_m1903_m_extended",
-					forbids = {
-						[1] = "wpn_fps_snp_m1903_m_standard",
-					},
-					a_obj = "a_m",
-					bullet_objects = {
-						amount = 10,
-						prefix = "g_bullet_",
-					},
-					type = "magazine_ext",
-					animations = {
-						reload_enter = "reload_enter",
-						reload_exit = "reload_exit",
-						reload_not_empty_exit = "reload_exit",
-						fire_steelsight = "recoil",
-						fire = "recoil",
 					},
 				},
 			},
@@ -31845,27 +32215,185 @@ tweak_data = {
 				},
 			},
 		},
-		m1903_npc = {
-			CLIP_AMMO_MAX = 6,
-			alert_size = 5000,
-			suppression = 1,
-			DAMAGE = 2,
+		bren = {
+			timers = {
+				unequip = 0.9,
+				equip = 0.9,
+				reload_not_empty = 1.8,
+				reload_empty = 2.4,
+			},
+			inventory_texture = "ui/temp/customization_temp_df",
+			name_id = "bm_w_bren",
+			category = "lmg",
+			AMMO_MAX = 120,
+			gui = {
+				rotation_offset = -32,
+				height_offset = -6,
+				icon_large = "weapon_bren_large",
+				initial_rotation = {
+					roll = 0,
+					yaw = -90,
+					pitch = 0,
+				},
+				distance_offset = 80,
+				display_offset = -10,
+			},
+			kick = {
+				recenter_speed_steelsight = 800,
+				crouching = {
+					[1] = 1.25,
+					[2] = 1.1,
+					[3] = 0.8,
+					[4] = 0.8,
+				},
+				crouching_steelsight = {
+					[1] = 1,
+					[2] = 0.86,
+					[3] = 0.55,
+					[4] = 0.65,
+				},
+				recenter_speed = 800,
+				recovery = 9,
+				recovery_wait_multiplier = 2,
+				steelsight = {
+					[1] = 1.05,
+					[2] = 0.9,
+					[3] = 0.65,
+					[4] = 0.7,
+				},
+				standing = {
+					[1] = 1.4,
+					[2] = 1.3,
+					[3] = 0.9,
+					[4] = 1,
+				},
+			},
+			shake = {
+				fire_multiplier = 1,
+				fire_steelsight_multiplier = -1,
+			},
+			CAN_TOGGLE_FIREMODE = true,
+			crosshair = {
+				standing = {
+					offset = 0.16,
+					kick_offset = 0.8,
+					moving_offset = 1,
+				},
+				steelsight = {
+					moving_offset = 0,
+					offset = 0,
+					kick_offset = 0.14,
+					hidden = true,
+				},
+				crouching = {
+					offset = 0.1,
+					kick_offset = 0.4,
+					moving_offset = 0.6,
+				},
+			},
+			damage_melee_effect_mul = 0,
+			dismember_chance = 0.4,
+			AMMO_PICKUP = {
+				[1] = 10,
+				[2] = 1,
+			},
+			damage_melee = 100,
+			desc_id = "bm_w_bren_desc",
+			autohit = {
+				near_angle = 2,
+				MIN_RATIO = 0.2,
+				far_dis = 2000,
+				far_angle = 0.2,
+				INIT_RATIO = 0.05,
+				MAX_RATIO = 0.4,
+			},
+			spread = {
+				per_shot_steelsight = 0.085,
+				crouching = 3.5,
+				moving_crouching = 6,
+				per_shot = 0.33,
+				moving_steelsight = 3.1,
+				recovery = 9,
+				recovery_wait_multiplier = 1,
+				moving_standing = 12,
+				steelsight = 2.3,
+				standing = 6,
+			},
+			NR_CLIPS_MAX = 6,
+			damage_profile = {
+				[1] = {
+					range = 3500,
+					damage = 160,
+				},
+				[2] = {
+					range = 5500,
+					damage = 100,
+				},
+			},
+			ammo_pickup_base = 20,
 			use_data = {
 				selection_index = 2,
 			},
-			usage = "springfield",
-			sounds = {
-				prefix = "",
-				single = "springfield_fire_npc_single",
+			muzzleflash = "effects/vanilla/weapons/762_auto_fps",
+			weapon_hold = "bren",
+			description_id = "des_bren",
+			stats = {
+				concealment = 2,
+				suppression = 6,
+				extra_ammo = 6,
+				value = 9,
+				spread_moving = 9,
+				spread = 6,
+				alert_size = 8,
+				recoil = 5,
+				total_ammo_mod = 21,
+				zoom = 2,
 			},
-			usage_anim = "springfield",
-			muzzleflash = "effects/vanilla/weapons/556_auto",
-			AMMO_MAX = 48,
+			hud = {
+				icon = "weapons_panel_bren",
+			},
+			animations = {
+				recoil_steelsight = true,
+				equip_id = "equip_bren",
+			},
+			CLIP_AMMO_MAX = 20,
+			gun_kick = {
+				hip_fire = {
+					[1] = -46,
+					[2] = 40,
+					[3] = -43,
+					[4] = 42,
+				},
+				steelsight = {
+					[1] = 4,
+					[2] = 11,
+					[3] = 3,
+					[4] = 11,
+				},
+				position_ratio = -0.025,
+			},
+			sounds = {
+				dryfire = "primary_dryfire",
+				stop_fire = "bren_fire_1p_stop",
+				fire_auto = "bren_fire_1p",
+				fire_single = "bren_fire_1p_single",
+			},
+			FIRE_MODE = "auto",
+			headshot_multiplier = 2,
 			shell_ejection = "effects/vanilla/weapons/shells/shell_556",
-			hold = "springfield",
-			NR_CLIPS_MAX = 8,
+			fire_mode_data = {
+				fire_rate = 0.12,
+			},
 			auto = {
-				fire_rate = 1.2,
+				fire_rate = 0.1,
+			},
+			aim_assist = {
+				near_angle = 8,
+				MIN_RATIO = 0.2,
+				far_dis = 2000,
+				MAX_RATIO = 0.4,
+				far_angle = 0.2,
+				INIT_RATIO = 0.05,
 			},
 		},
 		garand = {
@@ -32063,29 +32591,26 @@ tweak_data = {
 				INIT_RATIO = 0.15,
 			},
 		},
-		mp5_tactical_npc = {
-			has_suppressor = "suppressed_a",
-			CLIP_AMMO_MAX = 30,
-			sounds = {
-				prefix = "mp5_npc",
-			},
-			AMMO_MAX = 150,
+		c45_npc = {
+			CLIP_AMMO_MAX = 10,
+			alert_size = 5000,
 			suppression = 1,
 			DAMAGE = 1,
-			muzzleflash = "effects/vanilla/weapons/9mm_auto",
-			usage = "mp5",
 			use_data = {
 				selection_index = 1,
 			},
-			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
-			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
-			usage_anim = "mp5",
-			alert_size = 5000,
-			hold = "rifle",
-			NR_CLIPS_MAX = 5,
-			auto = {
-				fire_rate = 0.12,
+			usage = "c45",
+			sounds = {
+				prefix = "",
+				single = "mauser_c96_fire_npc",
 			},
+			AMMO_MAX = 50,
+			muzzleflash = "effects/vanilla/weapons/9mm_auto",
+			usage_anim = "c45",
+			shell_ejection = "effects/vanilla/weapons/shells/shell_9mm",
+			hold = "pistol",
+			NR_CLIPS_MAX = 5,
+			muzzleflash_silenced = "effects/vanilla/weapons/9mm_auto_silence",
 		},
 		mp44 = {
 			timers = {
@@ -36750,6 +37275,21 @@ tweak_data = {
 				name_id = "skill_general_interaction_speed_multiplier_name",
 				acquires = {},
 			},
+			general_interaction_speed_multiplier_3 = {
+				upgrades = {
+					[1] = "interaction_general_interaction_timer_multiplier_3",
+				},
+				stat_desc_id = "skill_general_interaction_speed_multiplier_stat_line",
+				icon = "skills_general_faster_interaction",
+				icon_large = "skills_general_faster_interaction_large",
+				desc_id = "skill_general_interaction_speed_multiplier_desc",
+				icon_xy = {
+					[1] = 1,
+					[2] = 1,
+				},
+				name_id = "skill_general_interaction_speed_multiplier_name",
+				acquires = {},
+			},
 			swap_speed_multiplier_2 = {
 				upgrades = {
 					[1] = "player_swap_speed_multiplier_2",
@@ -36864,9 +37404,9 @@ tweak_data = {
 				},
 				acquires = {},
 			},
-			general_interaction_speed_multiplier_3 = {
+			general_interaction_speed_multiplier_2 = {
 				upgrades = {
-					[1] = "interaction_general_interaction_timer_multiplier_3",
+					[1] = "interaction_general_interaction_timer_multiplier_2",
 				},
 				stat_desc_id = "skill_general_interaction_speed_multiplier_stat_line",
 				icon = "skills_general_faster_interaction",
@@ -36879,9 +37419,9 @@ tweak_data = {
 				name_id = "skill_general_interaction_speed_multiplier_name",
 				acquires = {},
 			},
-			general_interaction_speed_multiplier_2 = {
+			general_interaction_speed_multiplier_1 = {
 				upgrades = {
-					[1] = "interaction_general_interaction_timer_multiplier_2",
+					[1] = "interaction_general_interaction_timer_multiplier_1",
 				},
 				stat_desc_id = "skill_general_interaction_speed_multiplier_stat_line",
 				icon = "skills_general_faster_interaction",
@@ -36982,21 +37522,6 @@ tweak_data = {
 				name_id = "skill_ammo_capacity_increase_name",
 				acquires = {},
 			},
-			general_interaction_speed_multiplier_1 = {
-				upgrades = {
-					[1] = "interaction_general_interaction_timer_multiplier_1",
-				},
-				stat_desc_id = "skill_general_interaction_speed_multiplier_stat_line",
-				icon = "skills_general_faster_interaction",
-				icon_large = "skills_general_faster_interaction_large",
-				desc_id = "skill_general_interaction_speed_multiplier_desc",
-				icon_xy = {
-					[1] = 1,
-					[2] = 1,
-				},
-				name_id = "skill_general_interaction_speed_multiplier_name",
-				acquires = {},
-			},
 			revive_interaction_speed_multiplier_4 = {
 				upgrades = {
 					[1] = "player_revive_interaction_speed_multiplier_4",
@@ -37027,6 +37552,21 @@ tweak_data = {
 				name_id = "skill_stamina_regeneration_increase_name",
 				acquires = {},
 			},
+			wheel_rotation_speed_increase_3 = {
+				upgrades = {
+					[1] = "interaction_wheel_rotation_speed_increase_3",
+				},
+				stat_desc_id = "skill_wheel_rotation_speed_increase_stat_line",
+				icon = "skills_interaction_wheels_turn_faster",
+				icon_large = "skills_interaction_wheels_turn_faster_large",
+				desc_id = "skill_wheel_rotation_speed_increase_desc",
+				icon_xy = {
+					[1] = 1,
+					[2] = 1,
+				},
+				name_id = "skill_wheel_rotation_speed_increase_name",
+				acquires = {},
+			},
 			pick_up_ammo_multiplier_4 = {
 				upgrades = {
 					[1] = "player_pick_up_ammo_multiplier_4",
@@ -37042,19 +37582,19 @@ tweak_data = {
 				name_id = "skill_pick_up_ammo_multiplier_name",
 				acquires = {},
 			},
-			wheel_rotation_speed_increase_3 = {
+			revive_interaction_speed_multiplier_1 = {
 				upgrades = {
-					[1] = "interaction_wheel_rotation_speed_increase_3",
+					[1] = "player_revive_interaction_speed_multiplier_1",
 				},
-				stat_desc_id = "skill_wheel_rotation_speed_increase_stat_line",
-				icon = "skills_interaction_wheels_turn_faster",
-				icon_large = "skills_interaction_wheels_turn_faster_large",
-				desc_id = "skill_wheel_rotation_speed_increase_desc",
+				stat_desc_id = "skill_revive_interaction_speed_multiplier_stat_line",
+				icon = "skills_interaction_revive_teammates_faster",
+				icon_large = "skills_interaction_revive_teammates_faster_large",
+				desc_id = "skill_revive_interaction_speed_multiplier_desc",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				name_id = "skill_wheel_rotation_speed_increase_name",
+				name_id = "skill_revive_interaction_speed_multiplier_name",
 				acquires = {},
 			},
 			increase_crouch_speed_2 = {
@@ -37087,21 +37627,6 @@ tweak_data = {
 				name_id = "skill_shotgun_damage_multiplier_name",
 				acquires = {},
 			},
-			revive_interaction_speed_multiplier_1 = {
-				upgrades = {
-					[1] = "player_revive_interaction_speed_multiplier_1",
-				},
-				stat_desc_id = "skill_revive_interaction_speed_multiplier_stat_line",
-				icon = "skills_interaction_revive_teammates_faster",
-				icon_large = "skills_interaction_revive_teammates_faster_large",
-				desc_id = "skill_revive_interaction_speed_multiplier_desc",
-				icon_xy = {
-					[1] = 1,
-					[2] = 1,
-				},
-				name_id = "skill_revive_interaction_speed_multiplier_name",
-				acquires = {},
-			},
 			bleedout_timer_increase_4 = {
 				upgrades = {
 					[1] = "player_bleedout_timer_increase_4",
@@ -37131,6 +37656,21 @@ tweak_data = {
 					[2] = 1,
 				},
 				name_id = "skill_reload_speed_multiplier_name",
+				acquires = {},
+			},
+			wheel_hotspot_increase_2 = {
+				upgrades = {
+					[1] = "interaction_wheel_hotspot_increase_2",
+				},
+				stat_desc_id = "skill_wheel_hotspot_increase_stat_line",
+				icon = "skills_interaction_wheel_hotspots_larger",
+				icon_large = "skills_interaction_wheel_hotspots_larger_large",
+				desc_id = "skill_wheel_hotspot_increase_desc",
+				icon_xy = {
+					[1] = 1,
+					[2] = 1,
+				},
+				name_id = "skill_wheel_hotspot_increase_name",
 				acquires = {},
 			},
 			running_damage_reduction_1 = {
@@ -37223,21 +37763,6 @@ tweak_data = {
 				name_id = "skill_assault_rifle_damage_multiplier_name",
 				acquires = {},
 			},
-			wheel_hotspot_increase_2 = {
-				upgrades = {
-					[1] = "interaction_wheel_hotspot_increase_2",
-				},
-				stat_desc_id = "skill_wheel_hotspot_increase_stat_line",
-				icon = "skills_interaction_wheel_hotspots_larger",
-				icon_large = "skills_interaction_wheel_hotspots_larger_large",
-				desc_id = "skill_wheel_hotspot_increase_desc",
-				icon_xy = {
-					[1] = 1,
-					[2] = 1,
-				},
-				name_id = "skill_wheel_hotspot_increase_name",
-				acquires = {},
-			},
 			warcry_team_damage_reduction_buff_1 = {
 				desc_id = "skill_warcry_team_damage_reduction_buff_desc",
 				icon = "warcry_demolition_cluster_truck_damage_resist",
@@ -37246,18 +37771,6 @@ tweak_data = {
 					[1] = "warcry_team_damage_reduction_bonus_on_activate_1",
 				},
 				icon_large = "skills_warcry_demolition_cluster_truck_damage_resist_large",
-				icon_xy = {
-					[1] = 1,
-					[2] = 1,
-				},
-				acquires = {},
-			},
-			weapon_unlock_grenade_mills = {
-				desc_id = "skill_weapon_unlock_grenade_mills_desc",
-				upgrades = {
-					[1] = "mills",
-				},
-				name_id = "skill_weapon_unlock_grenade_mills_name",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
@@ -37277,6 +37790,32 @@ tweak_data = {
 					[2] = 1,
 				},
 				name_id = "skill_revived_damage_reduction_name",
+				acquires = {},
+			},
+			weapon_unlock_grenade_mills = {
+				desc_id = "skill_weapon_unlock_grenade_mills_desc",
+				upgrades = {
+					[1] = "mills",
+				},
+				name_id = "skill_weapon_unlock_grenade_mills_name",
+				icon_xy = {
+					[1] = 1,
+					[2] = 1,
+				},
+				acquires = {},
+			},
+			warcry_killstreak_multiplier_bonus_2 = {
+				desc_id = "skill_warcry_killstreak_bonus_desc",
+				icon = "warcry_demolition_cluster_truck_kill_streak",
+				name_id = "skill_warcry_killstreak_bonus_name",
+				upgrades = {
+					[1] = "warcry_player_killstreak_multiplier_bonus_2",
+				},
+				icon_large = "skills_warcry_demolition_cluster_truck_kill_streak_large",
+				icon_xy = {
+					[1] = 1,
+					[2] = 1,
+				},
 				acquires = {},
 			},
 			warcry_berserk = {
@@ -37313,14 +37852,12 @@ tweak_data = {
 				name_id = "skill_lmg_damage_multiplier_name",
 				acquires = {},
 			},
-			warcry_killstreak_multiplier_bonus_2 = {
-				desc_id = "skill_warcry_killstreak_bonus_desc",
-				icon = "warcry_demolition_cluster_truck_kill_streak",
-				name_id = "skill_warcry_killstreak_bonus_name",
+			undetectable_by_spotters = {
+				desc_id = "skill_undetectable_by_spotters_desc",
 				upgrades = {
-					[1] = "warcry_player_killstreak_multiplier_bonus_2",
+					[1] = "player_undetectable_by_spotters",
 				},
-				icon_large = "skills_warcry_demolition_cluster_truck_kill_streak_large",
+				name_id = "skill_undetectable_by_spotters_name",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
@@ -37444,16 +37981,19 @@ tweak_data = {
 				name_id = "skill_increase_general_speed_name",
 				acquires = {},
 			},
-			undetectable_by_spotters = {
-				desc_id = "skill_undetectable_by_spotters_desc",
+			max_health_multiplier_3 = {
 				upgrades = {
-					[1] = "player_undetectable_by_spotters",
+					[1] = "player_max_health_multiplier_3",
 				},
-				name_id = "skill_undetectable_by_spotters_name",
+				stat_desc_id = "skill_max_health_multiplier_stat_line",
+				icon = "skills_soaking_damage_increased_health",
+				icon_large = "skills_soaking_damage_increased_health_large",
+				desc_id = "skill_max_health_multiplier_desc",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
+				name_id = "skill_max_health_multiplier_name",
 				acquires = {},
 			},
 			pistol_damage_multiplier_2 = {
@@ -37590,21 +38130,6 @@ tweak_data = {
 				name_id = "skill_increase_general_speed_name",
 				acquires = {},
 			},
-			max_health_multiplier_3 = {
-				upgrades = {
-					[1] = "player_max_health_multiplier_3",
-				},
-				stat_desc_id = "skill_max_health_multiplier_stat_line",
-				icon = "skills_soaking_damage_increased_health",
-				icon_large = "skills_soaking_damage_increased_health_large",
-				desc_id = "skill_max_health_multiplier_desc",
-				icon_xy = {
-					[1] = 1,
-					[2] = 1,
-				},
-				name_id = "skill_max_health_multiplier_name",
-				acquires = {},
-			},
 			turret_reduced_overheat_4 = {
 				upgrades = {
 					[1] = "player_turret_m2_overheat_reduction_4",
@@ -37637,6 +38162,21 @@ tweak_data = {
 				name_id = "skill_turret_reduced_overheat_name",
 				acquires = {},
 			},
+			grenade_quantity_2 = {
+				upgrades = {
+					[1] = "player_grenade_quantity_2",
+				},
+				stat_desc_id = "skill_grenade_quantity_stat_line",
+				icon = "skills_weapons_carry_extra_granade",
+				icon_large = "skills_weapons_carry_extra_granade_large",
+				desc_id = "skill_grenade_quantity_desc",
+				icon_xy = {
+					[1] = 1,
+					[2] = 1,
+				},
+				name_id = "skill_grenade_quantity_name",
+				acquires = {},
+			},
 			ready_weapon_speed_multiplier_1 = {
 				upgrades = {
 					[1] = "player_ready_weapon_speed_multiplier_1",
@@ -37667,34 +38207,35 @@ tweak_data = {
 				name_id = "skill_on_hit_flinch_reduction_name",
 				acquires = {},
 			},
-			grenade_quantity_2 = {
-				upgrades = {
-					[1] = "player_grenade_quantity_2",
-				},
-				stat_desc_id = "skill_grenade_quantity_stat_line",
-				icon = "skills_weapons_carry_extra_granade",
-				icon_large = "skills_weapons_carry_extra_granade_large",
-				desc_id = "skill_grenade_quantity_desc",
+			warcry_berserk_level_increase = {
+				desc_id = "skill_warcry_level_increase_desc",
+				icon = "skills_warcry_assault_berserk",
+				name_id = "skill_warcry_level_increase_name",
+				upgrades = {},
+				icon_large = "skills_warcry_assault_berserk_large",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				name_id = "skill_grenade_quantity_name",
-				acquires = {},
+				acquires = {
+					[1] = {
+						warcry_level = 1,
+					},
+				},
 			},
-			smg_damage_multiplier_2 = {
+			melee_damage_multiplier_3 = {
 				upgrades = {
-					[1] = "smg_damage_multiplier_2",
+					[1] = "player_melee_damage_multiplier_3",
 				},
-				stat_desc_id = "skill_smg_damage_multiplier_stat_line",
-				icon = "skills_dealing_damage_smg_multiplier",
-				icon_large = "skills_dealing_damage_smg_multiplier_large",
-				desc_id = "skill_smg_damage_multiplier_desc",
+				stat_desc_id = "skill_melee_damage_multiplier_stat_line",
+				icon = "skills_dealing_damage_melee_multiplier",
+				icon_large = "skills_dealing_damage_melee_multiplier_large",
+				desc_id = "skill_melee_damage_multiplier_desc",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				name_id = "skill_smg_damage_multiplier_name",
+				name_id = "skill_melee_damage_multiplier_name",
 				acquires = {},
 			},
 			warcry_duration_1 = {
@@ -37711,19 +38252,19 @@ tweak_data = {
 				},
 				acquires = {},
 			},
-			melee_damage_multiplier_3 = {
+			lmg_damage_multiplier_3 = {
 				upgrades = {
-					[1] = "player_melee_damage_multiplier_3",
+					[1] = "lmg_damage_multiplier_3",
 				},
-				stat_desc_id = "skill_melee_damage_multiplier_stat_line",
-				icon = "skills_dealing_damage_melee_multiplier",
-				icon_large = "skills_dealing_damage_melee_multiplier_large",
-				desc_id = "skill_melee_damage_multiplier_desc",
+				stat_desc_id = "skill_lmg_damage_multiplier_stat_line",
+				icon = "skills_dealing_damage_heavy_multiplier",
+				icon_large = "skills_dealing_damage_heavy_multiplier_large",
+				desc_id = "skill_lmg_damage_multiplier_desc",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				name_id = "skill_melee_damage_multiplier_name",
+				name_id = "skill_lmg_damage_multiplier_name",
 				acquires = {},
 			},
 			headshot_damage_multiplier_3 = {
@@ -37741,9 +38282,9 @@ tweak_data = {
 				name_id = "skill_headshot_damage_multiplier_name",
 				acquires = {},
 			},
-			lmg_damage_multiplier_3 = {
+			lmg_damage_multiplier_2 = {
 				upgrades = {
-					[1] = "lmg_damage_multiplier_3",
+					[1] = "lmg_damage_multiplier_2",
 				},
 				stat_desc_id = "skill_lmg_damage_multiplier_stat_line",
 				icon = "skills_dealing_damage_heavy_multiplier",
@@ -37771,19 +38312,19 @@ tweak_data = {
 				name_id = "skill_crouching_damage_reduction_name",
 				acquires = {},
 			},
-			lmg_damage_multiplier_2 = {
+			smg_damage_multiplier_2 = {
 				upgrades = {
-					[1] = "lmg_damage_multiplier_2",
+					[1] = "smg_damage_multiplier_2",
 				},
-				stat_desc_id = "skill_lmg_damage_multiplier_stat_line",
-				icon = "skills_dealing_damage_heavy_multiplier",
-				icon_large = "skills_dealing_damage_heavy_multiplier_large",
-				desc_id = "skill_lmg_damage_multiplier_desc",
+				stat_desc_id = "skill_smg_damage_multiplier_stat_line",
+				icon = "skills_dealing_damage_smg_multiplier",
+				icon_large = "skills_dealing_damage_smg_multiplier_large",
+				desc_id = "skill_smg_damage_multiplier_desc",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				name_id = "skill_lmg_damage_multiplier_name",
+				name_id = "skill_smg_damage_multiplier_name",
 				acquires = {},
 			},
 			crouching_damage_reduction_3 = {
@@ -37857,21 +38398,20 @@ tweak_data = {
 				name_id = "skill_melee_damage_reduction_name",
 				acquires = {},
 			},
-			warcry_berserk_level_increase = {
-				desc_id = "skill_warcry_level_increase_desc",
-				icon = "skills_warcry_assault_berserk",
-				name_id = "skill_warcry_level_increase_name",
-				upgrades = {},
-				icon_large = "skills_warcry_assault_berserk_large",
+			pistol_damage_multiplier_1 = {
+				upgrades = {
+					[1] = "pistol_damage_multiplier_1",
+				},
+				stat_desc_id = "skill_pistol_damage_multiplier_stat_line",
+				icon = "skills_dealing_damage_pistol_multiplier",
+				icon_large = "skills_dealing_damage_pistol_multiplier_large",
+				desc_id = "skill_pistol_damage_multiplier_desc",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				acquires = {
-					[1] = {
-						warcry_level = 1,
-					},
-				},
+				name_id = "skill_pistol_damage_multiplier_name",
+				acquires = {},
 			},
 			reload_speed_multiplier_4 = {
 				upgrades = {
@@ -37889,19 +38429,19 @@ tweak_data = {
 				name_id = "skill_reload_speed_multiplier_name",
 				acquires = {},
 			},
-			pistol_damage_multiplier_1 = {
+			stamina_multiplier_3 = {
 				upgrades = {
-					[1] = "pistol_damage_multiplier_1",
+					[1] = "player_stamina_multiplier_3",
 				},
-				stat_desc_id = "skill_pistol_damage_multiplier_stat_line",
-				icon = "skills_dealing_damage_pistol_multiplier",
-				icon_large = "skills_dealing_damage_pistol_multiplier_large",
-				desc_id = "skill_pistol_damage_multiplier_desc",
+				stat_desc_id = "skill_stamina_multiplier_stat_line",
+				icon = "skills_navigation_stamina_reserve",
+				icon_large = "skills_navigation_stamina_reserve_large",
+				desc_id = "skill_stamina_multiplier_desc",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				name_id = "skill_pistol_damage_multiplier_name",
+				name_id = "skill_stamina_multiplier_name",
 				acquires = {},
 			},
 			warcry_duration_2 = {
@@ -37918,19 +38458,16 @@ tweak_data = {
 				},
 				acquires = {},
 			},
-			stamina_multiplier_3 = {
+			weapon_unlock_sterling = {
+				desc_id = "skill_weapon_unlock_sterling_desc",
 				upgrades = {
-					[1] = "player_stamina_multiplier_3",
+					[1] = "sterling",
 				},
-				stat_desc_id = "skill_stamina_multiplier_stat_line",
-				icon = "skills_navigation_stamina_reserve",
-				icon_large = "skills_navigation_stamina_reserve_large",
-				desc_id = "skill_stamina_multiplier_desc",
+				name_id = "skill_weapon_unlock_sterling_name",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
 				},
-				name_id = "skill_stamina_multiplier_name",
 				acquires = {},
 			},
 			melee_damage_reduction_3 = {
@@ -38394,12 +38931,12 @@ tweak_data = {
 				name_id = "skill_ammo_capacity_increase_name",
 				acquires = {},
 			},
-			weapon_unlock_sterling = {
-				desc_id = "skill_weapon_unlock_sterling_desc",
+			weapon_unlock_ithaca = {
+				desc_id = "skill_weapon_unlock_ithaca_desc",
 				upgrades = {
-					[1] = "sterling",
+					[1] = "ithaca",
 				},
-				name_id = "skill_weapon_unlock_sterling_name",
+				name_id = "skill_weapon_unlock_ithaca_name",
 				icon_xy = {
 					[1] = 1,
 					[2] = 1,
@@ -39961,6 +40498,11 @@ tweak_data = {
 						[1] = "weapon_unlock_grenade_d343",
 					},
 				},
+				[23] = {
+					weapons = {
+						[1] = "weapon_unlock_ithaca",
+					},
+				},
 				[25] = {
 					unlocks = {
 						[1] = "weapon_tier_unlocked_3",
@@ -40062,6 +40604,11 @@ tweak_data = {
 				[25] = {
 					unlocks = {
 						[1] = "weapon_tier_unlocked_3",
+					},
+				},
+				[28] = {
+					weapons = {
+						[1] = "weapon_unlock_ithaca",
 					},
 				},
 				[30] = {
@@ -40366,10 +40913,11 @@ tweak_data = {
 					[18] = "geco",
 					[19] = "dp28",
 					[20] = "tt33",
-					[21] = "kar_98k",
-					[22] = "bren",
-					[23] = "lee_enfield",
-					[24] = "shotty",
+					[21] = "ithaca",
+					[22] = "kar_98k",
+					[23] = "bren",
+					[24] = "lee_enfield",
+					[25] = "shotty",
 				},
 				name_id = "body_armor",
 			},
@@ -45270,16 +45818,27 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			warcry_player_headshot_multiplier_bonus_2 = {
+			lmg_hip_fire_damage_multiplier_1 = {
 				upgrade = {
-					category = "player",
-					upgrade = "warcry_headshot_multiplier_bonus",
-					value = 2,
+					category = "lmg",
+					upgrade = "hip_fire_damage_multiplier",
+					value = 1,
 				},
-				name_id = "menu_player_warcry_headshot_multiplier_bonus",
+				name_id = "menu_lmg_hip_fire_damage_multiplier",
 				category = "feature",
 				has_levels = true,
-				incremental = true,
+				incremental = false,
+			},
+			pistol_fire_rate_multiplier_1 = {
+				upgrade = {
+					category = "pistol",
+					upgrade = "fire_rate_multiplier",
+					value = 1,
+				},
+				name_id = "menu_pistol_fire_rate_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
 			},
 			player_perk_armor_regen_timer_multiplier_5 = {
 				category = "feature",
@@ -45363,24 +45922,13 @@ tweak_data = {
 					upgrade_type = "stat_type_multiplier",
 				},
 			},
-			warcry_player_aim_assist_aim_at_head = {
-				upgrade = {
-					category = "player",
-					upgrade = "warcry_aim_assist_aim_at_head",
-					value = 1,
-				},
-				name_id = "menu_player_warcry_aim_assist_aim_at_head",
-				category = "feature",
-				has_levels = false,
-				incremental = false,
-			},
-			shotgun_stacking_hit_expire_t_1 = {
+			shotgun_swap_speed_multiplier_1 = {
 				upgrade = {
 					category = "shotgun",
-					upgrade = "stacking_hit_expire_t",
+					upgrade = "swap_speed_multiplier",
 					value = 1,
 				},
-				name_id = "menu_shotgun_stacking_hit_expire_t",
+				name_id = "menu_shotgun_swap_speed_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45395,6 +45943,9 @@ tweak_data = {
 				category = "feature",
 				has_levels = true,
 				incremental = false,
+			},
+			bc41_knuckle_knife = {
+				category = "melee_weapon",
 			},
 			cable_tie_quantity_2 = {
 				category = "equipment_upgrade",
@@ -45425,9 +45976,6 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			km_dagger = {
-				category = "melee_weapon",
-			},
 			snp_swap_speed_multiplier_1 = {
 				upgrade = {
 					category = "snp",
@@ -45439,13 +45987,13 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			pistol_stacking_hit_expire_t_2 = {
+			pistol_stacking_hit_damage_multiplier_1 = {
 				upgrade = {
 					category = "pistol",
-					upgrade = "stacking_hit_expire_t",
-					value = 2,
+					upgrade = "stacking_hit_damage_multiplier",
+					value = 1,
 				},
-				name_id = "menu_pistol_stacking_hit_expire_t",
+				name_id = "menu_pistol_stacking_hit_damage_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45471,6 +46019,15 @@ tweak_data = {
 				category = "feature",
 				has_levels = true,
 				incremental = false,
+			},
+			player_sec_camera_highlight_mask_off = {
+				category = "feature",
+				upgrade = {
+					category = "player",
+					upgrade = "sec_camera_highlight_mask_off",
+					value = 1,
+				},
+				name_id = "menu_player_sec_camera_highlight_mask_off",
 			},
 			warcry_team_damage_reduction_bonus_4 = {
 				upgrade = {
@@ -45503,14 +46060,16 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			player_sec_camera_highlight_mask_off = {
-				category = "feature",
+			snp_spread_multiplier_1 = {
 				upgrade = {
-					category = "player",
-					upgrade = "sec_camera_highlight_mask_off",
+					category = "snp",
+					upgrade = "spread_multiplier",
 					value = 1,
 				},
-				name_id = "menu_player_sec_camera_highlight_mask_off",
+				name_id = "menu_snp_spread_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
 			},
 			carry_throw_distance_multiplier = {
 				category = "feature",
@@ -45560,13 +46119,13 @@ tweak_data = {
 				},
 				incremental = true,
 			},
-			snp_spread_multiplier_1 = {
+			snp_enter_steelsight_speed_multiplier_1 = {
 				upgrade = {
 					category = "snp",
-					upgrade = "spread_multiplier",
+					upgrade = "enter_steelsight_speed_multiplier",
 					value = 1,
 				},
-				name_id = "menu_snp_spread_multiplier",
+				name_id = "menu_snp_enter_steelsight_speed_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45582,16 +46141,19 @@ tweak_data = {
 				has_levels = false,
 				incremental = true,
 			},
-			snp_enter_steelsight_speed_multiplier_1 = {
+			snp_damage_multiplier_3 = {
 				upgrade = {
 					category = "snp",
-					upgrade = "enter_steelsight_speed_multiplier",
-					value = 1,
+					upgrade = "damage_multiplier",
+					value = 3,
 				},
-				name_id = "menu_snp_enter_steelsight_speed_multiplier",
+				name_id = "menu_snp_damage_multiplier",
 				category = "feature",
-				has_levels = true,
 				incremental = false,
+				has_levels = true,
+				description_data = {
+					upgrade_type = "stat_type_multiplier",
+				},
 			},
 			player_concealment_bonus_1 = {
 				category = "feature",
@@ -45603,11 +46165,11 @@ tweak_data = {
 				},
 				incremental = true,
 			},
-			snp_damage_multiplier_3 = {
+			snp_damage_multiplier_2 = {
 				upgrade = {
 					category = "snp",
 					upgrade = "damage_multiplier",
-					value = 3,
+					value = 2,
 				},
 				name_id = "menu_snp_damage_multiplier",
 				category = "feature",
@@ -45662,20 +46224,6 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			snp_damage_multiplier_2 = {
-				upgrade = {
-					category = "snp",
-					upgrade = "damage_multiplier",
-					value = 2,
-				},
-				name_id = "menu_snp_damage_multiplier",
-				category = "feature",
-				incremental = false,
-				has_levels = true,
-				description_data = {
-					upgrade_type = "stat_type_multiplier",
-				},
-			},
 			snp_damage_multiplier_1 = {
 				upgrade = {
 					category = "snp",
@@ -45710,6 +46258,17 @@ tweak_data = {
 				},
 				name_id = "menu_player_camouflage_bonus",
 			},
+			snp_recoil_reduction_3 = {
+				upgrade = {
+					category = "snp",
+					upgrade = "recoil_reduction",
+					value = 3,
+				},
+				name_id = "menu_snp_recoil_reduction",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
 			team_hostage_stamina_multiplier = {
 				category = "team",
 				upgrade = {
@@ -45731,11 +46290,11 @@ tweak_data = {
 				},
 				name_id = "menu_player_damage_to_hot",
 			},
-			snp_recoil_reduction_3 = {
+			snp_recoil_reduction_2 = {
 				upgrade = {
 					category = "snp",
 					upgrade = "recoil_reduction",
-					value = 3,
+					value = 2,
 				},
 				name_id = "menu_snp_recoil_reduction",
 				category = "feature",
@@ -45753,11 +46312,11 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			snp_recoil_reduction_2 = {
+			snp_recoil_reduction_1 = {
 				upgrade = {
 					category = "snp",
 					upgrade = "recoil_reduction",
-					value = 2,
+					value = 1,
 				},
 				name_id = "menu_snp_recoil_reduction",
 				category = "feature",
@@ -45804,13 +46363,13 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			snp_recoil_reduction_1 = {
+			lmg_zoom_increase_1 = {
 				upgrade = {
-					category = "snp",
-					upgrade = "recoil_reduction",
+					category = "lmg",
+					upgrade = "zoom_increase",
 					value = 1,
 				},
-				name_id = "menu_snp_recoil_reduction",
+				name_id = "menu_lmg_zoom_increase",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45833,13 +46392,13 @@ tweak_data = {
 				},
 				name_id = "menu_weapon_reload_speed",
 			},
-			lmg_zoom_increase_1 = {
+			warcry_player_grenade_cluster_range_2 = {
 				upgrade = {
-					category = "lmg",
-					upgrade = "zoom_increase",
-					value = 1,
+					category = "player",
+					upgrade = "warcry_grenade_cluster_range",
+					value = 2,
 				},
-				name_id = "menu_lmg_zoom_increase",
+				name_id = "menu_player_warcry_grenade_cluster_range",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45864,17 +46423,6 @@ tweak_data = {
 				},
 				name_id = "menu_player_damage_shake_multiplier",
 			},
-			warcry_player_grenade_cluster_range_2 = {
-				upgrade = {
-					category = "player",
-					upgrade = "warcry_grenade_cluster_range",
-					value = 2,
-				},
-				name_id = "menu_player_warcry_grenade_cluster_range",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			lmg_stacking_hit_expire_t_2 = {
 				upgrade = {
 					category = "lmg",
@@ -45882,6 +46430,17 @@ tweak_data = {
 					value = 2,
 				},
 				name_id = "menu_lmg_stacking_hit_expire_t",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			shotgun_damage_addend_1 = {
+				upgrade = {
+					category = "shotgun",
+					upgrade = "damage_addend",
+					value = 1,
+				},
+				name_id = "menu_shotgun_damage_addend",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45916,13 +46475,13 @@ tweak_data = {
 				},
 				name_id = "menu_player_tier_dodge_chance",
 			},
-			shotgun_move_spread_multiplier_1 = {
+			lmg_stacking_hit_damage_multiplier_1 = {
 				upgrade = {
-					category = "shotgun",
-					upgrade = "move_spread_multiplier",
+					category = "lmg",
+					upgrade = "stacking_hit_damage_multiplier",
 					value = 1,
 				},
-				name_id = "menu_shotgun_move_spread_multiplier",
+				name_id = "menu_lmg_stacking_hit_damage_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45940,13 +46499,13 @@ tweak_data = {
 				category = "rep_upgrade",
 				value = 2,
 			},
-			lmg_stacking_hit_damage_multiplier_1 = {
+			lmg_recoil_multiplier_1 = {
 				upgrade = {
 					category = "lmg",
-					upgrade = "stacking_hit_damage_multiplier",
+					upgrade = "recoil_multiplier",
 					value = 1,
 				},
-				name_id = "menu_lmg_stacking_hit_damage_multiplier",
+				name_id = "menu_lmg_recoil_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45958,17 +46517,6 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_snp_move_spread_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
-			lmg_hip_fire_damage_multiplier_1 = {
-				upgrade = {
-					category = "lmg",
-					upgrade = "hip_fire_damage_multiplier",
-					value = 1,
-				},
-				name_id = "menu_lmg_hip_fire_damage_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -45995,6 +46543,15 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
+			player_tape_loop_duration_1 = {
+				category = "feature",
+				upgrade = {
+					category = "player",
+					upgrade = "tape_loop_duration",
+					value = 1,
+				},
+				name_id = "menu_player_tape_loop_duration",
+			},
 			player_premium_contract_cost_multiplier = {
 				category = "feature",
 				upgrade = {
@@ -46004,14 +46561,16 @@ tweak_data = {
 				},
 				name_id = "menu_player_premium_contract_cost_multiplier",
 			},
-			player_tape_loop_duration_1 = {
-				category = "feature",
+			lmg_enter_steelsight_speed_multiplier_1 = {
 				upgrade = {
-					category = "player",
-					upgrade = "tape_loop_duration",
+					category = "lmg",
+					upgrade = "enter_steelsight_speed_multiplier",
 					value = 1,
 				},
-				name_id = "menu_player_tape_loop_duration",
+				name_id = "menu_lmg_enter_steelsight_speed_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
 			},
 			player_morale_boost = {
 				category = "feature",
@@ -46045,16 +46604,19 @@ tweak_data = {
 					upgrade_type = "stat_type_multiplier",
 				},
 			},
-			lmg_enter_steelsight_speed_multiplier_1 = {
+			lmg_damage_multiplier_3 = {
 				upgrade = {
 					category = "lmg",
-					upgrade = "enter_steelsight_speed_multiplier",
-					value = 1,
+					upgrade = "damage_multiplier",
+					value = 3,
 				},
-				name_id = "menu_lmg_enter_steelsight_speed_multiplier",
+				name_id = "menu_lmg_damage_multiplier",
 				category = "feature",
-				has_levels = true,
 				incremental = false,
+				has_levels = true,
+				description_data = {
+					upgrade_type = "stat_type_multiplier",
+				},
 			},
 			trip_mine_quantity_increase_1 = {
 				category = "feature",
@@ -46144,11 +46706,11 @@ tweak_data = {
 				has_levels = true,
 				incremental = true,
 			},
-			lmg_damage_multiplier_3 = {
+			lmg_damage_multiplier_2 = {
 				upgrade = {
 					category = "lmg",
 					upgrade = "damage_multiplier",
-					value = 3,
+					value = 2,
 				},
 				name_id = "menu_lmg_damage_multiplier",
 				category = "feature",
@@ -46167,11 +46729,11 @@ tweak_data = {
 				},
 				name_id = "menu_ecm_jammer_affects_cameras",
 			},
-			lmg_damage_multiplier_2 = {
+			lmg_damage_multiplier_1 = {
 				upgrade = {
 					category = "lmg",
 					upgrade = "damage_multiplier",
-					value = 2,
+					value = 1,
 				},
 				name_id = "menu_lmg_damage_multiplier",
 				category = "feature",
@@ -46190,19 +46752,16 @@ tweak_data = {
 				},
 				name_id = "menu_player_stand_still_crouch_camouflage_bonus",
 			},
-			lmg_damage_multiplier_1 = {
+			warcry_player_headshot_multiplier_bonus_2 = {
 				upgrade = {
-					category = "lmg",
-					upgrade = "damage_multiplier",
-					value = 1,
+					category = "player",
+					upgrade = "warcry_headshot_multiplier_bonus",
+					value = 2,
 				},
-				name_id = "menu_lmg_damage_multiplier",
+				name_id = "menu_player_warcry_headshot_multiplier_bonus",
 				category = "feature",
-				incremental = false,
 				has_levels = true,
-				description_data = {
-					upgrade_type = "stat_type_multiplier",
-				},
+				incremental = true,
 			},
 			lmg_swap_speed_multiplier_1 = {
 				upgrade = {
@@ -46211,17 +46770,6 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_lmg_swap_speed_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
-			lmg_recoil_multiplier_1 = {
-				upgrade = {
-					category = "lmg",
-					upgrade = "recoil_multiplier",
-					value = 1,
-				},
-				name_id = "menu_lmg_recoil_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46253,6 +46801,17 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_shotgun_consume_no_ammo_chance",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			shotgun_move_spread_multiplier_1 = {
+				upgrade = {
+					category = "shotgun",
+					upgrade = "move_spread_multiplier",
+					value = 1,
+				},
+				name_id = "menu_shotgun_move_spread_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46327,13 +46886,13 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			shotgun_damage_addend_1 = {
+			shotgun_fire_rate_multiplier_1 = {
 				upgrade = {
 					category = "shotgun",
-					upgrade = "damage_addend",
+					upgrade = "fire_rate_multiplier",
 					value = 1,
 				},
-				name_id = "menu_shotgun_damage_addend",
+				name_id = "menu_shotgun_fire_rate_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46347,13 +46906,13 @@ tweak_data = {
 				},
 				name_id = "menu_passive_armor_movement_penalty_multiplier",
 			},
-			shotgun_exit_run_speed_multiplier_1 = {
+			shotgun_stacking_hit_expire_t_1 = {
 				upgrade = {
 					category = "shotgun",
-					upgrade = "exit_run_speed_multiplier",
+					upgrade = "stacking_hit_expire_t",
 					value = 1,
 				},
-				name_id = "menu_shotgun_exit_run_speed_multiplier",
+				name_id = "menu_shotgun_stacking_hit_expire_t",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46391,17 +46950,6 @@ tweak_data = {
 				},
 				name_id = "menu_player_dmg_dampener_close_contact",
 			},
-			shotgun_swap_speed_multiplier_1 = {
-				upgrade = {
-					category = "shotgun",
-					upgrade = "swap_speed_multiplier",
-					value = 1,
-				},
-				name_id = "menu_shotgun_swap_speed_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			shotgun_hip_fire_damage_multiplier_1 = {
 				upgrade = {
 					category = "shotgun",
@@ -46411,6 +46959,17 @@ tweak_data = {
 				name_id = "menu_shotgun_hip_fire_damage_multiplier",
 				category = "feature",
 				has_levels = true,
+				incremental = false,
+			},
+			warcry_player_aim_assist_aim_at_head = {
+				upgrade = {
+					category = "player",
+					upgrade = "warcry_aim_assist_aim_at_head",
+					value = 1,
+				},
+				name_id = "menu_player_warcry_aim_assist_aim_at_head",
+				category = "feature",
+				has_levels = false,
 				incremental = false,
 			},
 			player_pick_up_health_multiplier_2 = {
@@ -46427,13 +46986,13 @@ tweak_data = {
 					upgrade_type = "stat_type_multiplier",
 				},
 			},
-			pistol_hip_fire_spread_multiplier_1 = {
+			shotgun_exit_run_speed_multiplier_1 = {
 				upgrade = {
-					category = "pistol",
-					upgrade = "hip_fire_spread_multiplier",
+					category = "shotgun",
+					upgrade = "exit_run_speed_multiplier",
 					value = 1,
 				},
-				name_id = "menu_pistol_hip_fire_spread_multiplier",
+				name_id = "menu_shotgun_exit_run_speed_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46478,13 +47037,13 @@ tweak_data = {
 				},
 				name_id = "menu_weapon_passive_damage_multiplier",
 			},
-			shotgun_fire_rate_multiplier_1 = {
+			shotgun_spread_multiplier_1 = {
 				upgrade = {
 					category = "shotgun",
-					upgrade = "fire_rate_multiplier",
+					upgrade = "spread_multiplier",
 					value = 1,
 				},
-				name_id = "menu_shotgun_fire_rate_multiplier",
+				name_id = "menu_shotgun_spread_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46498,17 +47057,6 @@ tweak_data = {
 				},
 				name_id = "menu_akimbo_recoil_index_addend",
 			},
-			shotgun_spread_multiplier_1 = {
-				upgrade = {
-					category = "shotgun",
-					upgrade = "spread_multiplier",
-					value = 1,
-				},
-				name_id = "menu_shotgun_spread_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			shotgun_enter_steelsight_speed_multiplier_1 = {
 				upgrade = {
 					category = "shotgun",
@@ -46519,6 +47067,20 @@ tweak_data = {
 				category = "feature",
 				has_levels = true,
 				incremental = false,
+			},
+			shotgun_damage_multiplier_3 = {
+				upgrade = {
+					category = "shotgun",
+					upgrade = "damage_multiplier",
+					value = 3,
+				},
+				name_id = "menu_shotgun_damage_multiplier",
+				category = "feature",
+				incremental = false,
+				has_levels = true,
+				description_data = {
+					upgrade_type = "stat_type_multiplier",
+				},
 			},
 			interaction_carry_pickup_multiplier_1 = {
 				upgrade = {
@@ -46545,11 +47107,11 @@ tweak_data = {
 					upgrade_type = "stat_type_multiplier",
 				},
 			},
-			shotgun_damage_multiplier_3 = {
+			shotgun_damage_multiplier_2 = {
 				upgrade = {
 					category = "shotgun",
 					upgrade = "damage_multiplier",
-					value = 3,
+					value = 2,
 				},
 				name_id = "menu_shotgun_damage_multiplier",
 				category = "feature",
@@ -46588,19 +47150,16 @@ tweak_data = {
 				},
 				name_id = "menu_weapon_headshot_damage_multiplier",
 			},
-			shotgun_damage_multiplier_2 = {
+			smg_stacking_hit_expire_t_1 = {
 				upgrade = {
-					category = "shotgun",
-					upgrade = "damage_multiplier",
-					value = 2,
+					category = "smg",
+					upgrade = "stacking_hit_expire_t",
+					value = 1,
 				},
-				name_id = "menu_shotgun_damage_multiplier",
+				name_id = "menu_smg_stacking_hit_expire_t",
 				category = "feature",
-				incremental = false,
 				has_levels = true,
-				description_data = {
-					upgrade_type = "stat_type_multiplier",
-				},
+				incremental = false,
 			},
 			smg_recoil_reduction_1 = {
 				upgrade = {
@@ -46613,13 +47172,13 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			smg_stacking_hit_expire_t_2 = {
+			secondary_weapon_enter_steelsight_speed_multiplier_2 = {
 				upgrade = {
-					category = "smg",
-					upgrade = "stacking_hit_expire_t",
+					category = "secondary_weapon",
+					upgrade = "enter_steelsight_speed_multiplier",
 					value = 2,
 				},
-				name_id = "menu_smg_stacking_hit_expire_t",
+				name_id = "menu_secondary_weapon_enter_steelsight_speed_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46656,17 +47215,6 @@ tweak_data = {
 				},
 				name_id = "menu_team_bags_stealth_multiplier",
 			},
-			assault_rifle_stacking_hit_expire_t_1 = {
-				upgrade = {
-					category = "assault_rifle",
-					upgrade = "stacking_hit_expire_t",
-					value = 1,
-				},
-				name_id = "menu_assault_rifle_stacking_hit_expire_t",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			shotgun_recoil_multiplier_1 = {
 				upgrade = {
 					category = "shotgun",
@@ -46674,6 +47222,17 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_shotgun_recoil_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			shotgun_recoil_reduction_2 = {
+				upgrade = {
+					category = "shotgun",
+					upgrade = "recoil_reduction",
+					value = 2,
+				},
+				name_id = "menu_shotgun_recoil_reduction",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46696,16 +47255,16 @@ tweak_data = {
 			robbins_dudley_trench_push_dagger = {
 				category = "melee_weapon",
 			},
-			shotgun_recoil_reduction_2 = {
+			player_weapon_sway_decrease_2 = {
 				upgrade = {
-					category = "shotgun",
-					upgrade = "recoil_reduction",
+					category = "player",
+					upgrade = "weapon_sway_decrease",
 					value = 2,
 				},
-				name_id = "menu_shotgun_recoil_reduction",
+				name_id = "menu_player_weapon_sway_decrease",
 				category = "feature",
 				has_levels = true,
-				incremental = false,
+				incremental = true,
 			},
 			team_cash_stealth_multiplier = {
 				category = "team",
@@ -46770,17 +47329,6 @@ tweak_data = {
 				prio = "high",
 				description_text_id = "sentry_gun",
 			},
-			player_weapon_sway_decrease_2 = {
-				upgrade = {
-					category = "player",
-					upgrade = "weapon_sway_decrease",
-					value = 2,
-				},
-				name_id = "menu_player_weapon_sway_decrease",
-				category = "feature",
-				has_levels = true,
-				incremental = true,
-			},
 			smg_zoom_increase_1 = {
 				upgrade = {
 					category = "smg",
@@ -46788,6 +47336,17 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_smg_zoom_increase",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			smg_move_spread_multiplier_1 = {
+				upgrade = {
+					category = "smg",
+					upgrade = "move_spread_multiplier",
+					value = 1,
+				},
+				name_id = "menu_smg_move_spread_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46810,13 +47369,13 @@ tweak_data = {
 				},
 				name_id = "menu_player_xp_multiplier",
 			},
-			smg_move_spread_multiplier_1 = {
+			smg_damage_addend_1 = {
 				upgrade = {
 					category = "smg",
-					upgrade = "move_spread_multiplier",
+					upgrade = "damage_addend",
 					value = 1,
 				},
-				name_id = "menu_smg_move_spread_multiplier",
+				name_id = "menu_smg_damage_addend",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46847,13 +47406,13 @@ tweak_data = {
 				},
 				incremental = true,
 			},
-			smg_damage_addend_1 = {
+			smg_stacking_hit_expire_t_2 = {
 				upgrade = {
 					category = "smg",
-					upgrade = "damage_addend",
-					value = 1,
+					upgrade = "stacking_hit_expire_t",
+					value = 2,
 				},
-				name_id = "menu_smg_damage_addend",
+				name_id = "menu_smg_stacking_hit_expire_t",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46872,13 +47431,13 @@ tweak_data = {
 					upgrade_type = "stat_type_multiplier",
 				},
 			},
-			smg_stacking_hit_expire_t_1 = {
+			smg_swap_speed_multiplier_1 = {
 				upgrade = {
 					category = "smg",
-					upgrade = "stacking_hit_expire_t",
+					upgrade = "swap_speed_multiplier",
 					value = 1,
 				},
-				name_id = "menu_smg_stacking_hit_expire_t",
+				name_id = "menu_smg_swap_speed_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46933,17 +47492,6 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			smg_swap_speed_multiplier_1 = {
-				upgrade = {
-					category = "smg",
-					upgrade = "swap_speed_multiplier",
-					value = 1,
-				},
-				name_id = "menu_smg_swap_speed_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			smg_hip_fire_damage_multiplier_1 = {
 				upgrade = {
 					category = "smg",
@@ -46951,6 +47499,17 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_smg_hip_fire_damage_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			smg_exit_run_speed_multiplier_1 = {
+				upgrade = {
+					category = "smg",
+					upgrade = "exit_run_speed_multiplier",
+					value = 1,
+				},
+				name_id = "menu_smg_exit_run_speed_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -46968,17 +47527,6 @@ tweak_data = {
 				description_data = {
 					upgrade_type = "stat_type_reductive_multiplier",
 				},
-			},
-			smg_exit_run_speed_multiplier_1 = {
-				upgrade = {
-					category = "smg",
-					upgrade = "exit_run_speed_multiplier",
-					value = 1,
-				},
-				name_id = "menu_smg_exit_run_speed_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
 			},
 			player_crouching_damage_reduction_1 = {
 				upgrade = {
@@ -47005,6 +47553,17 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
+			assault_rifle_stacking_hit_expire_t_1 = {
+				upgrade = {
+					category = "assault_rifle",
+					upgrade = "stacking_hit_expire_t",
+					value = 1,
+				},
+				name_id = "menu_assault_rifle_stacking_hit_expire_t",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
 			secondary_weapon_damage_multiplier_4 = {
 				upgrade = {
 					category = "secondary_weapon",
@@ -47025,22 +47584,25 @@ tweak_data = {
 				},
 				name_id = "menu_trip_mine_marked_enemy_extra_damage",
 			},
-			assault_rifle_damage_addend_1 = {
-				upgrade = {
-					category = "assault_rifle",
-					upgrade = "damage_addend",
-					value = 1,
-				},
-				name_id = "menu_assault_rifle_damage_addend",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			smg_damage_multiplier_3 = {
 				upgrade = {
 					category = "smg",
 					upgrade = "damage_multiplier",
 					value = 3,
+				},
+				name_id = "menu_smg_damage_multiplier",
+				category = "feature",
+				incremental = false,
+				has_levels = true,
+				description_data = {
+					upgrade_type = "stat_type_multiplier",
+				},
+			},
+			smg_damage_multiplier_2 = {
+				upgrade = {
+					category = "smg",
+					upgrade = "damage_multiplier",
+					value = 2,
 				},
 				name_id = "menu_smg_damage_multiplier",
 				category = "feature",
@@ -47072,11 +47634,11 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			smg_damage_multiplier_2 = {
+			smg_damage_multiplier_1 = {
 				upgrade = {
 					category = "smg",
 					upgrade = "damage_multiplier",
-					value = 2,
+					value = 1,
 				},
 				name_id = "menu_smg_damage_multiplier",
 				category = "feature",
@@ -47127,19 +47689,16 @@ tweak_data = {
 				},
 				name_id = "menu_player_headshot_regen_armor_bonus",
 			},
-			smg_damage_multiplier_1 = {
+			smg_recoil_multiplier_1 = {
 				upgrade = {
 					category = "smg",
-					upgrade = "damage_multiplier",
+					upgrade = "recoil_multiplier",
 					value = 1,
 				},
-				name_id = "menu_smg_damage_multiplier",
+				name_id = "menu_smg_recoil_multiplier",
 				category = "feature",
-				incremental = false,
 				has_levels = true,
-				description_data = {
-					upgrade_type = "stat_type_multiplier",
-				},
+				incremental = false,
 			},
 			primary_weapon_reload_speed_multiplier_1 = {
 				upgrade = {
@@ -47175,17 +47734,6 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			smg_recoil_multiplier_1 = {
-				upgrade = {
-					category = "smg",
-					upgrade = "recoil_multiplier",
-					value = 1,
-				},
-				name_id = "menu_smg_recoil_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			assault_rifle_zoom_increase_1 = {
 				upgrade = {
 					category = "assault_rifle",
@@ -47197,10 +47745,25 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			garand_golden = {
-				category = "weapon",
-				weapon_id = "garand_golden",
-				factory_id = "wpn_fps_ass_garand_golden",
+			player_passive_suppression_bonus_2 = {
+				category = "feature",
+				upgrade = {
+					category = "player",
+					upgrade = "passive_suppression_multiplier",
+					value = 2,
+				},
+				name_id = "menu_player_suppression_bonus",
+			},
+			assault_rifle_damage_addend_1 = {
+				upgrade = {
+					category = "assault_rifle",
+					upgrade = "damage_addend",
+					value = 1,
+				},
+				name_id = "menu_assault_rifle_damage_addend",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
 			},
 			smg_enter_steelsight_speed_multiplier_1 = {
 				upgrade = {
@@ -47253,17 +47816,6 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			secondary_weapon_enter_steelsight_speed_multiplier_2 = {
-				upgrade = {
-					category = "secondary_weapon",
-					upgrade = "enter_steelsight_speed_multiplier",
-					value = 2,
-				},
-				name_id = "menu_secondary_weapon_enter_steelsight_speed_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			assault_rifle_swap_speed_multiplier_1 = {
 				upgrade = {
 					category = "assault_rifle",
@@ -47286,6 +47838,15 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
+			player_crime_net_deal_2 = {
+				category = "feature",
+				upgrade = {
+					category = "player",
+					upgrade = "crime_net_deal",
+					value = 2,
+				},
+				name_id = "menu_player_crime_net_deal",
+			},
 			temporary_no_ammo_cost_buff = {
 				category = "temporary",
 				upgrade = {
@@ -47304,14 +47865,19 @@ tweak_data = {
 				},
 				name_id = "menu_player_crafting_weapon_multiplier",
 			},
-			player_crime_net_deal_2 = {
-				category = "feature",
+			player_stamina_multiplier_2 = {
 				upgrade = {
 					category = "player",
-					upgrade = "crime_net_deal",
+					upgrade = "stamina_multiplier",
 					value = 2,
 				},
-				name_id = "menu_player_crime_net_deal",
+				name_id = "menu_player_stamina_multiplier",
+				category = "feature",
+				incremental = true,
+				has_levels = true,
+				description_data = {
+					upgrade_type = "stat_type_multiplier",
+				},
 			},
 			warcry_team_damage_buff_bonus_3 = {
 				upgrade = {
@@ -47349,19 +47915,16 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			player_stamina_multiplier_2 = {
+			assault_rifle_fire_rate_multiplier_1 = {
 				upgrade = {
-					category = "player",
-					upgrade = "stamina_multiplier",
-					value = 2,
+					category = "assault_rifle",
+					upgrade = "fire_rate_multiplier",
+					value = 1,
 				},
-				name_id = "menu_player_stamina_multiplier",
+				name_id = "menu_assault_rifle_fire_rate_multiplier",
 				category = "feature",
-				incremental = true,
 				has_levels = true,
-				description_data = {
-					upgrade_type = "stat_type_multiplier",
-				},
+				incremental = false,
 			},
 			warcry_team_stamina_multiplier_3 = {
 				upgrade = {
@@ -47383,17 +47946,6 @@ tweak_data = {
 				},
 				name_id = "menu_player_pick_lock_hard",
 			},
-			assault_rifle_fire_rate_multiplier_1 = {
-				upgrade = {
-					category = "assault_rifle",
-					upgrade = "fire_rate_multiplier",
-					value = 1,
-				},
-				name_id = "menu_assault_rifle_fire_rate_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			assault_rifle_spread_multiplier_1 = {
 				upgrade = {
 					category = "assault_rifle",
@@ -47401,6 +47953,17 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_assault_rifle_spread_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			assault_rifle_enter_steelsight_speed_multiplier_1 = {
+				upgrade = {
+					category = "assault_rifle",
+					upgrade = "enter_steelsight_speed_multiplier",
+					value = 1,
+				},
+				name_id = "menu_assault_rifle_enter_steelsight_speed_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -47420,17 +47983,6 @@ tweak_data = {
 				subtitle_id = "debug_doctor_bag",
 				prio = "high",
 				description_text_id = "doctor_bag",
-			},
-			assault_rifle_enter_steelsight_speed_multiplier_1 = {
-				upgrade = {
-					category = "assault_rifle",
-					upgrade = "enter_steelsight_speed_multiplier",
-					value = 1,
-				},
-				name_id = "menu_assault_rifle_enter_steelsight_speed_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
 			},
 			assault_rifle_damage_multiplier_3 = {
 				upgrade = {
@@ -47496,6 +48048,17 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
+			pistol_stacking_hit_expire_t_2 = {
+				upgrade = {
+					category = "pistol",
+					upgrade = "stacking_hit_expire_t",
+					value = 2,
+				},
+				name_id = "menu_pistol_stacking_hit_expire_t",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
 			player_intimidate_enemies = {
 				category = "feature",
 				upgrade = {
@@ -47532,17 +48095,6 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			pistol_stacking_hit_damage_multiplier_1 = {
-				upgrade = {
-					category = "pistol",
-					upgrade = "stacking_hit_damage_multiplier",
-					value = 1,
-				},
-				name_id = "menu_pistol_stacking_hit_damage_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			interaction_wheel_amount_decrease_2 = {
 				upgrade = {
 					category = "interaction",
@@ -47564,6 +48116,17 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_pistol_hip_fire_damage_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			pistol_hip_fire_spread_multiplier_1 = {
+				upgrade = {
+					category = "pistol",
+					upgrade = "hip_fire_spread_multiplier",
+					value = 1,
+				},
+				name_id = "menu_pistol_hip_fire_spread_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -47596,16 +48159,10 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			pistol_fire_rate_multiplier_1 = {
-				upgrade = {
-					category = "pistol",
-					upgrade = "fire_rate_multiplier",
-					value = 1,
-				},
-				name_id = "menu_pistol_fire_rate_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
+			ithaca = {
+				category = "weapon",
+				weapon_id = "ithaca",
+				factory_id = "wpn_fps_sho_ithaca",
 			},
 			warcry_player_grenade_clusters_4 = {
 				upgrade = {
@@ -47618,19 +48175,16 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			player_turret_m2_overheat_reduction_4 = {
+			pistol_enter_steelsight_speed_multiplier_1 = {
 				upgrade = {
-					category = "player",
-					upgrade = "turret_m2_overheat_reduction",
-					value = 4,
+					category = "pistol",
+					upgrade = "enter_steelsight_speed_multiplier",
+					value = 1,
 				},
-				name_id = "menu_player_turret_m2_overheat_reduction",
+				name_id = "menu_pistol_enter_steelsight_speed_multiplier",
 				category = "feature",
-				incremental = false,
 				has_levels = true,
-				description_data = {
-					upgrade_type = "stat_type_reductive_multiplier",
-				},
+				incremental = false,
 			},
 			primary_weapon_spread_multiplier_2 = {
 				upgrade = {
@@ -47652,17 +48206,6 @@ tweak_data = {
 				},
 				name_id = "menu_player_detection_risk_add_dodge_chance",
 			},
-			pistol_enter_steelsight_speed_multiplier_1 = {
-				upgrade = {
-					category = "pistol",
-					upgrade = "enter_steelsight_speed_multiplier",
-					value = 1,
-				},
-				name_id = "menu_pistol_enter_steelsight_speed_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			player_damage_dampener_close_contact_1 = {
 				category = "temporary",
 				upgrade = {
@@ -47672,17 +48215,6 @@ tweak_data = {
 				},
 				name_id = "menu_player_dmg_dampener_close_contact",
 			},
-			warcry_turret_overheat_multiplier_4 = {
-				upgrade = {
-					category = "player",
-					upgrade = "warcry_overheat_multiplier",
-					value = 4,
-				},
-				name_id = "menu_player_warcry_overheat_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			pistol_reload_speed_multiplier_1 = {
 				upgrade = {
 					category = "pistol",
@@ -47690,6 +48222,17 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_pistol_reload_speed_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			warcry_turret_overheat_multiplier_4 = {
+				upgrade = {
+					category = "player",
+					upgrade = "warcry_overheat_multiplier",
+					value = 4,
+				},
+				name_id = "menu_player_warcry_overheat_multiplier",
 				category = "feature",
 				has_levels = true,
 				incremental = false,
@@ -47706,6 +48249,20 @@ tweak_data = {
 			},
 			lc14b = {
 				category = "melee_weapon",
+			},
+			player_turret_m2_overheat_reduction_4 = {
+				upgrade = {
+					category = "player",
+					upgrade = "turret_m2_overheat_reduction",
+					value = 4,
+				},
+				name_id = "menu_player_turret_m2_overheat_reduction",
+				category = "feature",
+				incremental = false,
+				has_levels = true,
+				description_data = {
+					upgrade_type = "stat_type_reductive_multiplier",
+				},
 			},
 			player_secondary_ammo_increase_1 = {
 				upgrade = {
@@ -47730,10 +48287,8 @@ tweak_data = {
 				},
 				name_id = "menu_player_cheat_death_chance",
 			},
-			lee_enfield = {
-				category = "weapon",
-				weapon_id = "lee_enfield",
-				factory_id = "wpn_fps_snp_lee_enfield",
+			km_dagger = {
+				category = "melee_weapon",
 			},
 			snp_stacking_hit_damage_multiplier_1 = {
 				upgrade = {
@@ -47796,9 +48351,6 @@ tweak_data = {
 				},
 				name_id = "menu_player_damage_to_hot",
 			},
-			bc41_knuckle_knife = {
-				category = "melee_weapon",
-			},
 			german_brass_knuckles = {
 				category = "melee_weapon",
 			},
@@ -47816,11 +48368,6 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			flamethrower_mk2 = {
-				category = "weapon",
-				weapon_id = "flamethrower_mk2",
-				factory_id = "wpn_fps_fla_mk2",
-			},
 			player_critical_hit_chance_2 = {
 				upgrade = {
 					category = "player",
@@ -47835,6 +48382,11 @@ tweak_data = {
 					upgrade_type = "stat_type_multiplier",
 				},
 			},
+			flamethrower_mk2 = {
+				category = "weapon",
+				weapon_id = "flamethrower_mk2",
+				factory_id = "wpn_fps_fla_mk2",
+			},
 			temporary_on_revived_damage_reduction_2 = {
 				upgrade = {
 					category = "temporary",
@@ -47848,6 +48400,17 @@ tweak_data = {
 				description_data = {
 					upgrade_type = "stat_type_temporary_reduction",
 				},
+			},
+			temporary_revived_damage_bonus_1 = {
+				upgrade = {
+					category = "temporary",
+					upgrade = "revived_damage_bonus",
+					value = 1,
+				},
+				name_id = "menu_temporary_revived_damage_bonus",
+				category = "temporary",
+				has_levels = true,
+				incremental = false,
 			},
 			player_melee_damage_reduction_4 = {
 				upgrade = {
@@ -47874,16 +48437,14 @@ tweak_data = {
 				has_levels = false,
 				incremental = false,
 			},
-			temporary_revived_damage_bonus_1 = {
+			player_civ_calming_alerts = {
+				category = "feature",
 				upgrade = {
-					category = "temporary",
-					upgrade = "revived_damage_bonus",
+					category = "player",
+					upgrade = "civ_calming_alerts",
 					value = 1,
 				},
-				name_id = "menu_temporary_revived_damage_bonus",
-				category = "temporary",
-				has_levels = true,
-				incremental = false,
+				name_id = "menu_player_civ_calming_alerts",
 			},
 			player_resist_firing_tased = {
 				category = "feature",
@@ -47894,14 +48455,8 @@ tweak_data = {
 				},
 				name_id = "menu_player_resist_firing_tased",
 			},
-			player_civ_calming_alerts = {
-				category = "feature",
-				upgrade = {
-					category = "player",
-					upgrade = "civ_calming_alerts",
-					value = 1,
-				},
-				name_id = "menu_player_civ_calming_alerts",
+			d343 = {
+				category = "grenade",
 			},
 			primary_weapon_damage_multiplier_4 = {
 				upgrade = {
@@ -47914,7 +48469,7 @@ tweak_data = {
 				has_levels = true,
 				incremental = false,
 			},
-			d343 = {
+			concrete = {
 				category = "grenade",
 			},
 			player_cleaner_cost_multiplier = {
@@ -47926,8 +48481,10 @@ tweak_data = {
 				},
 				name_id = "menu_player_cleaner_cost_multiplier",
 			},
-			concrete = {
-				category = "grenade",
+			mosin = {
+				category = "weapon",
+				weapon_id = "mosin",
+				factory_id = "wpn_fps_snp_mosin",
 			},
 			carry_catch_interaction_speed_1 = {
 				category = "feature",
@@ -47946,11 +48503,6 @@ tweak_data = {
 					value = 1,
 				},
 				name_id = "menu_team_passive_armor_multiplier",
-			},
-			mosin = {
-				category = "weapon",
-				weapon_id = "mosin",
-				factory_id = "wpn_fps_snp_mosin",
 			},
 			player_climb_speed_increase_1 = {
 				upgrade = {
@@ -47980,17 +48532,6 @@ tweak_data = {
 				factory_id = "wpn_fps_smg_mp38",
 				free = true,
 			},
-			primary_weapon_spread_multiplier_6 = {
-				upgrade = {
-					category = "primary_weapon",
-					upgrade = "spread_multiplier",
-					value = 6,
-				},
-				name_id = "menu_primary_weapon_spread_multiplier",
-				category = "feature",
-				has_levels = true,
-				incremental = false,
-			},
 			player_carry_penalty_decrease_4 = {
 				upgrade = {
 					category = "player",
@@ -48005,6 +48546,22 @@ tweak_data = {
 					upgrade_type = "stat_type_multiplier_inverse_string",
 				},
 			},
+			primary_weapon_spread_multiplier_6 = {
+				upgrade = {
+					category = "primary_weapon",
+					upgrade = "spread_multiplier",
+					value = 6,
+				},
+				name_id = "menu_primary_weapon_spread_multiplier",
+				category = "feature",
+				has_levels = true,
+				incremental = false,
+			},
+			m1918 = {
+				category = "weapon",
+				weapon_id = "m1918",
+				factory_id = "wpn_fps_lmg_m1918",
+			},
 			player_warcry_dmg = {
 				upgrade = {
 					category = "player",
@@ -48016,10 +48573,10 @@ tweak_data = {
 				has_levels = false,
 				incremental = true,
 			},
-			m1918 = {
+			garand_golden = {
 				category = "weapon",
-				weapon_id = "m1918",
-				factory_id = "wpn_fps_lmg_m1918",
+				weapon_id = "garand_golden",
+				factory_id = "wpn_fps_ass_garand_golden",
 			},
 			secondary_weapon_damage_multiplier_2 = {
 				upgrade = {
@@ -48091,19 +48648,16 @@ tweak_data = {
 				},
 				name_id = "menu_ecm_jammer_can_activate_feedback",
 			},
-			player_passive_suppression_bonus_2 = {
-				category = "feature",
-				upgrade = {
-					category = "player",
-					upgrade = "passive_suppression_multiplier",
-					value = 2,
-				},
-				name_id = "menu_player_suppression_bonus",
-			},
 			sten = {
 				category = "weapon",
 				weapon_id = "sten",
 				factory_id = "wpn_fps_smg_sten",
+				free = true,
+			},
+			thompson = {
+				category = "weapon",
+				weapon_id = "thompson",
+				factory_id = "wpn_fps_smg_thompson",
 				free = true,
 			},
 			team_move_spread_multiplier = {
@@ -48115,11 +48669,10 @@ tweak_data = {
 				},
 				name_id = "menu_team_move_spread_multiplier",
 			},
-			thompson = {
+			lee_enfield = {
 				category = "weapon",
-				weapon_id = "thompson",
-				factory_id = "wpn_fps_smg_thompson",
-				free = true,
+				weapon_id = "lee_enfield",
+				factory_id = "wpn_fps_snp_lee_enfield",
 			},
 			primary_weapon_magazine_upgrade_3 = {
 				upgrade = {
@@ -55459,8 +56012,12 @@ tweak_data = {
 				weapon_id = "bren",
 			},
 			[18] = {
-				slot = 20,
+				slot = 18,
 				weapon_id = "lee_enfield",
+			},
+			[19] = {
+				slot = 19,
+				weapon_id = "ithaca",
 			},
 		},
 		weapon_secondaries_index = {
@@ -55880,10 +56437,10 @@ tweak_data = {
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 165,
+									target = 25,
 									reminders = {
-										[1] = 50,
-										[2] = 110,
+										[1] = 8,
+										[2] = 16,
 									},
 									modifiers = {
 										damage_type = "bullet",
@@ -55929,11 +56486,11 @@ tweak_data = {
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 770,
+									target = 400,
 									reminders = {
-										[1] = 200,
-										[2] = 400,
-										[3] = 600,
+										[1] = 100,
+										[2] = 200,
+										[3] = 300,
 									},
 									modifiers = {
 										hip_fire = true,
@@ -56539,11 +57096,11 @@ tweak_data = {
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 15,
+									target = 400,
 									reminders = {
-										[1] = 3,
-										[2] = 7,
-										[3] = 11,
+										[1] = 100,
+										[2] = 200,
+										[3] = 300,
 									},
 									modifiers = {
 										hip_fire = true,
@@ -59034,6 +59591,164 @@ tweak_data = {
 					[2] = "weapon_tier_unlocked",
 				},
 			},
+			kar_98k = {
+				[1] = {
+					[1] = {
+						[1] = {
+							skill_name = "decrease_recoil",
+							challenge_briefing_id = "weapon_skill_kill_beyond_range_briefing",
+							value = 1,
+							weapon_parts = {
+								[1] = "wpn_fps_snp_kar_98k_body_grip",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 175,
+									reminders = {
+										[1] = 50,
+										[2] = 100,
+										[3] = 150,
+									},
+									modifiers = {
+										damage_type = "bullet",
+										min_range = 1000,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_kill_beyond_range_completed",
+							cost = 1,
+						},
+					},
+					[2] = {
+						[1] = {
+							skill_name = "tighter_spread",
+							challenge_briefing_id = "weapon_skill_headshot_kill_briefing",
+							value = 1,
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 50,
+									reminders = {
+										[1] = 25,
+										[2] = 40,
+									},
+									modifiers = {
+										damage_type = "bullet",
+										headshot = true,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_headshot_kill_completed",
+							cost = 1,
+						},
+					},
+				},
+				[2] = {
+					[1] = {
+						[1] = {
+							skill_name = "decrease_recoil",
+							challenge_briefing_id = "weapon_skill_kill_beyond_range_briefing",
+							value = 2,
+							weapon_parts = {
+								[1] = "wpn_fps_snp_kar_98k_pad_big",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 230,
+									reminders = {
+										[1] = 50,
+										[2] = 100,
+										[3] = 150,
+										[4] = 200,
+									},
+									modifiers = {
+										damage_type = "bullet",
+										min_range = 1000,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_kill_beyond_range_briefing",
+							cost = 2,
+						},
+					},
+					[2] = {
+						[1] = {
+							skill_name = "tighter_spread",
+							challenge_briefing_id = "weapon_skill_headshot_kill_briefing",
+							value = 2,
+							weapon_parts = {
+								[1] = "wpn_fps_snp_kar_98k_b_long",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 65,
+									reminders = {
+										[1] = 15,
+										[2] = 35,
+										[3] = 50,
+									},
+									modifiers = {
+										damage_type = "bullet",
+										headshot = true,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_headshot_kill_completed",
+							cost = 2,
+						},
+					},
+					[3] = {
+						[1] = {
+							skill_name = "increase_magazine",
+							challenge_briefing_id = "weapon_skill_collect_ammo_briefing",
+							value = 1,
+							weapon_parts = {
+								[1] = "wpn_fps_snp_kar_98k_m_extended",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_collect_ammo",
+									target = 550,
+									reminders = {
+										[1] = 250,
+										[2] = 400,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_collect_ammo_completed",
+							cost = 3,
+						},
+					},
+					[4] = {
+						[1] = {
+							skill_name = "increase_damage",
+							challenge_briefing_id = "weapon_skill_generic_kill_briefing",
+							value = 2,
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 650,
+									reminders = {
+										[1] = 150,
+										[2] = 350,
+										[3] = 450,
+										[4] = 600,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_generic_kill_completed",
+							cost = 3,
+						},
+					},
+				},
+				tier_unlock = {
+					[1] = "weapon_tier_unlocked",
+					[2] = "weapon_tier_unlocked",
+				},
+			},
 			m1903 = {
 				[1] = {
 					[1] = {
@@ -59192,32 +59907,29 @@ tweak_data = {
 					[2] = "weapon_tier_unlocked",
 				},
 			},
-			kar_98k = {
+			ithaca = {
 				[1] = {
 					[1] = {
 						[1] = {
 							skill_name = "decrease_recoil",
-							challenge_briefing_id = "weapon_skill_kill_beyond_range_briefing",
+							challenge_briefing_id = "weapon_skill_hip_fire_kill_briefing",
 							value = 1,
-							weapon_parts = {
-								[1] = "wpn_fps_snp_kar_98k_body_grip",
-							},
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 175,
+									target = 350,
 									reminders = {
-										[1] = 50,
-										[2] = 100,
-										[3] = 150,
+										[1] = 80,
+										[2] = 160,
+										[3] = 220,
 									},
 									modifiers = {
+										hip_fire = true,
 										damage_type = "bullet",
-										min_range = 1000,
 									},
 								},
 							},
-							challenge_done_text_id = "weapon_skill_kill_beyond_range_completed",
+							challenge_done_text_id = "weapon_skill_hip_fire_kill_completed",
 							cost = 1,
 						},
 					},
@@ -59225,11 +59937,11 @@ tweak_data = {
 						[1] = {
 							skill_name = "tighter_spread",
 							challenge_briefing_id = "weapon_skill_headshot_kill_briefing",
-							value = 1,
+							value = 5,
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 50,
+									target = 75,
 									reminders = {
 										[1] = 25,
 										[2] = 40,
@@ -59241,7 +59953,7 @@ tweak_data = {
 								},
 							},
 							challenge_done_text_id = "weapon_skill_headshot_kill_completed",
-							cost = 1,
+							cost = 2,
 						},
 					},
 				},
@@ -59249,28 +59961,28 @@ tweak_data = {
 					[1] = {
 						[1] = {
 							skill_name = "decrease_recoil",
-							challenge_briefing_id = "weapon_skill_kill_beyond_range_briefing",
+							challenge_briefing_id = "weapon_skill_hip_fire_kill_briefing",
 							value = 2,
 							weapon_parts = {
-								[1] = "wpn_fps_snp_kar_98k_pad_big",
+								[1] = "wpn_fps_sho_ithaca_ns_brake",
 							},
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 230,
+									target = 455,
 									reminders = {
-										[1] = 50,
-										[2] = 100,
-										[3] = 150,
-										[4] = 200,
+										[1] = 100,
+										[2] = 250,
+										[3] = 400,
+										[4] = 450,
 									},
 									modifiers = {
+										hip_fire = true,
 										damage_type = "bullet",
-										min_range = 1000,
 									},
 								},
 							},
-							challenge_done_text_id = "weapon_skill_kill_beyond_range_briefing",
+							challenge_done_text_id = "weapon_skill_hip_fire_kill_completed",
 							cost = 2,
 						},
 					},
@@ -59278,18 +59990,15 @@ tweak_data = {
 						[1] = {
 							skill_name = "tighter_spread",
 							challenge_briefing_id = "weapon_skill_headshot_kill_briefing",
-							value = 2,
-							weapon_parts = {
-								[1] = "wpn_fps_snp_kar_98k_b_long",
-							},
+							value = 6,
 							challenge_tasks = {
 								[1] = {
 									type = "task_kill_enemies",
-									target = 65,
+									target = 130,
 									reminders = {
-										[1] = 15,
-										[2] = 35,
-										[3] = 50,
+										[1] = 40,
+										[2] = 70,
+										[3] = 90,
 									},
 									modifiers = {
 										damage_type = "bullet",
@@ -59303,28 +60012,6 @@ tweak_data = {
 					},
 					[3] = {
 						[1] = {
-							skill_name = "increase_magazine",
-							challenge_briefing_id = "weapon_skill_collect_ammo_briefing",
-							value = 1,
-							weapon_parts = {
-								[1] = "wpn_fps_snp_kar_98k_m_extended",
-							},
-							challenge_tasks = {
-								[1] = {
-									type = "task_collect_ammo",
-									target = 550,
-									reminders = {
-										[1] = 250,
-										[2] = 400,
-									},
-								},
-							},
-							challenge_done_text_id = "weapon_skill_collect_ammo_completed",
-							cost = 3,
-						},
-					},
-					[4] = {
-						[1] = {
 							skill_name = "increase_damage",
 							challenge_briefing_id = "weapon_skill_generic_kill_briefing",
 							value = 2,
@@ -59333,21 +60020,184 @@ tweak_data = {
 									type = "task_kill_enemies",
 									target = 650,
 									reminders = {
-										[1] = 150,
-										[2] = 350,
-										[3] = 450,
-										[4] = 600,
+										[1] = 100,
+										[2] = 250,
+										[3] = 400,
+										[4] = 575,
 									},
 								},
 							},
 							challenge_done_text_id = "weapon_skill_generic_kill_completed",
+							cost = 2,
+						},
+					},
+				},
+				[3] = {
+					[1] = {
+						[1] = {
+							skill_name = "decrease_recoil",
+							challenge_briefing_id = "weapon_skill_hip_fire_kill_briefing",
+							value = 3,
+							weapon_parts = {
+								[1] = "wpn_fps_sho_ithaca_s_cheek_rest",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 595,
+									reminders = {
+										[1] = 100,
+										[2] = 200,
+										[3] = 300,
+										[4] = 400,
+									},
+									modifiers = {
+										hip_fire = true,
+										damage_type = "bullet",
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_hip_fire_kill_completed",
 							cost = 3,
+						},
+					},
+					[2] = {
+						[1] = {
+							skill_name = "tighter_spread",
+							challenge_briefing_id = "weapon_skill_headshot_kill_briefing",
+							value = 7,
+							weapon_parts = {
+								[1] = "wpn_fps_sho_ithaca_b_reinforced",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 150,
+									reminders = {
+										[1] = 50,
+										[2] = 100,
+										[3] = 130,
+									},
+									modifiers = {
+										damage_type = "bullet",
+										headshot = true,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_headshot_kill_completed",
+							cost = 4,
+						},
+					},
+					[3] = {
+						[1] = {
+							skill_name = "increase_damage",
+							challenge_briefing_id = "weapon_skill_generic_kill_briefing",
+							value = 3,
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 845,
+									reminders = {
+										[1] = 100,
+										[2] = 300,
+										[3] = 600,
+										[4] = 800,
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_generic_kill_completed",
+							cost = 4,
+						},
+					},
+				},
+				[4] = {
+					[1] = {
+						[1] = {
+							skill_name = "decrease_recoil",
+							challenge_briefing_id = "weapon_skill_hip_fire_headshot_kill_briefing",
+							value = 4,
+							weapon_parts = {
+								[1] = "wpn_fps_sho_ithaca_s_pistol_grip",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 400,
+									reminders = {
+										[1] = 100,
+										[2] = 200,
+										[3] = 300,
+									},
+									modifiers = {
+										hip_fire = true,
+										headshot = true,
+										damage_type = "bullet",
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_hip_fire_headshot_kill_completed",
+							cost = 3,
+						},
+					},
+					[2] = {
+						[1] = {
+							skill_name = "tighter_spread",
+							challenge_briefing_id = "weapon_skill_headshot_ss_briefing",
+							value = 8,
+							weapon_parts = {
+								[1] = "wpn_fps_sho_ithaca_b_heat_shield",
+							},
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 10,
+									reminders = {
+										[1] = 3,
+										[2] = 7,
+									},
+									modifiers = {
+										damage_type = "bullet",
+										headshot = true,
+										enemy_type = {
+											[1] = "commander",
+										},
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_headshot_ss_completed",
+							cost = 4,
+						},
+					},
+					[3] = {
+						[1] = {
+							skill_name = "increase_damage",
+							challenge_briefing_id = "weapon_skill_kill_flamers_briefing",
+							value = 4,
+							challenge_tasks = {
+								[1] = {
+									type = "task_kill_enemies",
+									target = 15,
+									reminders = {
+										[1] = 5,
+										[2] = 10,
+									},
+									modifiers = {
+										enemy_type = {
+											[1] = "flamer",
+										},
+									},
+								},
+							},
+							challenge_done_text_id = "weapon_skill_kill_flamers_completed",
+							cost = 4,
 						},
 					},
 				},
 				tier_unlock = {
 					[1] = "weapon_tier_unlocked",
 					[2] = "weapon_tier_unlocked",
+					[3] = "weapon_tier_unlocked",
+					[4] = "demolitions_tier_4_unlocked",
 				},
 			},
 			mosin = {
@@ -61758,688 +62608,6 @@ tweak_data = {
 			highlight_range = 3000,
 			intimidate_strength = 0.5,
 		},
-		default_stances = {
-			m1918 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-1.87314, 5.1157, -5.42975),
-					rotation = Rotation(4.827e-005, -0.000441653, -0.999409),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-11.4138, 2.1157, -2.23089),
-					rotation = Rotation(4.82627e-005, -0.000440811, 0.000591075),
-				},
-				crouched = {
-					translation = Vector3(-2.6181, 4.1157, -5.41174),
-					rotation = Rotation(4.85284e-005, -0.000445883, -5.99941),
-				},
-			},
-			geco = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-4.50169, 2.22358, 2.0004),
-					rotation = Rotation(0.000176705, -0.000175547, -1.00018),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-11.4127, 0.22358, 4.20037),
-					rotation = Rotation(0.000176679, -0.000172463, -0.000184414),
-				},
-				crouched = {
-					translation = Vector3(-5.89373, 1.22358, -0.0210662),
-					rotation = Rotation(0.000177652, -0.000191032, -6.00018),
-				},
-			},
-			bren = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-2.44484, 11.9295, -9.91533),
-					rotation = Rotation(-7.29758e-005, -0.000495731, -0.999912),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-8.51188, 7.92949, -3.76735),
-					rotation = Rotation(-7.29647e-005, -0.000497004, 8.82751e-005),
-				},
-				crouched = {
-					translation = Vector3(-3.07146, 9.92949, -12.6364),
-					rotation = Rotation(-7.33666e-005, -0.000489335, -5.99991),
-				},
-			},
-			sterling = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-2.75241, 2.95723, -1.36052),
-					rotation = Rotation(-5.38657e-005, -0.000784805, -10),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-7.51221, 7.95723, 5.78076),
-					rotation = Rotation(-5.32499e-005, -0.0007988, 4.99999),
-				},
-				crouched = {
-					translation = Vector3(-3.93089, 1.95723, -2.82357),
-					rotation = Rotation(-5.44427e-005, -0.000781913, -13),
-				},
-			},
-			lee_enfield = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-2.72092, -0.0213242, 3.50187),
-					rotation = Rotation(-6.09392e-005, -0.000579303, -0.999634),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-8.60611, -6.02132, 6.65308),
-					rotation = Rotation(-6.09299e-005, -0.000580366, 0.000366322),
-				},
-				crouched = {
-					translation = Vector3(-5.15322, -2.02132, 1.87769),
-					rotation = Rotation(-6.11626e-005, -0.000575036, -4.99963),
-				},
-			},
-			kar_98k = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.697914, -2.8493, 1.18287),
-					rotation = Rotation(-0.000198739, -0.000701643, -0.999639),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-8.60614, 3.1507, 5.33388),
-					rotation = Rotation(-0.000198708, -0.000705111, 0.000360719),
-				},
-				crouched = {
-					translation = Vector3(-3.11653, -4.8493, 1.40508),
-					rotation = Rotation(-0.000199803, -0.000684226, -5.99964),
-				},
-			},
-			sten = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(1.29155, 3.4456, -6.62811),
-					rotation = Rotation(4.85453e-006, -0.000434299, -11.9998),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-7.77455, 3.4456, 0.499219),
-					rotation = Rotation(4.74844e-006, -0.00043329, 0.000178439),
-				},
-				crouched = {
-					translation = Vector3(-1.61098, -1.5544, -6.16308),
-					rotation = Rotation(4.9398e-006, -0.000434652, -15.9998),
-				},
-			},
-			m3 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				crouched = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-			},
-			tt33 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.823635, -0.762224, -5.909),
-					rotation = Rotation(6.93695e-006, -0.000789256, -0.999853),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-3.90636, -0.762224, -1.8411),
-					rotation = Rotation(6.93589e-006, -0.000789135, 0.000147309),
-				},
-				crouched = {
-					translation = Vector3(-1.64251, -3.76222, -5.48934),
-					rotation = Rotation(6.9741e-006, -0.000789864, -5.99985),
-				},
-			},
-			carbine = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-5.81821, 7.15063, -2.47613),
-					rotation = Rotation(-0.558, -0.627584, -2.57545),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-11.7898, -5.84937, 1.72989),
-					rotation = Rotation(-0.557647, -0.637326, -1.5755),
-				},
-				crouched = {
-					translation = Vector3(-6.90605, 6.15063, -4.51196),
-					rotation = Rotation(-0.562344, -0.578523, -7.57521),
-				},
-			},
-			shotty = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-4.50169, 2.22358, 2.0004),
-					rotation = Rotation(0.000176705, -0.000175547, -1.00018),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-11.4127, 0.22358, 4.20037),
-					rotation = Rotation(0.000176679, -0.000172463, -0.000184414),
-				},
-				crouched = {
-					translation = Vector3(-5.89373, 1.22358, -0.0210662),
-					rotation = Rotation(0.000177652, -0.000191032, -6.00018),
-				},
-			},
-			garand_golden = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				crouched = {
-					translation = Vector3(-1.62946, 3.43551, -6.67905),
-					rotation = Rotation(-0.000152866, -0.000356573, -3.9992),
-				},
-				standard = {
-					translation = Vector3(0.166394, 5.43551, -6.86702),
-					rotation = Rotation(-0.000152517, -0.000364574, -0.999197),
-				},
-				steelsight = {
-					translation = Vector3(-10.8951, 2.43551, -3.4274),
-					rotation = Rotation(-0.000152494, -0.000367236, 0.000803141),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-			},
-			m1911 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.841872, -1.4187, -6.00891),
-					rotation = Rotation(0, 0, -1),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-8.1257, -1.4187, -1.86738),
-					rotation = Rotation(0, 0, -0),
-				},
-				crouched = {
-					translation = Vector3(-1.63599, -4.4187, -5.95652),
-					rotation = Rotation(0, 0, -6),
-				},
-			},
-			m24 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				crouched = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-			},
-			mp44 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.134532, 10.3211, -8.4188),
-					rotation = Rotation(-7.09199e-005, -0.000254596, -1.49968),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-9.24707, -0.678907, -4.17817),
-					rotation = Rotation(-7.08956e-005, -0.000256452, 0.000318031),
-				},
-				crouched = {
-					translation = Vector3(-0.75968, 9.32109, -10.1219),
-					rotation = Rotation(-7.12861e-005, -0.000249001, -5.99968),
-				},
-			},
-			thompson = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(1.26861, 9.2571, -8.54403),
-					rotation = Rotation(7.58759e-005, -0.000913428, -1.49999),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-7.80842, 13.2571, -2.8406),
-					rotation = Rotation(7.58499e-005, -0.000911442, 7.7446e-006),
-				},
-				crouched = {
-					translation = Vector3(-1.46872, 7.2571, -8.14124),
-					rotation = Rotation(7.62677e-005, -0.000919414, -5.99999),
-				},
-			},
-			mp38 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.579133, -3.5318, -1.0737),
-					rotation = Rotation(0.000112017, -0.000332915, -1.50006),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-8.4865, -2.5318, 3.6497),
-					rotation = Rotation(0.000111978, -0.000329983, -5.61352e-005),
-				},
-				crouched = {
-					translation = Vector3(-1.82151, -4.5318, -2.75737),
-					rotation = Rotation(0.000112595, -0.000341753, -6.00006),
-				},
-			},
-			mg42 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				bipod = {
-					translation = Vector3(-12.6956, -27.455, 4.03286),
-					rotation = Rotation(-9.77689e-006, -0.00058889, 0.000360292),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-4.7968, 4.54504, -0.300852),
-					rotation = Rotation(-9.78024e-006, -0.000588634, -1.49964),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-12.6956, 0.545044, 4.03286),
-					rotation = Rotation(-9.77689e-006, -0.00058889, 0.000360292),
-				},
-				crouched = {
-					translation = Vector3(-6.04758, 3.54504, -2.31628),
-					rotation = Rotation(-9.83075e-006, -0.000587863, -5.99964),
-				},
-			},
-			m1903 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.85336, 4.14048, -7.23349),
-					rotation = Rotation(-0.000389237, -2.22323e-005, -1.00085),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-11.4081, 8.14048, -3.03485),
-					rotation = Rotation(-0.000389178, -2.90254e-005, -0.000851212),
-				},
-				crouched = {
-					translation = Vector3(-1.52834, 1.14048, -7.21069),
-					rotation = Rotation(-0.000391322, 1.18789e-005, -6.00085),
-				},
-			},
-			dp28 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-4.81041, 9.42111, 0.46666),
-					rotation = Rotation(0.0120545, -0.00327281, -0.997436),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-12.6956, 9.42111, 6.68925),
-					rotation = Rotation(0.0120527, -0.00306243, 0.00256431),
-				},
-				crouched = {
-					translation = Vector3(-5.32526, 7.42111, -2.67445),
-					rotation = Rotation(0.012119, -0.00432921, -5.99743),
-				},
-			},
-			mosin = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.709518, -2.97638, -0.189675),
-					rotation = Rotation(6.7527e-005, -0.000462378, -1.49976),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-8.60679, 0.0236244, 4.03701),
-					rotation = Rotation(6.75039e-005, -0.000460611, 0.000241725),
-				},
-				crouched = {
-					translation = Vector3(-1.98162, -3.97638, -1.88476),
-					rotation = Rotation(6.78757e-005, -0.000467706, -5.99976),
-				},
-			},
-			m1912 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-4.15034, 2.60008, -5.94992),
-					rotation = Rotation(-5.25167e-005, -0.000562574, -0.999677),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-11.2001, -4.39992, -3.75488),
-					rotation = Rotation(-5.25087e-005, -0.00056349, 0.000322726),
-				},
-				crouched = {
-					translation = Vector3(-4.85081, 1.60008, -7.91052),
-					rotation = Rotation(-5.27979e-005, -0.000557971, -5.99968),
-				},
-			},
-			c96 = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(0.263957, 5.16385, -6.65217),
-					rotation = Rotation(0.000158801, -0.000634188, -1.49971),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-8.78939, 5.16385, -1.92275),
-					rotation = Rotation(0.000158747, -0.000630031, 0.000288363),
-				},
-				crouched = {
-					translation = Vector3(-0.540255, 4.16385, -8.33096),
-					rotation = Rotation(0.000159621, -0.000646716, -5.99971),
-				},
-			},
-			garand = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(0.166394, 5.43551, -6.86702),
-					rotation = Rotation(-0.000152517, -0.000364574, -0.999197),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-10.8951, 2.43551, -3.4274),
-					rotation = Rotation(-0.000152494, -0.000367236, 0.000803141),
-				},
-				crouched = {
-					translation = Vector3(-1.62946, 3.43551, -6.67905),
-					rotation = Rotation(-0.000152866, -0.000356573, -3.9992),
-				},
-			},
-			webley = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(-0.0738287, -1.43757, -6.64088),
-					rotation = Rotation(-0.000270679, -8.03223e-005, -1.4988),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(-7.19289, 0.562428, -4.45412),
-					rotation = Rotation(-0.000270587, -8.74079e-005, 0.00120361),
-				},
-				crouched = {
-					translation = Vector3(0.312097, -3.43757, -9.18158),
-					rotation = Rotation(-0.000272077, -5.89682e-005, -5.9988),
-				},
-			},
-			default = {
-				mask_off = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				crouched = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				standard = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				steelsight = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				clean = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-				civilian = {
-					translation = Vector3(0, 0, 0),
-					rotation = Rotation(0, 0, -0),
-				},
-			},
-		},
 		team_ai = {
 			movement = {
 				speed = {
@@ -62451,10 +62619,7 @@ tweak_data = {
 			m1918 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62536,10 +62701,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62552,10 +62714,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62567,10 +62726,7 @@ tweak_data = {
 			geco = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62652,10 +62808,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62668,10 +62821,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62683,10 +62833,7 @@ tweak_data = {
 			bren = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62747,7 +62894,7 @@ tweak_data = {
 					FOV = 60,
 					shoulders = {
 						translation = Vector3(-8.51188, 7.92949, -3.76735),
-						rotation = Rotation(-7.29647e-005, -0.000497004, 8.82751e-005),
+						rotation = Rotation(-7.29647e-005, -0.000497004, 8.82752e-005),
 					},
 					shakers = {
 						breathing = {
@@ -62768,10 +62915,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62784,10 +62928,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62799,10 +62940,7 @@ tweak_data = {
 			sterling = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62839,7 +62977,7 @@ tweak_data = {
 				standard = {
 					shoulders = {
 						translation = Vector3(-2.75241, 2.95723, -1.36052),
-						rotation = Rotation(-5.38656e-005, -0.000784805, -10),
+						rotation = Rotation(-5.38657e-005, -0.000784806, -10),
 					},
 					vel_overshot = {
 						pitch_pos = 10,
@@ -62884,10 +63022,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62900,10 +63035,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -62915,10 +63047,7 @@ tweak_data = {
 			lee_enfield = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63001,10 +63130,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63017,10 +63143,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63032,10 +63155,7 @@ tweak_data = {
 			kar_98k = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63118,10 +63238,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63134,10 +63251,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63149,10 +63263,7 @@ tweak_data = {
 			sten = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63189,7 +63300,7 @@ tweak_data = {
 				standard = {
 					shoulders = {
 						translation = Vector3(1.29155, 3.4456, -6.62811),
-						rotation = Rotation(4.85453e-006, -0.000434299, -11.9998),
+						rotation = Rotation(4.85452e-006, -0.000434299, -11.9998),
 					},
 					vel_overshot = {
 						pitch_pos = -5,
@@ -63234,10 +63345,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63250,10 +63358,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63265,10 +63370,7 @@ tweak_data = {
 			m3 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63350,10 +63452,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63366,10 +63465,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63381,10 +63477,7 @@ tweak_data = {
 			tt33 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63398,7 +63491,7 @@ tweak_data = {
 				crouched = {
 					shoulders = {
 						translation = Vector3(-1.64251, -3.76222, -5.48934),
-						rotation = Rotation(6.9741e-006, -0.000789864, -5.99985),
+						rotation = Rotation(6.97409e-006, -0.000789864, -5.99985),
 					},
 					vel_overshot = {
 						pitch_pos = 10,
@@ -63466,10 +63559,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63482,10 +63572,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63497,10 +63584,7 @@ tweak_data = {
 			carbine = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63582,10 +63666,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63598,10 +63679,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63613,10 +63691,7 @@ tweak_data = {
 			shotty = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63698,10 +63773,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63714,10 +63786,114 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
+					shoulders = {},
+					shakers = {
+						breathing = {
+							amplitude = 0.3,
+						},
+					},
+					vel_overshot = {},
+				},
+			},
+			ithaca = {
+				mask_off = {
+					vel_overshot = {},
+					shoulders = {},
+					shakers = {
+						breathing = {
+							amplitude = 0.3,
+						},
+					},
+					head = {
+						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
+				},
+				crouched = {
+					shoulders = {
+						translation = Vector3(-4.82543, 6.08121, -10.1527),
+						rotation = Rotation(-0.000154184, -0.000297353, -5.99859),
+					},
+					vel_overshot = {
+						pitch_pos = 10,
+						pivot = Vector3(11.2001, -14.0812, 2.99868),
+						yaw_pos = -6,
+						pitch_neg = -10,
+						yaw_neg = 6,
+					},
+					shakers = {
+						breathing = {
+							amplitude = 0.25,
+						},
+					},
+					FOV = 60,
+					head = {
+						translation = Vector3(0, 0, 75),
+						rotation = Rotation(0, 0, -0),
+					},
+				},
+				standard = {
+					shoulders = {
+						translation = Vector3(-4.14617, 7.08121, -7.19336),
+						rotation = Rotation(-0.000153363, -0.000310793, -0.998591),
+					},
+					vel_overshot = {
+						pitch_pos = 10,
+						pivot = Vector3(11.2001, -19.0812, 2.99868),
+						yaw_pos = -10,
+						pitch_neg = -10,
+						yaw_neg = 10,
+					},
+					shakers = {
+						breathing = {
+							amplitude = 0.3,
+						},
+					},
+					FOV = 60,
+					head = {
+						translation = Vector3(0, 0, 145),
+						rotation = Rotation(0, 0, -0),
+					},
+				},
+				steelsight = {
+					FOV = 60,
+					shoulders = {
+						translation = Vector3(-11.2002, 4.08121, -3.99834),
+						rotation = Rotation(-0.00015334, -0.00031347, 0.00140905),
+					},
+					shakers = {
+						breathing = {
+							amplitude = 0.025,
+						},
+					},
+					zoom_fov = true,
+					vel_overshot = {
+						pitch_pos = 10,
+						pivot = Vector3(11.2001, -7.0812, 2.99868),
+						yaw_pos = -10,
+						pitch_neg = -10,
+						yaw_neg = 10,
+					},
+				},
+				clean = {
+					head = {
+						translation = Vector3(0, 0, 145),
+						rotation = Rotation(0, 0, -0),
+					},
+					shoulders = {},
+					shakers = {
+						breathing = {
+							amplitude = 0.3,
+						},
+					},
+					vel_overshot = {},
+				},
+				civilian = {
+					head = {
+						translation = Vector3(0, 0, 145),
+						rotation = Rotation(0, 0, -0),
+					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63732,10 +63908,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63745,10 +63918,7 @@ tweak_data = {
 				},
 				civilian = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63784,10 +63954,7 @@ tweak_data = {
 				},
 				clean = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63845,10 +64012,7 @@ tweak_data = {
 			m1911 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63930,10 +64094,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63946,10 +64107,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -63961,10 +64119,7 @@ tweak_data = {
 			m24 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64046,10 +64201,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64062,10 +64214,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64077,10 +64226,7 @@ tweak_data = {
 			m1912 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64117,7 +64263,7 @@ tweak_data = {
 				standard = {
 					shoulders = {
 						translation = Vector3(-4.15034, 2.60008, -5.94992),
-						rotation = Rotation(-5.25167e-005, -0.000562574, -0.999678),
+						rotation = Rotation(-5.25167e-005, -0.000562574, -0.999677),
 					},
 					vel_overshot = {
 						pitch_pos = 10,
@@ -64162,10 +64308,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64178,10 +64321,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64193,10 +64333,7 @@ tweak_data = {
 			thompson = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64278,10 +64415,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64294,10 +64428,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64309,10 +64440,7 @@ tweak_data = {
 			mp38 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64349,7 +64477,7 @@ tweak_data = {
 				standard = {
 					shoulders = {
 						translation = Vector3(-0.579133, -3.5318, -1.0737),
-						rotation = Rotation(0.000112017, -0.000332916, -1.50006),
+						rotation = Rotation(0.000112017, -0.000332915, -1.50006),
 					},
 					vel_overshot = {
 						pitch_pos = -5,
@@ -64394,10 +64522,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64410,10 +64535,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64425,10 +64547,7 @@ tweak_data = {
 			m1903 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64511,10 +64630,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64527,10 +64643,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64542,10 +64655,7 @@ tweak_data = {
 			mosin = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64628,10 +64738,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64644,10 +64751,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64659,10 +64763,7 @@ tweak_data = {
 			c96 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64744,10 +64845,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64760,10 +64858,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64778,10 +64873,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64791,10 +64883,7 @@ tweak_data = {
 				},
 				civilian = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64830,10 +64919,7 @@ tweak_data = {
 				},
 				clean = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64891,10 +64977,7 @@ tweak_data = {
 			garand = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64976,10 +65059,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -64992,10 +65072,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65007,10 +65084,7 @@ tweak_data = {
 			dp28 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65024,7 +65098,7 @@ tweak_data = {
 				crouched = {
 					shoulders = {
 						translation = Vector3(-5.32526, 7.42111, -2.67445),
-						rotation = Rotation(0.012119, -0.00432921, -5.99743),
+						rotation = Rotation(0.012119, -0.00432921, -5.99744),
 					},
 					vel_overshot = {
 						pitch_pos = -5,
@@ -65092,10 +65166,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65108,10 +65179,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65123,10 +65191,7 @@ tweak_data = {
 			mg42 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65154,7 +65219,7 @@ tweak_data = {
 				crouched = {
 					shoulders = {
 						translation = Vector3(-6.04758, 3.54504, -2.31628),
-						rotation = Rotation(-9.83076e-006, -0.000587863, -5.99964),
+						rotation = Rotation(-9.83074e-006, -0.000587863, -5.99964),
 					},
 					vel_overshot = {
 						pitch_pos = 10,
@@ -65222,10 +65287,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65238,10 +65300,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65253,10 +65312,7 @@ tweak_data = {
 			webley = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65270,7 +65326,7 @@ tweak_data = {
 				crouched = {
 					shoulders = {
 						translation = Vector3(0.312097, -3.43757, -9.18158),
-						rotation = Rotation(-0.000272077, -5.89682e-005, -5.9988),
+						rotation = Rotation(-0.000272077, -5.89681e-005, -5.9988),
 					},
 					vel_overshot = {
 						pitch_pos = 10,
@@ -65293,7 +65349,7 @@ tweak_data = {
 				standard = {
 					shoulders = {
 						translation = Vector3(-0.0738287, -1.43757, -6.64088),
-						rotation = Rotation(-0.000270679, -8.03224e-005, -1.4988),
+						rotation = Rotation(-0.000270679, -8.03223e-005, -1.4988),
 					},
 					vel_overshot = {
 						pitch_pos = 10,
@@ -65338,10 +65394,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65354,10 +65407,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65369,10 +65419,7 @@ tweak_data = {
 			mp44 = {
 				mask_off = {
 					vel_overshot = {},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65385,8 +65432,8 @@ tweak_data = {
 				},
 				crouched = {
 					shoulders = {
-						translation = Vector3(-2, 2, -6),
-						rotation = Rotation(-7.12861e-005, -0.000249001, -5.99969),
+						translation = Vector3(-0.75968, 9.32109, -10.1219),
+						rotation = Rotation(-7.12861e-005, -0.000249001, -5.99968),
 					},
 					vel_overshot = {
 						pitch_pos = -5,
@@ -65408,7 +65455,7 @@ tweak_data = {
 				},
 				standard = {
 					shoulders = {
-						translation = Vector3(-1, 2, -6),
+						translation = Vector3(-0.134532, 10.3211, -8.4188),
 						rotation = Rotation(-7.09199e-005, -0.000254596, -1.49968),
 					},
 					vel_overshot = {
@@ -65454,10 +65501,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -65470,10 +65514,7 @@ tweak_data = {
 						translation = Vector3(0, 0, 145),
 						rotation = Rotation(0, 0, -0),
 					},
-					shoulders = {
-						translation = Vector3(0, 0, 0),
-						rotation = Rotation(0, 0, -0),
-					},
+					shoulders = {},
 					shakers = {
 						breathing = {
 							amplitude = 0.3,
@@ -155794,11 +155835,12 @@ You've reached the end of our PAX EAST demo.
 				display_offset = 16,
 			},
 			repeat_expire_t = 1.5,
-			damage = 750,
-			range = 1350,
+			damage = 850,
+			range = 1000,
 			animations = {
 				equip_id = "equip_welrod",
 			},
+			launch_speed = 200,
 			unit = "units/upd_015/weapons/wpn_fps_gre_mills/wpn_fps_gre_mills",
 			anim_global_param = "projectile_frag",
 			init_timer = 4.5,
@@ -155850,10 +155892,11 @@ You've reached the end of our PAX EAST demo.
 			},
 			repeat_expire_t = 1.5,
 			damage = 950,
-			range = 600,
+			range = 500,
 			animations = {
 				equip_id = "equip_welrod",
 			},
+			launch_speed = 200,
 			unit = "units/upd_003/weapons/wpn_fps_gre_d343/wpn_fps_gre_d343",
 			anim_global_param = "projectile_frag",
 			init_timer = 4.5,
@@ -155979,6 +156022,7 @@ You've reached the end of our PAX EAST demo.
 			animations = {
 				equip_id = "equip_welrod",
 			},
+			launch_speed = 275,
 			unit = "units/upd_001/weapons/wpn_fps_gre_concrete/wpn_fps_gre_concrete",
 			anim_global_param = "projectile_frag",
 			init_timer = 4.5,
@@ -156049,11 +156093,12 @@ You've reached the end of our PAX EAST demo.
 				display_offset = 10,
 			},
 			weapon_id = "m24_grenade",
-			damage = 750,
-			range = 1000,
+			damage = 950,
+			range = 500,
 			animations = {
 				equip_id = "equip_welrod",
 			},
+			launch_speed = 350,
 			icon = "frag_grenade",
 			anim_global_param = "projectile_frag",
 			init_timer = 4.5,
